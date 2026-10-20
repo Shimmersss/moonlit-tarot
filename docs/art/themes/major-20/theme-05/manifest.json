@@ -1,0 +1,314 @@
+{
+  "schemaVersion": "tarot-art-production-v2.2",
+  "cardId": "major-20",
+  "themeId": "theme-05",
+  "suggestedSlot": 5,
+  "title": "群星应答",
+  "status": "local-repair-verified-awaiting-user-review",
+  "userReview": "awaiting-user-aesthetic-review",
+  "selectedMaster": {
+    "path": "source/master-v01.png",
+    "sha256": "38c7d16e458431921036dcf2bf8f4f50093814c833e9b306f141cfd774431f0e",
+    "width": 1024,
+    "height": 1536,
+    "mode": "RGB",
+    "selection": "人工首检：上方仅一位半透明星空天使，横展双翼和单一银白号角清晰；连续弧形观测台与近栏完整，台上恰好五人和一犬均可逐一辨认且犬有稳定立足面。未做透明、细部或倾斜验收。"
+  },
+  "inputs": [
+    {
+      "role": "identity-reference",
+      "path": "front/public/tarot/major-20.webp",
+      "sha256": "d10ab5ea72f3e5ad50c63b57f09b99709de2fb48309c0f88ffbdc0906e03d247"
+    }
+  ],
+  "generationRuns": [
+    {
+      "tool": "built-in image_gen",
+      "timestamp": "2026-09-17",
+      "callId": "exec-51e5e59f-a484-4913-b5aa-78ece7453e80",
+      "prompt": "Use case: illustration-story\nAsset type: 1024×1536 selected master artwork for a vertical Tarot v2 holographic-card project.\nInput image: the immediately previous displayed Judgement tarot original is a composition/identity reference only.\nPrimary request: Create the theme “群星应答” (Answering Stars), a finished vertical painterly fantasy Tarot master, no printed title or border. Exactly one semi-transparent starry celestial angel occupies the upper area, displaying exactly two horizontally spread, clearly distinct wings and sounding exactly one silver-white trumpet. The angel’s night-purple robe, dark transparent folds, and shaded interiors of both wings remain clearly visible; no overexposed white silhouette. On one broad, continuous, solid crescent-shaped astronomical observation platform across the lower third, exactly five human figures stand arranged along the arc with exactly one clearly visible dog at its own stable footing. Preserve the complete platform, near brass railing, and all contact shadows. Beyond it is a deep violet star-sea, with a delicate pale-gold path of light opening into the distance.\nScene/backdrop: serene observatory platform above a cosmic sea, sparse stars, no city or landscape repeats.\nStyle/medium: highly detailed luminous painterly fantasy illustration, refined tarot art.\nComposition/framing: portrait 2:3, horizontal angel wings in upper zone; five humans in lower arc, dog clearly visible and separate; full continuous platform safely inside frame.\nLighting/mood: nocturnal wonder, gentle rose-gold starlight and silver illumination, natural skin tones.\nColor palette: night violet, silver white, restrained rose gold.\nConstraints: exactly one angel, exactly two wings, exactly one trumpet; exactly five humans, exactly one dog; one continuous observation platform and near railing, no duplicate platforms, no cropped feet, no extra people/animals/angels/trumpets, no text, no lettering, no border, no watermark, no checkerboard.",
+      "inputPaths": [
+        "front/public/tarot/major-20.webp"
+      ],
+      "outputPaths": [
+        "source/master-v01.png"
+      ],
+      "conclusion": "selected as master candidate; opaque RGB only, not a transparent layer or user-approved art"
+    }
+  ],
+  "layerPlan": {
+    "background": {
+      "objects": [
+        "star sea",
+        "distant light path",
+        "empty observation platform and rail"
+      ],
+      "alphaType": "opaque",
+      "removedObjects": [
+        "angel",
+        "two wings",
+        "trumpet",
+        "five people",
+        "dog",
+        "foreground platform"
+      ],
+      "reflectionOwnership": []
+    },
+    "subject": {
+      "objects": [
+        "angel with two wings and trumpet",
+        "five people",
+        "one dog",
+        "continuous observation platform and near rail"
+      ],
+      "rigidGroups": [
+        "angel, wings and trumpet",
+        "five people, dog, platform, rail and contact shadows"
+      ],
+      "alphaType": "rgba",
+      "supportGeometry": [
+        "continuous observation platform through lower bleed",
+        "dog footing and near railing"
+      ],
+      "contactShadows": [
+        "people and dog contact shadows"
+      ]
+    },
+    "effects": {
+      "objects": [
+        "sparse non-contact starlight particles"
+      ],
+      "alphaType": "rgba"
+    },
+    "text": {
+      "objects": [
+        "fixed double gold frame"
+      ],
+      "alphaType": "rgba"
+    },
+    "lineart": {
+      "source": "assets/subject.png",
+      "algorithm": "luminance Sobel edge pass constrained to alpha >245",
+      "parameters": {
+        "threshold": 125
+      }
+    }
+  },
+  "files": [
+    {
+      "path": "source/master-v01.png",
+      "sha256": "38c7d16e458431921036dcf2bf8f4f50093814c833e9b306f141cfd774431f0e",
+      "bytes": 3439966,
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGB",
+      "role": "selected-master-candidate"
+    },
+    {
+      "path": "source/subject-green-v01.png",
+      "sha256": "27764188ba1ffb2941255a7f18ff6da0f974dc5013091f09ed3ad5e8b7fdf8ba",
+      "bytes": 2576130,
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGB",
+      "role": "recorded-uniform-chroma-source"
+    },
+    {
+      "path": "assets/background.png",
+      "sha256": "606977897c385f29be34308c7825713913eb8cf1d2412f149f7fd0ae29138045",
+      "bytes": 2974536,
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGB",
+      "role": "opaque-background"
+    },
+    {
+      "path": "assets/subject.png",
+      "sha256": "6bbda9bf51d1c584966caa1c4acc2a32b3583b5d14e90bf17dfec30110471fd8",
+      "bytes": 2694188,
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "transparentFraction": 0.4477,
+      "visibleFraction": 0.5505,
+      "role": "true-alpha-foreground-from-recorded-chroma-source"
+    },
+    {
+      "path": "assets/effects.png",
+      "sha256": "aded53e9f62be782c6b6a594c2083e2a2b13ebcd61e6c40b4d777d88aee881b5",
+      "bytes": 11737,
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "transparentFraction": 0.9982,
+      "visibleFraction": 0.0015,
+      "role": "sparse-overlay"
+    },
+    {
+      "path": "assets/lineart.png",
+      "sha256": "6937d5ee410135eea2a22432aec0b664a50f72d468d8513196c0ff8eded626e7",
+      "bytes": 153414,
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGB",
+      "role": "subject-derived-lineart"
+    },
+    {
+      "path": "assets/text.png",
+      "sha256": "4d73de3edd5132d84ded19da10f4e9ec52b669d5d49798f9ad9a2169e421fd44",
+      "bytes": 10531,
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "transparentFraction": 0.9782,
+      "visibleFraction": 0.0218,
+      "role": "fixed-frame"
+    },
+    {
+      "path": "layer-composite.png",
+      "sha256": "a54868c2a24c4531201dce3271065496eb217a17a3b9b0b1b461345e1b91eac9",
+      "bytes": 3505369,
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "role": "zero-parallax-composite"
+    },
+    {
+      "path": "card.blend",
+      "sha256": "3c92253abc68594d7f78fbda5135e3c844f76791dfc04d43307fe4ca09832838",
+      "bytes": 5947779,
+      "role": "editable-blender-scene"
+    },
+    {
+      "path": "web/assets/card.glb",
+      "sha256": "fab47e7f4042e640c2a8aee1ff046e71d09312220fd578fcb70c65b7b143cb5e",
+      "bytes": 23668,
+      "role": "exported-card-geometry"
+    },
+    {
+      "path": "renders/hero.png",
+      "sha256": "d3d822afc4db5fe9ea49f14207a4b7c0a8f0fb9628709335581438a749acdb90",
+      "bytes": 2864898,
+      "width": 1080,
+      "height": 1500,
+      "mode": "RGBA",
+      "role": "offline-blender-render"
+    }
+  ],
+  "parameters": {
+    "status": "tested-in-web-viewer",
+    "subjectScale": 1,
+    "subjectDepth": 0.14,
+    "backgroundDepth": -0.08,
+    "effectsScale": 1.05,
+    "effectsDepth": 0.28,
+    "foil": 0.3,
+    "safeArea": {
+      "scale": 1.04,
+      "offset": [
+        0,
+        0
+      ]
+    }
+  },
+  "implementedAnimations": [
+    "RuiC viewer card auto motion; angel, people, dog and continuous platform remain in their recorded foreground image plane"
+  ],
+  "plannedAnimations": [],
+  "checks": {
+    "assets": {
+      "status": "passed",
+      "timestamp": "2026-09-18",
+      "reportPath": "asset-validation.json",
+      "conclusion": "all five layers share 1024×1536; required RGBA layers contain true transparency and visible pixels"
+    },
+    "manualVisual": {
+      "status": "passed",
+      "timestamp": "2026-09-18",
+      "evidence": [
+        "layer-composite.png",
+        "verification/01-desktop-front.png",
+        "verification/04-tilt-right.png",
+        "verification/05-tilt-left.png",
+        "verification-320/14-mobile-320.png"
+      ],
+      "conclusion": "manual review found no green fringe, duplicate angel/figure/dog, detached feet/paws or broken observation-platform support; 320px remains legible"
+    },
+    "blender": {
+      "status": "passed",
+      "timestamp": "2026-09-18",
+      "version": "5.2.2 LTS",
+      "reportPath": "verification.json",
+      "renderPath": "renders/hero.png"
+    },
+    "webDesktop390": {
+      "status": "passed",
+      "timestamp": "2026-09-18",
+      "reportPath": "verification/report.json",
+      "summary": "33/33 real WebGL checks including desktop and 390px; prior 32/33 reset-easing failure retained in report history"
+    },
+    "web320": {
+      "status": "passed",
+      "timestamp": "2026-09-18",
+      "reportPath": "verification-320/report.json",
+      "summary": "33/33 real WebGL checks including 320px"
+    },
+    "android": "not-run",
+    "fiveSlotThumbnailComparison": "not-run; full five-slot comparison belongs after the base slot is completed",
+    "zeroParallaxComposite": {
+      "status": "passed",
+      "path": "layer-composite.png"
+    },
+    "blackWhiteGrayAlpha": {
+      "status": "passed",
+      "timestamp": "2026-09-18",
+      "reportPath": "alpha-audit-2026-09-18/report.json",
+      "evidence": [
+        "alpha-audit-2026-09-18/black.png",
+        "alpha-audit-2026-09-18/white.png",
+        "alpha-audit-2026-09-18/gray.png"
+      ],
+      "conclusion": "subject alpha composited against black, white and gray without flattening; source remains RGBA with transparent and opaque regions"
+    },
+    "extremeTiltFourDirections": "partial; browser verifier exercises both horizontal and vertical drag, with manual right/left screenshots; dedicated four-direction image review remains"
+  },
+  "knownIssues": [
+    "User aesthetic review pending.",
+    "Offline Blender material/compositor is not pixel-identical to browser GLSL material.",
+    "Five-slot comparison, black/white/gray alpha and dedicated four-direction extreme-tilt image review remain."
+  ],
+  "nextAction": "用户统一审美验收；技术与当前整改项复验已完成。",
+  "deployment": "not-deployed",
+  "recordInstructions": {
+    "inputs": "每项填写实际 path、sha256、role，不填写猜测或未来文件。",
+    "generationRuns": "每次填写 tool、timestamp、callId或null、完整prompt、inputPaths、outputPaths、采用/失败结论。",
+    "files": "每项填写 path、sha256、bytes、图片width/height/mode与必要alpha统计。",
+    "checks": "填写status、timestamp、reportPath、对应母版/资产哈希及人工结论；未做保持null/not-run。"
+  },
+  "productionGuide": "docs/tarot-v2/cards/major-20.md",
+  "productionDetail": {
+    "composition": "天使上方横展翼，五人沿下方观测台弧线站立",
+    "supportGeometry": "完整观测台、近栏和犬立足面",
+    "connectedGroup": "天使、双翼与号角一组保留软透明；五人与犬在地面稳定组，若不能可靠多主体分层先同一主层；本主题支撑归属：完整观测台、近栏和犬立足面",
+    "foilMask": "号角边、羽翼内部稀疏线与地面衣缘",
+    "specificQA": "地面恰好五人一犬；高空一天使两翼一号角；半透明暗部不能被亮度抠图删除",
+    "parameterStatus": "proposed-starting-values-not-verified",
+    "samplePrinciple": "借鉴五样本的完整承接、真实透明、主题材质和极端倾斜复核，不按槽位强行套题材。",
+    "motion": "仅少量前景微光呼吸；主体、核心符号和承重结构不自动相对运动。",
+    "backgroundOwnership": "除主体完整连接组、独立前景和固定框外的环境；必须补全清除区域，不保留重复主体或接触阴影。"
+  },
+  "blocker": null,
+  "previousStatusBefore20261009": "local-holo-verified-awaiting-user-review",
+  "currentProject": "output/tarot-progression/v2/major-20/theme-05/repair-project-v02",
+  "repairRevision": {
+    "date": "2026-10-09",
+    "revision": "repair-20261009",
+    "project": "output/tarot-progression/v2/major-20/theme-05/repair-project-v02",
+    "previousProject": "output/tarot-progression/v2/major-20/theme-05",
+    "originalAuditPriority": "未列单卡整改",
+    "resolvedFindings": [],
+    "changedLayers": {},
+    "verification": "output/tarot-progression/v2/major-20/theme-05/repair-project-v02/repair-verification.json",
+    "report": "output/tarot-progression/v2/repair-20261009/REPORT.md"
+  }
+}

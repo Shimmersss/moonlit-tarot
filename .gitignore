@@ -1,0 +1,14 @@
+node_modules/
+dist/
+.DS_Store
+*.log
+.env*
+!.env.example
+# Full holographic viewers come from the GitHub Release (npm run fetch:flashcards);
+# only covers, line art and the catalogue are tracked.
+public/tarot/flashcards/v*/*/*/*
+!public/tarot/flashcards/v*/*/*/assets/
+public/tarot/flashcards/v*/*/*/assets/*
+!public/tarot/flashcards/v*/*/*/assets/lineart.png
+.flashcards-cache/
+public/tarot/flashcards/SHA256SUMS

@@ -1,0 +1,398 @@
+{
+  "schemaVersion": "tarot-art-production-v2.2",
+  "cardId": "major-15",
+  "themeId": "theme-05",
+  "suggestedSlot": 5,
+  "title": "霓城出口",
+  "status": "local-repair-verified-awaiting-user-review",
+  "userReview": "awaiting-user-aesthetic-review",
+  "selectedMaster": {
+    "path": "source/master-v02.png",
+    "sha256": "3dc33f4432deed7fcb5c6ed67115a260af4a47096e43eb647b573825f9384afa",
+    "width": 1024,
+    "height": 1536,
+    "mode": "RGB"
+  },
+  "inputs": [
+    {
+      "role": "identity-reference",
+      "path": "front/public/tarot/major-15.webp",
+      "sha256": "544d21ad5c711e40d6ea27d264771e40152f94a317d11e0db9db32e9e3d19762"
+    }
+  ],
+  "generationRuns": [
+    {
+      "tool": "image_gen",
+      "timestamp": "2026-10-03T14:13:58.305Z",
+      "callId": null,
+      "prompt": "Use case: stylized-concept. 塔罗恶魔新主题「霓城出口」1024x1536竖版完整不透明母版。参考图只用于成年黑发男女身份、细腻古典人物绘画质感，场景重新设计。未来城市蓝紫色金属拱廊，两位成年人全身分居近景左右相向，穿精致未来礼服，肤色自然，双手轻持低于胸部的珊瑚红松绸，中央半解红绸结清楚可随时放开；无束缚。中央远处明亮开放出口通向夜空城市。恰好一只黑豹卧在前地板侧，金杯葡萄在低台座，恰好两尊带角银色静态雕像构成两側近景，雕像材质清晰不能成为新活人。拱廊前地板、豹卧面、杯果台座完整连续，双人足底落地，下边自然出血。蓝紫主色、珊瑚红点缀、银金属细线路，古典精细油画与科幻环境融合。细窄金属线路卡边无文字，稀疏光片不挡脸手。所有关键脸手物件距外边5%以上。禁止其他人动物、镜像脸、文字数字水印、绿幕透明棋盘。仅完整RGB母版。",
+      "inputPaths": [
+        "front/public/tarot/major-15.webp"
+      ],
+      "outputPaths": [],
+      "result": "failed",
+      "error": "image generation failed: network error: error sending request"
+    },
+    {
+      "tool": "image_gen",
+      "timestamp": "2026-10-03T14:25:05.697Z",
+      "callId": null,
+      "prompt": "Use case: stylized-concept. 塔罗恶魔新主题「霓城出口」1024x1536竖版完整不透明母版。参考图只用于成年黑发男女身份、细腻古典人物绘画质感，场景重新设计。未来城市蓝紫色金属拱廊，两位成年人全身分居近景左右相向，穿精致未来礼服，肤色自然，双手轻持低于胸部的珊瑚红松绸，中央半解红绸结清楚可随时放开；无束缚。中央远处明亮开放出口通向夜空城市。恰好一只黑豹卧在前地板侧，金杯葡萄在低台座，恰好两尊带角银色静态雕像构成两側近景，雕像材质清晰不能成为新活人。拱廊前地板、豹卧面、杯果台座完整连续，双人足底落地，下边自然出血。蓝紫主色、珊瑚红点缀、银金属细线路，古典精细油画与科幻环境融合。细窄金属线路卡边无文字，稀疏光片不挡脸手。所有关键脸手物件距外边5%以上。禁止其他人动物、镜像脸、文字数字水印、绿幕透明棋盘。仅完整RGB母版。",
+      "inputPaths": [
+        "front/public/tarot/major-15.webp"
+      ],
+      "outputPaths": [],
+      "result": "failed",
+      "error": "image generation failed: network error: error sending request"
+    },
+    {
+      "tool": "built-in image_gen",
+      "timestamp": "2026-10-03",
+      "callId": null,
+      "prompt": "Create ONE opaque 1024x1536 portrait painterly fantasy tarot master: The Devil, theme 霓城出口 (Exit from the Neon City). Use attached reference for adult identities, symbols and detailed fine-art painting style only, create a distinctly new setting. Exactly TWO adults, dark-haired woman on LEFT and dark-haired man on RIGHT in foreground, naturally colored skin, elegant dark flowing clothes with restrained silver embroidery. They face each other, gently holding a loose coral-red silk ribbon with an easily untied bow BELOW chest height; ribbon hangs freely, no restraint, voluntary choice. Futuristic vaulted arcade in blue-violet and silver recedes toward a clearly visible BRIGHT OPEN EXIT at center far background. Exactly ONE black panther rests lower left on continuous complete foreground flooring. Golden cup and grapes on a complete pedestal lower right. Exactly TWO static horned sculptural statues flank the arcade, clearly inanimate stone/metal, not living people. Keep floor, panther contact shadows and pedestal complete and connected to bottom bleed. Fine narrow silver circuit-pattern border and subtle celestial corner ornament. Deep architectural perspective, rich hand-painted detail, coral red accents, sparse light flecks, no holographic rainbow baked into artwork. All faces, hands and core symbols safely inside margins. No reflected duplicate faces, no extra people or animals, no words, lettering, numbers, logo or watermark.",
+      "inputPaths": [
+        "front/public/tarot/major-15.webp"
+      ],
+      "outputPaths": [],
+      "conclusion": "Network error: error sending request; no output returned. Retrying same prompt."
+    },
+    {
+      "tool": "built-in image_gen",
+      "timestamp": "2026-10-04",
+      "callId": null,
+      "prompt": "Create ONE opaque 1024x1536 portrait painterly fantasy tarot master: The Devil, theme 霓城出口 (Exit from the Neon City). Use attached reference for adult identities, symbols and detailed fine-art painting style only, create a distinctly new setting. Exactly TWO adults, dark-haired woman on LEFT and dark-haired man on RIGHT in foreground, naturally colored skin, elegant dark flowing clothes with restrained silver embroidery. They face each other, gently holding a loose coral-red silk ribbon with an easily untied bow BELOW chest height; ribbon hangs freely, no restraint, voluntary choice. Futuristic vaulted arcade in blue-violet and silver recedes toward a clearly visible BRIGHT OPEN EXIT at center far background. Exactly ONE black panther rests lower left on continuous complete foreground flooring. Golden cup and grapes on a complete pedestal lower right. Exactly TWO static horned sculptural statues flank the arcade, clearly inanimate stone/metal, not living people. Keep floor, panther contact shadows and pedestal complete and connected to bottom bleed. Fine narrow silver circuit-pattern border and subtle celestial corner ornament. Deep architectural perspective, rich hand-painted detail, coral red accents, sparse light flecks, no holographic rainbow baked into artwork. All faces, hands and core symbols safely inside margins. No reflected duplicate faces, no extra people or animals, no words, lettering, numbers, logo or watermark.",
+      "inputPaths": [
+        "front/public/tarot/major-15.webp"
+      ],
+      "outputPaths": [],
+      "conclusion": "Retry ended with network error: error sending request; no image returned."
+    },
+    {
+      "tool": "imagegen bundled CLI edit via user-authorized API",
+      "model": "gpt-image-2",
+      "timestamp": "2026-10-05",
+      "callId": null,
+      "prompt": "Create ONE opaque 1024x1536 portrait painterly fantasy tarot master: The Devil, theme 霓城出口 (Exit from the Neon City). Use attached reference for adult identities, symbols and detailed fine-art painting style only, create a distinctly new setting. Exactly TWO adults, dark-haired woman on LEFT and dark-haired man on RIGHT in foreground, naturally colored skin, elegant dark flowing clothes with restrained silver embroidery. They face each other, gently holding a loose coral-red silk ribbon with an easily untied bow BELOW chest height; ribbon hangs freely, no restraint, voluntary choice. Futuristic vaulted arcade in blue-violet and silver recedes toward a clearly visible BRIGHT OPEN EXIT at center far background. Exactly ONE black panther rests lower left on continuous complete foreground flooring. Golden cup and grapes on a complete pedestal lower right. Exactly TWO static horned sculptural statues flank the arcade, clearly inanimate stone/metal, not living people. Keep floor, panther contact shadows and pedestal complete and connected to bottom bleed. Fine narrow silver circuit-pattern border and subtle celestial corner ornament. Deep architectural perspective, rich hand-painted detail, coral red accents, sparse light flecks, no holographic rainbow baked into artwork. All faces, hands and core symbols safely inside margins. No reflected duplicate faces, no extra people or animals, no words, lettering, numbers, logo or watermark.",
+      "inputPaths": [
+        "front/public/tarot/major-15.webp"
+      ],
+      "outputPaths": [
+        "source/master-v01.png"
+      ],
+      "conclusion": "Successful API edit, high quality, 1024x1536; opaque master."
+    },
+    {
+      "jobId": "major-15-theme-05-background",
+      "tool": "imagegen bundled CLI via user-authorized API",
+      "model": "gpt-image-2",
+      "timestamp": "2026-10-04T18:28:11.942653+00:00",
+      "callId": null,
+      "prompt": "Edit the supplied image. Output exactly one 1024x1536 image. Keep the original canvas coordinates and size of RETAINED objects only. Objects explicitly removed must be deleted completely; do not preserve their number. No redesign, no recentering, no frame except when frame is specifically requested. BACKGROUND PLATE ONLY. Delete ALL people, ALL animals, ALL main foreground props, ALL foreground support platforms/floors and their contact shadows, ALL floating foreground decoration, and the entire outer border/corner ornaments. NO people or animals may remain, including silhouettes and reflections. Reconstruct the distant environment naturally behind deleted objects. Keep only the distant landscape/architecture and original atmosphere. Do not add a second copy of the support ground. Opaque RGB image. Specific removed connected group: 双人、双手、红绸连接段整体；自由尾端不单独拉扯手，豹与地面同组；本主题支撑归属：拱廊前地板、豹与杯果台座完整. Environment ownership details: 除主体完整连接组、独立前景和固定框外的环境；必须补全清除区域，不保留重复主体或接触阴影。. Highest priority: an EMPTY clean environment, absolutely no protagonists or foreground props.",
+      "inputPaths": [
+        "output/tarot-progression/v2/major-15/theme-05/source/master-v01.png"
+      ],
+      "inputSha256": "262477986c090c3f237468728a1d85efce0701d419b4125ad262eac406e87eca",
+      "outputPaths": [
+        "output/tarot-progression/v2/major-15/theme-05/source/api-layers-v02/background-raw.png"
+      ],
+      "outputSha256": "b8ea7bea095f7d442e817f43c90f54060fdcffcb913a74b966be1e3d78de2f4a",
+      "conclusion": "Generated candidate; user requested collective visual acceptance later."
+    },
+    {
+      "jobId": "major-15-theme-05-effects",
+      "tool": "imagegen bundled CLI via user-authorized API",
+      "model": "gpt-image-2",
+      "timestamp": "2026-10-04T18:28:13.855986+00:00",
+      "callId": null,
+      "prompt": "Edit the supplied image. Output exactly one 1024x1536 image. Keep the original canvas coordinates and size of RETAINED objects only. Objects explicitly removed must be deleted completely; do not preserve their number. No redesign, no recentering, no frame except when frame is specifically requested. ISOLATED DECORATION ONLY: 稀疏光片. Delete ALL people, ALL animals, ALL main props, ALL buildings, ALL ground/floor/platforms, ALL borders and corner ornaments. Only a FEW small separate decorative elements at the original positions, preserving large empty center. If absent, create a sparse matching-style candidate. Every other pixel must be solid #FF00FF; no gradient or texture in key background. NO HUMAN, NO ANIMAL, NO SCENERY, NO FRAME. Do not turn the whole reference into a cutout of its subject. This is the small decorative overlay only.",
+      "inputPaths": [
+        "output/tarot-progression/v2/major-15/theme-05/source/master-v01.png"
+      ],
+      "inputSha256": "262477986c090c3f237468728a1d85efce0701d419b4125ad262eac406e87eca",
+      "outputPaths": [
+        "output/tarot-progression/v2/major-15/theme-05/source/api-layers-v02/effects-raw.png"
+      ],
+      "outputSha256": "4f38ad0029796cee6c08a7ca659ba6af8f365a46b7d0872c78795aba9ee1ed22",
+      "conclusion": "Generated candidate; user requested collective visual acceptance later."
+    },
+    {
+      "jobId": "major-15-theme-05-subject",
+      "tool": "built-in image_gen",
+      "model": "built-in image_gen (model unspecified)",
+      "timestamp": "2026-10-05T14:51:30.611421+00:00",
+      "callId": null,
+      "prompt": "Edit the supplied image. Output exactly one 1024x1536 image. Keep the original canvas coordinates and size of RETAINED objects only. Objects explicitly removed must be deleted completely; do not preserve their number. No redesign, no recentering, no frame except when frame is specifically requested. ISOLATED SUBJECT GROUP ONLY. Keep the original people/animals and their attached props, contact shadows and FULL contiguous support ground belonging to this connected group: 双人、双手、红绸连接段整体；自由尾端不单独拉扯手，豹与地面同组；本主题支撑归属：拱廊前地板、豹与杯果台座完整. Keep exact original faces, poses and coordinates, not smaller centered reconstructions. Delete the distant scene, architecture, outer frame and free floating decorations. Replace ALL deleted areas and all gaps between retained objects with flat uniform fully transparent pixels. No key color reflected onto retained subject. Do not cut the support ground into a floating thin strip. Exact retained group is the priority. Image 1 is the edit target. Override color-key wording: genuine transparent alpha background, only retained layer visible, preserve canvas coordinates; no baked green, magenta or checkerboard.\n",
+      "inputPaths": [
+        "output/tarot-progression/v2/major-15/theme-05/source/master-v01.png"
+      ],
+      "inputSha256": "262477986c090c3f237468728a1d85efce0701d419b4125ad262eac406e87eca",
+      "outputPaths": [
+        "output/tarot-progression/v2/major-15/theme-05/source/api-layers-v02/subject-raw.png"
+      ],
+      "outputSha256": "351ad026fe35b12cbbee2cb5c4cd4f8a971b683a61d87f6e77a9f2e7d61a39f3",
+      "conclusion": "Generated candidate; user requested collective visual acceptance later."
+    },
+    {
+      "jobId": "major-15-theme-05-text",
+      "tool": "built-in image_gen",
+      "model": "built-in image_gen (model unspecified)",
+      "timestamp": "2026-10-05T14:53:27.039526+00:00",
+      "callId": null,
+      "prompt": "Edit the supplied image. Output exactly one 1024x1536 image. Keep the original canvas coordinates and size of RETAINED objects only. Objects explicitly removed must be deleted completely; do not preserve their number. No redesign, no recentering, no frame except when frame is specifically requested. ISOLATED OUTER FRAME ONLY. Delete EVERYTHING inside the thin border: ALL people, animals, props, scenery, floors and lights. Keep only the thin original outer edge ornament and original corner filigree at original border positions. The entire middle and all holes must be uniform solid fully transparent pixels. NO text, NO figure, NO animal, NO landscape, NO extra emblem. Output the EMPTY ornamental border with a completely clean key-colored interior. Image 1 is the edit target. Override color-key wording: genuine transparent alpha background, only retained layer visible, preserve canvas coordinates; no baked green, magenta or checkerboard.\n",
+      "inputPaths": [
+        "output/tarot-progression/v2/major-15/theme-05/source/master-v01.png"
+      ],
+      "inputSha256": "262477986c090c3f237468728a1d85efce0701d419b4125ad262eac406e87eca",
+      "outputPaths": [
+        "output/tarot-progression/v2/major-15/theme-05/source/api-layers-v02/text-raw.png"
+      ],
+      "outputSha256": "3cb111d7188cf539a09deb2d5848c436c18d2c7116c9d527efddc2a36493aa80",
+      "conclusion": "Generated candidate; user requested collective visual acceptance later."
+    },
+    {
+      "tool": "built-in image_gen",
+      "source": "~/.codex/generated_images/01a1022d-f2d4-7900-9308-5602948bd109/exec-6dc3c6ff-133a-4bab-8682-7365e18dc0c6.png",
+      "prompt": "Use case: identity-preserve. Edit target: attached/local Devil 'Neon City Exit' tarot master. Create a corrected COMPLETE OPAQUE portrait 1024x1536 card painting. Retain the identity and fine classical painted style of exactly these two adult dark-haired people, red loosely held ribbon, one black panther and gold cup/grapes. Correct composition to show both adults FULL LENGTH, standing to left and right facing each other, fully clothed in elegant blue-violet futuristic formalwear with metallic silver tailoring. Both shoes firmly on a continuous floor. Futuristic blue-violet metallic arcade with slim luminous technological lines, open distant exit clearly opening to a futuristic night-sky city. Exactly two silver static horned sculptures, one on each side, clearly sculptures, not people. Loosely held coral-red silk between their hands below chest; central loose bow can freely release. Exactly one panther resting on connected foreground floor at side, gold cup/grapes on a low pedestal. Elegant restrained gold-silver circuitlike narrow outer card border, sparse light flecks away from faces/hands. Preserve TWO people ONLY, ONE panther ONLY. Full figure within 5% safety margin. No chains, restraints, extra people or animals, no text/numbers/logos/checkerboard. The city architecture must unmistakably read futuristic, NOT a gothic medieval cathedral. Keep classical painterly refinement, no photographic collage.",
+      "date": "2026-10-09",
+      "installedPath": "output/tarot-progression/v2/major-15/theme-05/source/master-v02.png",
+      "sha256": "3dc33f4432deed7fcb5c6ed67115a260af4a47096e43eb647b573825f9384afa"
+    }
+  ],
+  "layerPlan": {
+    "background": {
+      "objects": [],
+      "alphaType": "opaque",
+      "removedObjects": [],
+      "reflectionOwnership": []
+    },
+    "subject": {
+      "objects": [],
+      "rigidGroups": [],
+      "alphaType": "rgba",
+      "supportGeometry": [],
+      "contactShadows": []
+    },
+    "effects": {
+      "objects": [],
+      "alphaType": "rgba"
+    },
+    "text": {
+      "objects": [],
+      "alphaType": "rgba"
+    },
+    "lineart": {
+      "source": null,
+      "algorithm": null,
+      "parameters": {}
+    }
+  },
+  "files": [
+    {
+      "path": "source/master-v01.png",
+      "sha256": "262477986c090c3f237468728a1d85efce0701d419b4125ad262eac406e87eca",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGB",
+      "bytes": 2668485,
+      "role": "selected-opaque-master"
+    }
+  ],
+  "parameters": null,
+  "implementedAnimations": [],
+  "plannedAnimations": [],
+  "checks": {
+    "assets": null,
+    "manualVisual": null,
+    "blender": null,
+    "webDesktop390": null,
+    "web320": null,
+    "android": "not-run",
+    "fiveSlotThumbnailComparison": null,
+    "zeroParallaxComposite": null,
+    "blackWhiteGrayAlpha": null,
+    "extremeTiltFourDirections": null
+  },
+  "knownIssues": [],
+  "nextAction": "用户统一审美验收；技术与当前整改项复验已完成。",
+  "deployment": "not-deployed",
+  "recordInstructions": {
+    "inputs": "每项填写实际 path、sha256、role，不填写猜测或未来文件。",
+    "generationRuns": "每次填写 tool、timestamp、callId或null、完整prompt、inputPaths、outputPaths、采用/失败结论。",
+    "files": "每项填写 path、sha256、bytes、图片width/height/mode与必要alpha统计。",
+    "checks": "填写status、timestamp、reportPath、对应母版/资产哈希及人工结论；未做保持null/not-run。"
+  },
+  "productionGuide": "docs/tarot-v2/cards/major-15.md",
+  "productionDetail": {
+    "composition": "两人分居近景两侧，松绸低于胸，中央远处明亮出口",
+    "supportGeometry": "拱廊前地板、豹与杯果台座完整",
+    "connectedGroup": "双人、双手、红绸连接段整体；自由尾端不单独拉扯手，豹与地面同组；本主题支撑归属：拱廊前地板、豹与杯果台座完整",
+    "foilMask": "红绸折纹、杯沿与雕像局部轮廓",
+    "specificQA": "两位成年人、一豹、两角像；红绸松垂可解，雕像不是新增活人；玻璃不能复制人脸",
+    "parameterStatus": "proposed-starting-values-not-verified",
+    "samplePrinciple": "借鉴五样本的完整承接、真实透明、主题材质和极端倾斜复核，不按槽位强行套题材。",
+    "motion": "仅少量前景微光呼吸；主体、核心符号和承重结构不自动相对运动。",
+    "backgroundOwnership": "除主体完整连接组、独立前景和固定框外的环境；必须补全清除区域，不保留重复主体或接触阴影。"
+  },
+  "blocker": null,
+  "apiLayerCandidates": [
+    {
+      "layer": "background",
+      "raw": "output/tarot-progression/v2/major-15/theme-05/source/api-layers-v02/background-raw.png",
+      "rawSha256": "b8ea7bea095f7d442e817f43c90f54060fdcffcb913a74b966be1e3d78de2f4a",
+      "candidateAsset": "output/tarot-progression/v2/major-15/theme-05/source/api-layers-v02/assets/background.png",
+      "candidateAssetSha256": "4adea8bb749e3e720a3181660b84926ea803a5dcee732b0f9ede7e7b8a05d9fe",
+      "alphaDerivation": null,
+      "lineartDerivation": null,
+      "manualVisual": {
+        "status": "needs-rework",
+        "issue": "People and animals removed, but edge crescents and border furniture remain."
+      },
+      "status": "needs-rework"
+    },
+    {
+      "layer": "effects",
+      "raw": "output/tarot-progression/v2/major-15/theme-05/source/api-layers-v02/effects-raw.png",
+      "rawSha256": "4f38ad0029796cee6c08a7ca659ba6af8f365a46b7d0872c78795aba9ee1ed22",
+      "candidateAsset": "output/tarot-progression/v2/major-15/theme-05/source/api-layers-v02/assets/effects.png",
+      "candidateAssetSha256": "e4a1ff2d29a5b777c3be5139efdc5bbb97f30ba10d047ad1461e9d66b555f0a3",
+      "alphaDerivation": {
+        "algorithm": "per-image chroma dominance / soft ramp / edge-only despill",
+        "keyRGB": [
+          255,
+          0,
+          255
+        ],
+        "low": 31.85,
+        "high": 134.75,
+        "keyDominance60Percentile": 245.0,
+        "transparentPixels": 1567916,
+        "opaquePixels": 2466,
+        "softPixels": 2482
+      },
+      "lineartDerivation": null,
+      "manualVisual": {
+        "status": "needs-rework",
+        "issue": "Foreground candidate contains border crescent/stars instead of sparse independent light flecks."
+      },
+      "status": "needs-rework"
+    },
+    {
+      "layer": "subject",
+      "raw": "output/tarot-progression/v2/major-15/theme-05/source/api-layers-v02/subject-raw.png",
+      "rawSha256": "351ad026fe35b12cbbee2cb5c4cd4f8a971b683a61d87f6e77a9f2e7d61a39f3",
+      "candidateAsset": "output/tarot-progression/v2/major-15/theme-05/source/api-layers-v02/assets/subject.png",
+      "candidateAssetSha256": "351ad026fe35b12cbbee2cb5c4cd4f8a971b683a61d87f6e77a9f2e7d61a39f3",
+      "alphaDerivation": {
+        "algorithm": "native generated alpha preserved without conversion",
+        "bands": [
+          "R",
+          "G",
+          "B",
+          "A"
+        ]
+      },
+      "lineartDerivation": {
+        "algorithm": "Pillow FIND_EDGES threshold80, alpha>240; deterministic candidate"
+      },
+      "manualVisual": null,
+      "status": "generated-candidate"
+    },
+    {
+      "layer": "text",
+      "raw": "output/tarot-progression/v2/major-15/theme-05/source/api-layers-v02/text-raw.png",
+      "rawSha256": "3cb111d7188cf539a09deb2d5848c436c18d2c7116c9d527efddc2a36493aa80",
+      "candidateAsset": "output/tarot-progression/v2/major-15/theme-05/source/api-layers-v02/assets/text.png",
+      "candidateAssetSha256": "3cb111d7188cf539a09deb2d5848c436c18d2c7116c9d527efddc2a36493aa80",
+      "alphaDerivation": {
+        "algorithm": "native generated alpha preserved without conversion",
+        "bands": [
+          "R",
+          "G",
+          "B",
+          "A"
+        ]
+      },
+      "lineartDerivation": null,
+      "manualVisual": null,
+      "status": "generated-candidate"
+    }
+  ],
+  "candidateReview": "deferred-by-user-2026-10-05",
+  "candidateProject": {
+    "cardId": "major-15",
+    "themeId": "theme-05",
+    "project": "output/tarot-progression/v2/major-15/theme-05/api-candidate-project-v01",
+    "candidate": true,
+    "files": {
+      "card.blend": {
+        "path": "output/tarot-progression/v2/major-15/theme-05/api-candidate-project-v01/card.blend",
+        "sha256": "4a43ed9fdf384015dc9581ec37189e16fa84b9c74edc0a25db22c0c538d36ccc",
+        "bytes": 7051250
+      },
+      "web/index.html": {
+        "path": "output/tarot-progression/v2/major-15/theme-05/api-candidate-project-v01/web/index.html",
+        "sha256": "cdd1721c1286c27849071b2cbc5c53219e9148e0dcca03c99d130f56066ed2c5",
+        "bytes": 6562
+      },
+      "web/assets/card.glb": {
+        "path": "output/tarot-progression/v2/major-15/theme-05/api-candidate-project-v01/web/assets/card.glb",
+        "sha256": "407c7b10d90db8ae45be4d8101148151845cc9dc9171b291f3d1de9966e07a4c",
+        "bytes": 23668
+      },
+      "renders/hero.png": {
+        "path": "output/tarot-progression/v2/major-15/theme-05/api-candidate-project-v01/renders/hero.png",
+        "sha256": "6955e7a9f98325eb6d1c853e6be23a4c3c8c76a256491dbbadef8f7bb110d267",
+        "bytes": 2537893
+      }
+    },
+    "visualAcceptance": "deferred-by-user"
+  },
+  "previousStatusBefore20261009": "selected-master",
+  "currentProject": "output/tarot-progression/v2/major-15/theme-05/repair-project-v02",
+  "repairRevision": {
+    "date": "2026-10-09",
+    "revision": "repair-20261009",
+    "project": "output/tarot-progression/v2/major-15/theme-05/repair-project-v02",
+    "previousProject": "output/tarot-progression/v2/major-15/theme-05/api-candidate-project-v01",
+    "originalAuditPriority": "P1",
+    "resolvedFindings": [
+      {
+        "category": "主题偏离",
+        "priority": "P1",
+        "evidence": "当前合成为古典哥特拱廊与黑色礼服；manifest的母版提示词要求未来城市蓝紫金属拱廊、未来礼服、开放夜空城市出口及两侧银色带角静态雕像，现图未体现这些关键元素。",
+        "action": "先修正或重新选择母版，再重新派生各层，避免只替换标题或背景。"
+      }
+    ],
+    "changedLayers": {
+      "major-15-theme-05-background": {
+        "sha256": "44ff248254f19e2723ced982dc07a3dea0d046cc7ad42e0d6bd456928a62856a",
+        "project": "output/tarot-progression/v2/major-15/theme-05/repair-project-v02",
+        "layer": "background"
+      },
+      "major-15-theme-05-subject": {
+        "sha256": "50e89b598c3cca6345aa0ec8a577377d5bdef87bdc7c49fc30cdf4ed00dcdb66",
+        "project": "output/tarot-progression/v2/major-15/theme-05/repair-project-v02",
+        "layer": "subject"
+      },
+      "major-15-theme-05-effects": {
+        "sha256": "e3285c95645ad8cb820883515baffee2fc1e8428251a6ad33ac5cd1ea89e6ff2",
+        "project": "output/tarot-progression/v2/major-15/theme-05/repair-project-v02",
+        "layer": "effects"
+      },
+      "major-15-theme-05-text": {
+        "sha256": "31bb6daa6df1659c884e2cb9ef6b6188b5982918efe5d3cb87aabbb31a3f02f7",
+        "project": "output/tarot-progression/v2/major-15/theme-05/repair-project-v02",
+        "layer": "text"
+      }
+    },
+    "verification": "output/tarot-progression/v2/major-15/theme-05/repair-project-v02/repair-verification.json",
+    "report": "output/tarot-progression/v2/repair-20261009/REPORT.md"
+  },
+  "previousSelectedMaster": {
+    "path": "source/master-v01.png",
+    "sha256": "262477986c090c3f237468728a1d85efce0701d419b4125ad262eac406e87eca",
+    "width": 1024,
+    "height": 1536,
+    "mode": "RGB"
+  }
+}

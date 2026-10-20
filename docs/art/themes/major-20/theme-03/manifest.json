@@ -1,0 +1,311 @@
+{
+  "schemaVersion": "tarot-art-production-v2.2",
+  "cardId": "major-20",
+  "themeId": "theme-03",
+  "suggestedSlot": 3,
+  "title": "雪谷回响",
+  "status": "local-repair-verified-awaiting-user-review",
+  "userReview": "awaiting-user-aesthetic-review",
+  "selectedMaster": {
+    "path": "source/master-v01.png",
+    "sha256": "17d480a26afd5940ebee661561c079da37ef9b758019b80385a1464f5215bf00",
+    "width": 1024,
+    "height": 1536,
+    "mode": "RGB",
+    "selection": "人工首检：左上单一天使、两翼和一号角清晰；右下五人和一犬可逐一辨认，完整雪谷地坪与足迹可见；未做透明、细部或倾斜验收。"
+  },
+  "inputs": [
+    {
+      "role": "identity-reference",
+      "path": "front/public/tarot/major-20.webp"
+    }
+  ],
+  "generationRuns": [
+    {
+      "tool": "built-in image_gen",
+      "timestamp": "2026-09-17",
+      "callId": "exec-6fe3634c-8bf3-4771-9a43-54b75a1eb16b",
+      "prompt": "Use case: stylized-concept\nAsset type: 1024×1536 portrait master artwork for a layered interactive tarot holographic card, Judgement, theme title “雪谷回响”.\nPrimary request: exactly one translucent starry angel with exactly two clear wings and exactly one trumpet in the upper-left, intact dark transparent wing detail. Exactly five human figures stand safely in the lower-right on one broad continuous snow-valley foreground ground with visible footprints; exactly one dog lower/front, unobscured. Dawn opens a mountain pass in the right rear. All five people and dog contact the same stable snow ground, no floating people.\nComposition: vertical 2:3, angel left-upper, figures right-lower in depth layers, dog lower, sunrise mountain pass right rear. Palette snow white, blue-violet, gold. Detailed premium painterly fantasy tarot. Constraints: exactly 1 angel, 2 wings, 1 trumpet, 5 people, 1 dog; no extras, duplicate limbs, cropped feet, text/border/watermark/checkerboard/holographic effect. Keep wing translucency but do not lose dark wing structures.",
+      "inputPaths": [
+        "front/public/tarot/major-20.webp"
+      ],
+      "outputPaths": [
+        "source/master-v01.png"
+      ],
+      "conclusion": "selected as master candidate; opaque RGB only, not a transparent layer or user-approved art"
+    }
+  ],
+  "layerPlan": {
+    "background": {
+      "objects": [
+        "snow valley",
+        "mountain pass",
+        "sunrise"
+      ],
+      "alphaType": "opaque",
+      "removedObjects": [
+        "angel",
+        "five people",
+        "dog",
+        "foreground snow platform"
+      ]
+    },
+    "subject": {
+      "objects": [
+        "angel",
+        "two wings",
+        "halo",
+        "trumpet",
+        "five people",
+        "dog",
+        "connected snowy platform with footprints"
+      ],
+      "rigidGroups": [
+        "angel with wings/halo/trumpet/robes",
+        "five people/dog/support platform"
+      ],
+      "alphaType": "rgba",
+      "supportGeometry": [
+        "complete snowy foreground platform and footprints"
+      ],
+      "contactShadows": [
+        "human and dog snow contact"
+      ]
+    },
+    "effects": {
+      "objects": [
+        "sparse non-contact snowlight"
+      ],
+      "alphaType": "rgba"
+    },
+    "text": {
+      "objects": [
+        "fixed gold/ice double frame"
+      ],
+      "alphaType": "rgba"
+    },
+    "lineart": {
+      "source": "assets/subject.png",
+      "algorithm": "luminance Sobel edge pass constrained to alpha >245",
+      "parameters": {
+        "threshold": 120
+      }
+    }
+  },
+  "files": [
+    {
+      "path": "source/master-v01.png",
+      "sha256": "17d480a26afd5940ebee661561c079da37ef9b758019b80385a1464f5215bf00",
+      "bytes": 3376079,
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGB",
+      "role": "selected-master-candidate"
+    },
+    {
+      "path": "source/subject-green-v01.png",
+      "sha256": "a5b548fbd9b06d45bb9eec576353051ea26ab9f809d3e58fb3a61132f46c1a71",
+      "bytes": 2308731,
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGB",
+      "role": "rejected-key-source"
+    },
+    {
+      "path": "source/subject-green-v02.png",
+      "sha256": "e3b8548f81c2c2c0dab8698a8921725696664d50fc41148c91779b74e363c56c",
+      "bytes": 2271297,
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGB",
+      "role": "accepted-key-source"
+    },
+    {
+      "path": "assets/background.png",
+      "sha256": "724f54770f59280e18e4000d3bdacb05ee020ca6dca5ae8dfcc1d57aac2ec084",
+      "bytes": 3028950,
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGB",
+      "role": "opaque-background"
+    },
+    {
+      "path": "assets/subject.png",
+      "sha256": "eea7c53fe4096a671095f6f0ca9a8079bb0e5789c413e90280927f850bdb31ba",
+      "bytes": 3124045,
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "transparentFraction": 0.492,
+      "visibleFraction": 0.5025,
+      "role": "true-alpha-connected-foreground"
+    },
+    {
+      "path": "assets/effects.png",
+      "sha256": "37d4eda64d9556885112edea5b085320a26b0cc75fd54d89610702de790afc56",
+      "bytes": 12372,
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "transparentFraction": 0.9979,
+      "visibleFraction": 0.0018,
+      "role": "sparse-overlay"
+    },
+    {
+      "path": "assets/lineart.png",
+      "sha256": "b5919ee58e9978c5e4576ebbaf6e65eb99351b9b2282c7bd8b7ef2761903068d",
+      "bytes": 90180,
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGB",
+      "role": "subject-derived-lineart"
+    },
+    {
+      "path": "assets/text.png",
+      "sha256": "e302ce0b27893d06a96f2cc6d3f03ae682b245bea7ab228f211d4432b6c5a1ec",
+      "bytes": 10556,
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "transparentFraction": 0.9782,
+      "visibleFraction": 0.0218,
+      "role": "fixed-frame"
+    },
+    {
+      "path": "layer-composite.png",
+      "sha256": "2e0f0f2920a743003768b0c800bed0f1e1e3618723e790ae7d1dec94808d8b0c",
+      "bytes": 3177631,
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "role": "zero-parallax-composite"
+    },
+    {
+      "path": "card.blend",
+      "sha256": "9de0c2cd4930fbee343e649a4c6bd602ed8da7129efb3add660c966826ca0552",
+      "bytes": 6352793,
+      "role": "editable-blender-scene"
+    },
+    {
+      "path": "web/assets/card.glb",
+      "sha256": "fab47e7f4042e640c2a8aee1ff046e71d09312220fd578fcb70c65b7b143cb5e",
+      "bytes": 23668,
+      "role": "exported-card-geometry"
+    },
+    {
+      "path": "renders/hero.png",
+      "sha256": "813bae26c53b164792ca18bdee9e371596c4bf3d10ef030508f7fa76d0ddf4db",
+      "bytes": 2738181,
+      "width": 1080,
+      "height": 1500,
+      "mode": "RGBA",
+      "role": "offline-blender-render"
+    }
+  ],
+  "parameters": {
+    "status": "tested-in-web-viewer",
+    "subjectScale": 1,
+    "subjectDepth": 0.14,
+    "backgroundDepth": -0.08,
+    "effectsScale": 1.05,
+    "effectsDepth": 0.28,
+    "foil": 0.3,
+    "safeArea": {
+      "scale": 1.04,
+      "offset": [
+        0,
+        0
+      ]
+    }
+  },
+  "implementedAnimations": [
+    "RuiC viewer auto card motion; angel group, five people, dog and support platform stay fixed within their image plane"
+  ],
+  "plannedAnimations": [],
+  "checks": {
+    "assets": {
+      "status": "passed",
+      "timestamp": "2026-09-17",
+      "reportPath": "asset-validation.json",
+      "conclusion": "all five layers share 1024×1536; required RGBA layers contain true transparency and visible pixels"
+    },
+    "manualVisual": {
+      "status": "passed",
+      "timestamp": "2026-09-17",
+      "evidence": [
+        "layer-composite.png",
+        "renders/hero.png",
+        "verification/01-desktop-front.png",
+        "verification/04-tilt-right.png",
+        "verification/05-tilt-left.png",
+        "verification-320/14-mobile-320.png"
+      ],
+      "conclusion": "no green fringe, duplicate angel/figures, detached dog or failed snowy support platform observed; 320px remains legible"
+    },
+    "blender": {
+      "status": "passed",
+      "timestamp": "2026-09-17",
+      "version": "5.2.2 LTS",
+      "renderPath": "renders/hero.png"
+    },
+    "webDesktop390": {
+      "status": "passed",
+      "timestamp": "2026-09-17",
+      "reportPath": "verification/report.json",
+      "summary": "33/33 real WebGL checks including desktop and 390px"
+    },
+    "web320": {
+      "status": "passed",
+      "timestamp": "2026-09-17",
+      "reportPath": "verification-320/report.json",
+      "summary": "33/33 real WebGL checks including 320px"
+    },
+    "android": "not-run",
+    "fiveSlotThumbnailComparison": "not-run; full five-slot comparison belongs after the base slot is completed",
+    "zeroParallaxComposite": {
+      "status": "passed",
+      "path": "layer-composite.png"
+    },
+    "blackWhiteGrayAlpha": "not-run; source production record documents alpha derivation but dedicated black/white/gray screenshot review remains",
+    "extremeTiltFourDirections": "partial; automatic horizontal and vertical drag checks passed, with manual right/left screenshots; dedicated four-direction image review remains"
+  },
+  "knownIssues": [
+    "User aesthetic review pending.",
+    "Offline Blender compositor is not pixel-identical to browser GLSL material.",
+    "Five-slot comparison, black/white/gray alpha inspection and dedicated four-direction extreme-tilt image review remain."
+  ],
+  "nextAction": "用户统一审美验收；技术与当前整改项复验已完成。",
+  "deployment": "not-deployed",
+  "recordInstructions": {
+    "inputs": "每项填写实际 path、sha256、role，不填写猜测或未来文件。",
+    "generationRuns": "每次填写 tool、timestamp、callId或null、完整prompt、inputPaths、outputPaths、采用/失败结论。",
+    "files": "每项填写 path、sha256、bytes、图片width/height/mode与必要alpha统计。",
+    "checks": "填写status、timestamp、reportPath、对应母版/资产哈希及人工结论；未做保持null/not-run。"
+  },
+  "productionGuide": "docs/tarot-v2/cards/major-20.md",
+  "productionDetail": {
+    "composition": "天使左上，五人右下分层站立，犬低处，山口右后",
+    "supportGeometry": "整片雪谷前地坪与足迹保留",
+    "connectedGroup": "天使、双翼与号角一组保留软透明；五人与犬在地面稳定组，若不能可靠多主体分层先同一主层；本主题支撑归属：整片雪谷前地坪与足迹保留",
+    "foilMask": "号角边、羽翼内部稀疏线与地面衣缘",
+    "specificQA": "地面恰好五人一犬；高空一天使两翼一号角；半透明暗部不能被亮度抠图删除",
+    "parameterStatus": "proposed-starting-values-not-verified",
+    "samplePrinciple": "借鉴五样本的完整承接、真实透明、主题材质和极端倾斜复核，不按槽位强行套题材。",
+    "motion": "仅少量前景微光呼吸；主体、核心符号和承重结构不自动相对运动。",
+    "backgroundOwnership": "除主体完整连接组、独立前景和固定框外的环境；必须补全清除区域，不保留重复主体或接触阴影。"
+  },
+  "blocker": null,
+  "previousStatusBefore20261009": "local-holo-verified-awaiting-user-review",
+  "currentProject": "output/tarot-progression/v2/major-20/theme-03/repair-project-v02",
+  "repairRevision": {
+    "date": "2026-10-09",
+    "revision": "repair-20261009",
+    "project": "output/tarot-progression/v2/major-20/theme-03/repair-project-v02",
+    "previousProject": "output/tarot-progression/v2/major-20/theme-03",
+    "originalAuditPriority": "未列单卡整改",
+    "resolvedFindings": [],
+    "changedLayers": {},
+    "verification": "output/tarot-progression/v2/major-20/theme-03/repair-project-v02/repair-verification.json",
+    "report": "output/tarot-progression/v2/repair-20261009/REPORT.md"
+  }
+}

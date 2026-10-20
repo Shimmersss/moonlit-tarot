@@ -1,0 +1,8 @@
+# 星桥远征 · 母版生图记录
+
+## 2026-09-21
+
+- 输入身份/画风参考：`front/public/tarot/major-07.webp`，已实际查看，SHA-256 `9809c5f9e876096fa74702e5eb137d16b3aea3e70c5a21d5e7ba0890dcf424ad`。
+- 工具：内置 `image_gen`。原始生成文件：`~/.codex/generated_images/01a0b490-e687-7b23-81ff-a4b63908f536/exec-9153d6d9-f10c-40d7-9ded-b85c369c6371.png`；保留原件，复制到 `source/master-v01.png`。SHA-256 `5d56a3a92be82fef2d526f859fb2668dbf7abe20371f405799d4b5fe030c5629`；1024×1536，RGB。
+- 完整实际提示词：`Create ONE original opaque 1024x1536 vertical tarot master for The Chariot, theme 星桥远征 / Starbridge Expedition. Use reference only for identity and symbols: exactly ONE dark-haired charioteer in dark indigo-violet cloak, exactly TWO complete horses abreast, WHITE on image LEFT and BLACK on image RIGHT, pulling ONE complete chariot with wheels and visibly connected reins/harness. Invent a science-fantasy scene where the team advances up a PHYSICAL bridge through a luminous nebula. The bridge runs from lower LEFT toward upper RIGHT rear; distant orbital arcs stay behind and never cross driver, horses or reins. Palette midnight blue, violet-gold, white, natural skin. Show full broad bridge deck beneath hooves and wheels, complete near-side railing, thick structural edge and contact shadows continuing to bottom bleed. Both horse heads separated and legs readable. Luxurious painterly tarot illustration with restrained narrow celestial gold frame and layered cosmic depth. One driver, two horses, one chariot only; no floating support, extra animals, writing, title, letters, numbers, watermark or logo. Complete opaque master.`
+- 首轮登记：一位驾车者、左白右黑双马与战车位于实体星桥，桥面、近侧桥栏和厚结构边清楚。未做审美复核。 未进行透明拆层、Blender/GLB、网页或验收；按用户最新要求先继续其他母版生图。

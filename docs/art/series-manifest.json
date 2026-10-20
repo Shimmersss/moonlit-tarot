@@ -1,0 +1,1001 @@
+{
+  "schemaVersion": "tarot-art-series-v2.2",
+  "generatedAt": "2026-09-16",
+  "scope": "21张基础分层 + 84个独立主题；月亮五套及既有候选保留原记录",
+  "totalSlots": 110,
+  "entries": [
+    {
+      "cardId": "major-00",
+      "themeId": "theme-01",
+      "title": "愚者·基础原画分层",
+      "status": "local-repair-verified-awaiting-user-review",
+      "manifest": "output/tarot-progression/v2/major-00/theme-01/manifest.json",
+      "previousStatusBefore20261009": "planned",
+      "currentProject": "output/tarot-progression/v2/major-00/theme-01/repair-project-v02"
+    },
+    {
+      "cardId": "major-00",
+      "themeId": "theme-02",
+      "title": "云鲸初航",
+      "status": "local-repair-verified-awaiting-user-review",
+      "manifest": "output/tarot-progression/v2/major-00/theme-02/manifest.json",
+      "previousStatusBefore20261009": "selected-master",
+      "currentProject": "output/tarot-progression/v2/major-00/theme-02/repair-project-v02"
+    },
+    {
+      "cardId": "major-00",
+      "themeId": "theme-03",
+      "title": "沙海驿客",
+      "status": "local-repair-verified-awaiting-user-review",
+      "manifest": "output/tarot-progression/v2/major-00/theme-03/manifest.json",
+      "previousStatusBefore20261009": "selected-master",
+      "currentProject": "output/tarot-progression/v2/major-00/theme-03/repair-project-v02"
+    },
+    {
+      "cardId": "major-00",
+      "themeId": "theme-04",
+      "title": "极光邮路",
+      "status": "local-repair-verified-awaiting-user-review",
+      "manifest": "output/tarot-progression/v2/major-00/theme-04/manifest.json",
+      "previousStatusBefore20261009": "selected-master",
+      "currentProject": "output/tarot-progression/v2/major-00/theme-04/repair-project-v02"
+    },
+    {
+      "cardId": "major-00",
+      "themeId": "theme-05",
+      "title": "纸界远行",
+      "status": "local-repair-verified-awaiting-user-review",
+      "manifest": "output/tarot-progression/v2/major-00/theme-05/manifest.json",
+      "previousStatusBefore20261009": "selected-master",
+      "currentProject": "output/tarot-progression/v2/major-00/theme-05/repair-project-v02"
+    },
+    {
+      "cardId": "major-01",
+      "themeId": "theme-01",
+      "title": "魔术师·基础原画分层",
+      "status": "local-repair-verified-awaiting-user-review",
+      "manifest": "output/tarot-progression/v2/major-01/theme-01/manifest.json",
+      "previousStatusBefore20261009": "planned",
+      "currentProject": "output/tarot-progression/v2/major-01/theme-01/repair-project-v02"
+    },
+    {
+      "cardId": "major-01",
+      "themeId": "theme-02",
+      "title": "潮汐炼金",
+      "status": "local-repair-verified-awaiting-user-review",
+      "manifest": "output/tarot-progression/v2/major-01/theme-02/manifest.json",
+      "previousStatusBefore20261009": "selected-master",
+      "currentProject": "output/tarot-progression/v2/major-01/theme-02/repair-project-v02"
+    },
+    {
+      "cardId": "major-01",
+      "themeId": "theme-03",
+      "title": "琥珀机坊",
+      "status": "local-repair-verified-awaiting-user-review",
+      "manifest": "output/tarot-progression/v2/major-01/theme-03/manifest.json",
+      "previousStatusBefore20261009": "selected-master",
+      "currentProject": "output/tarot-progression/v2/major-01/theme-03/repair-project-v02"
+    },
+    {
+      "cardId": "major-01",
+      "themeId": "theme-04",
+      "title": "霜晶织术",
+      "status": "local-repair-verified-awaiting-user-review",
+      "manifest": "output/tarot-progression/v2/major-01/theme-04/manifest.json",
+      "previousStatusBefore20261009": "selected-master",
+      "currentProject": "output/tarot-progression/v2/major-01/theme-04/repair-project-v02"
+    },
+    {
+      "cardId": "major-01",
+      "themeId": "theme-05",
+      "title": "星核工房",
+      "status": "local-repair-verified-awaiting-user-review",
+      "manifest": "output/tarot-progression/v2/major-01/theme-05/manifest.json",
+      "previousStatusBefore20261009": "selected-master",
+      "currentProject": "output/tarot-progression/v2/major-01/theme-05/repair-project-v02"
+    },
+    {
+      "cardId": "major-02",
+      "themeId": "theme-01",
+      "title": "女祭司·基础原画分层",
+      "status": "local-repair-verified-awaiting-user-review",
+      "manifest": "output/tarot-progression/v2/major-02/theme-01/manifest.json",
+      "previousStatusBefore20261009": "planned",
+      "currentProject": "output/tarot-progression/v2/major-02/theme-01/repair-project-v02"
+    },
+    {
+      "cardId": "major-02",
+      "themeId": "theme-02",
+      "title": "潮底秘典",
+      "status": "local-repair-verified-awaiting-user-review",
+      "manifest": "output/tarot-progression/v2/major-02/theme-02/manifest.json",
+      "previousStatusBefore20261009": "selected-master",
+      "currentProject": "output/tarot-progression/v2/major-02/theme-02/repair-project-v02"
+    },
+    {
+      "cardId": "major-02",
+      "themeId": "theme-03",
+      "title": "雪寺无声",
+      "status": "local-repair-verified-awaiting-user-review",
+      "manifest": "output/tarot-progression/v2/major-02/theme-03/manifest.json",
+      "previousStatusBefore20261009": "selected-master",
+      "currentProject": "output/tarot-progression/v2/major-02/theme-03/repair-project-v02"
+    },
+    {
+      "cardId": "major-02",
+      "themeId": "theme-04",
+      "title": "墨池藏意",
+      "status": "local-repair-verified-awaiting-user-review",
+      "manifest": "output/tarot-progression/v2/major-02/theme-04/manifest.json",
+      "previousStatusBefore20261009": "selected-master",
+      "currentProject": "output/tarot-progression/v2/major-02/theme-04/repair-project-v02"
+    },
+    {
+      "cardId": "major-02",
+      "themeId": "theme-05",
+      "title": "镜海档案",
+      "status": "local-repair-verified-awaiting-user-review",
+      "manifest": "output/tarot-progression/v2/major-02/theme-05/manifest.json",
+      "previousStatusBefore20261009": "selected-master",
+      "currentProject": "output/tarot-progression/v2/major-02/theme-05/repair-project-v02"
+    },
+    {
+      "cardId": "major-03",
+      "themeId": "theme-01",
+      "title": "皇后·基础原画分层",
+      "status": "local-repair-verified-awaiting-user-review",
+      "manifest": "output/tarot-progression/v2/major-03/theme-01/manifest.json",
+      "previousStatusBefore20261009": "planned",
+      "currentProject": "output/tarot-progression/v2/major-03/theme-01/repair-project-v02"
+    },
+    {
+      "cardId": "major-03",
+      "themeId": "theme-02",
+      "title": "珊瑚丰庭",
+      "status": "local-repair-verified-awaiting-user-review",
+      "manifest": "output/tarot-progression/v2/major-03/theme-02/manifest.json",
+      "previousStatusBefore20261009": "selected-master",
+      "currentProject": "output/tarot-progression/v2/major-03/theme-02/repair-project-v02"
+    },
+    {
+      "cardId": "major-03",
+      "themeId": "theme-03",
+      "title": "秋实庄园",
+      "status": "local-repair-verified-awaiting-user-review",
+      "manifest": "output/tarot-progression/v2/major-03/theme-03/manifest.json",
+      "previousStatusBefore20261009": "selected-master",
+      "currentProject": "output/tarot-progression/v2/major-03/theme-03/repair-project-v02"
+    },
+    {
+      "cardId": "major-03",
+      "themeId": "theme-04",
+      "title": "雪中花房",
+      "status": "local-repair-verified-awaiting-user-review",
+      "manifest": "output/tarot-progression/v2/major-03/theme-04/manifest.json",
+      "previousStatusBefore20261009": "selected-master",
+      "currentProject": "output/tarot-progression/v2/major-03/theme-04/repair-project-v02"
+    },
+    {
+      "cardId": "major-03",
+      "themeId": "theme-05",
+      "title": "浮岛母庭",
+      "status": "local-repair-verified-awaiting-user-review",
+      "manifest": "output/tarot-progression/v2/major-03/theme-05/manifest.json",
+      "previousStatusBefore20261009": "selected-master",
+      "currentProject": "output/tarot-progression/v2/major-03/theme-05/repair-project-v02"
+    },
+    {
+      "cardId": "major-04",
+      "themeId": "theme-01",
+      "title": "皇帝·基础原画分层",
+      "status": "local-repair-verified-awaiting-user-review",
+      "manifest": "output/tarot-progression/v2/major-04/theme-01/manifest.json",
+      "previousStatusBefore20261009": "planned",
+      "currentProject": "output/tarot-progression/v2/major-04/theme-01/repair-project-v02"
+    },
+    {
+      "cardId": "major-04",
+      "themeId": "theme-02",
+      "title": "玄武岩座",
+      "status": "local-repair-verified-awaiting-user-review",
+      "manifest": "output/tarot-progression/v2/major-04/theme-02/manifest.json",
+      "previousStatusBefore20261009": "selected-master",
+      "currentProject": "output/tarot-progression/v2/major-04/theme-02/repair-project-v02"
+    },
+    {
+      "cardId": "major-04",
+      "themeId": "theme-03",
+      "title": "冰岭契约",
+      "status": "local-repair-verified-awaiting-user-review",
+      "manifest": "output/tarot-progression/v2/major-04/theme-03/manifest.json",
+      "previousStatusBefore20261009": "selected-master",
+      "currentProject": "output/tarot-progression/v2/major-04/theme-03/repair-project-v02"
+    },
+    {
+      "cardId": "major-04",
+      "themeId": "theme-04",
+      "title": "沙城基石",
+      "status": "local-repair-verified-awaiting-user-review",
+      "manifest": "output/tarot-progression/v2/major-04/theme-04/manifest.json",
+      "previousStatusBefore20261009": "selected-master",
+      "currentProject": "output/tarot-progression/v2/major-04/theme-04/repair-project-v02"
+    },
+    {
+      "cardId": "major-04",
+      "themeId": "theme-05",
+      "title": "轨道城邦",
+      "status": "local-repair-verified-awaiting-user-review",
+      "manifest": "output/tarot-progression/v2/major-04/theme-05/manifest.json",
+      "previousStatusBefore20261009": "selected-master",
+      "currentProject": "output/tarot-progression/v2/major-04/theme-05/repair-project-v02"
+    },
+    {
+      "cardId": "major-05",
+      "themeId": "theme-01",
+      "title": "教皇·基础原画分层",
+      "status": "local-repair-verified-awaiting-user-review",
+      "manifest": "output/tarot-progression/v2/major-05/theme-01/manifest.json",
+      "previousStatusBefore20261009": "planned",
+      "currentProject": "output/tarot-progression/v2/major-05/theme-01/repair-project-v02"
+    },
+    {
+      "cardId": "major-05",
+      "themeId": "theme-02",
+      "title": "灯塔议会",
+      "status": "local-repair-verified-awaiting-user-review",
+      "manifest": "output/tarot-progression/v2/major-05/theme-02/manifest.json",
+      "previousStatusBefore20261009": "selected-master",
+      "currentProject": "output/tarot-progression/v2/major-05/theme-02/repair-project-v02"
+    },
+    {
+      "cardId": "major-05",
+      "themeId": "theme-03",
+      "title": "沙漠书院",
+      "status": "local-repair-verified-awaiting-user-review",
+      "manifest": "output/tarot-progression/v2/major-05/theme-03/manifest.json",
+      "previousStatusBefore20261009": "selected-master",
+      "currentProject": "output/tarot-progression/v2/major-05/theme-03/repair-project-v02"
+    },
+    {
+      "cardId": "major-05",
+      "themeId": "theme-04",
+      "title": "林间共席",
+      "status": "local-repair-verified-awaiting-user-review",
+      "manifest": "output/tarot-progression/v2/major-05/theme-04/manifest.json",
+      "previousStatusBefore20261009": "selected-master",
+      "currentProject": "output/tarot-progression/v2/major-05/theme-04/repair-project-v02"
+    },
+    {
+      "cardId": "major-05",
+      "themeId": "theme-05",
+      "title": "星际共识",
+      "status": "local-repair-verified-awaiting-user-review",
+      "manifest": "output/tarot-progression/v2/major-05/theme-05/manifest.json",
+      "previousStatusBefore20261009": "selected-master",
+      "currentProject": "output/tarot-progression/v2/major-05/theme-05/repair-project-v02"
+    },
+    {
+      "cardId": "major-06",
+      "themeId": "theme-01",
+      "title": "恋人·基础原画分层",
+      "status": "local-repair-verified-awaiting-user-review",
+      "manifest": "output/tarot-progression/v2/major-06/theme-01/manifest.json",
+      "previousStatusBefore20261009": "planned",
+      "currentProject": "output/tarot-progression/v2/major-06/theme-01/repair-project-v02"
+    },
+    {
+      "cardId": "major-06",
+      "themeId": "theme-02",
+      "title": "潮桥双灯",
+      "status": "local-repair-verified-awaiting-user-review",
+      "manifest": "output/tarot-progression/v2/major-06/theme-02/manifest.json",
+      "previousStatusBefore20261009": "selected-master",
+      "currentProject": "output/tarot-progression/v2/major-06/theme-02/repair-project-v02"
+    },
+    {
+      "cardId": "major-06",
+      "themeId": "theme-03",
+      "title": "雪夜站台",
+      "status": "local-repair-verified-awaiting-user-review",
+      "manifest": "output/tarot-progression/v2/major-06/theme-03/manifest.json",
+      "previousStatusBefore20261009": "selected-master",
+      "currentProject": "output/tarot-progression/v2/major-06/theme-03/repair-project-v02"
+    },
+    {
+      "cardId": "major-06",
+      "themeId": "theme-04",
+      "title": "空中双园",
+      "status": "local-repair-verified-awaiting-user-review",
+      "manifest": "output/tarot-progression/v2/major-06/theme-04/manifest.json",
+      "previousStatusBefore20261009": "selected-master",
+      "currentProject": "output/tarot-progression/v2/major-06/theme-04/repair-project-v02"
+    },
+    {
+      "cardId": "major-06",
+      "themeId": "theme-05",
+      "title": "双星会合",
+      "status": "local-repair-verified-awaiting-user-review",
+      "manifest": "output/tarot-progression/v2/major-06/theme-05/manifest.json",
+      "previousStatusBefore20261009": "selected-master",
+      "currentProject": "output/tarot-progression/v2/major-06/theme-05/repair-project-v02"
+    },
+    {
+      "cardId": "major-07",
+      "themeId": "theme-01",
+      "title": "战车·基础原画分层",
+      "status": "local-repair-verified-awaiting-user-review",
+      "manifest": "output/tarot-progression/v2/major-07/theme-01/manifest.json",
+      "previousStatusBefore20261009": "planned",
+      "currentProject": "output/tarot-progression/v2/major-07/theme-01/repair-project-v02"
+    },
+    {
+      "cardId": "major-07",
+      "themeId": "theme-02",
+      "title": "浪脊御航",
+      "status": "local-repair-verified-awaiting-user-review",
+      "manifest": "output/tarot-progression/v2/major-07/theme-02/manifest.json",
+      "previousStatusBefore20261009": "selected-master",
+      "currentProject": "output/tarot-progression/v2/major-07/theme-02/repair-project-v02"
+    },
+    {
+      "cardId": "major-07",
+      "themeId": "theme-03",
+      "title": "赤沙竞途",
+      "status": "local-repair-verified-awaiting-user-review",
+      "manifest": "output/tarot-progression/v2/major-07/theme-03/manifest.json",
+      "previousStatusBefore20261009": "selected-master",
+      "currentProject": "output/tarot-progression/v2/major-07/theme-03/repair-project-v02"
+    },
+    {
+      "cardId": "major-07",
+      "themeId": "theme-04",
+      "title": "冰原疾行",
+      "status": "local-repair-verified-awaiting-user-review",
+      "manifest": "output/tarot-progression/v2/major-07/theme-04/manifest.json",
+      "previousStatusBefore20261009": "selected-master",
+      "currentProject": "output/tarot-progression/v2/major-07/theme-04/repair-project-v02"
+    },
+    {
+      "cardId": "major-07",
+      "themeId": "theme-05",
+      "title": "星桥远征",
+      "status": "local-repair-verified-awaiting-user-review",
+      "manifest": "output/tarot-progression/v2/major-07/theme-05/manifest.json",
+      "previousStatusBefore20261009": "selected-master",
+      "currentProject": "output/tarot-progression/v2/major-07/theme-05/repair-project-v02"
+    },
+    {
+      "cardId": "major-08",
+      "themeId": "theme-01",
+      "title": "力量·基础原画分层",
+      "status": "local-repair-verified-awaiting-user-review",
+      "manifest": "output/tarot-progression/v2/major-08/theme-01/manifest.json",
+      "previousStatusBefore20261009": "planned",
+      "currentProject": "output/tarot-progression/v2/major-08/theme-01/repair-project-v02"
+    },
+    {
+      "cardId": "major-08",
+      "themeId": "theme-02",
+      "title": "雨林静狮",
+      "status": "local-repair-verified-awaiting-user-review",
+      "manifest": "output/tarot-progression/v2/major-08/theme-02/manifest.json",
+      "previousStatusBefore20261009": "selected-master",
+      "currentProject": "output/tarot-progression/v2/major-08/theme-02/repair-project-v02"
+    },
+    {
+      "cardId": "major-08",
+      "themeId": "theme-03",
+      "title": "雪原暖息",
+      "status": "local-repair-verified-awaiting-user-review",
+      "manifest": "output/tarot-progression/v2/major-08/theme-03/manifest.json",
+      "previousStatusBefore20261009": "selected-master",
+      "currentProject": "output/tarot-progression/v2/major-08/theme-03/repair-project-v02"
+    },
+    {
+      "cardId": "major-08",
+      "themeId": "theme-04",
+      "title": "琉璃花庭",
+      "status": "local-repair-verified-awaiting-user-review",
+      "manifest": "output/tarot-progression/v2/major-08/theme-04/manifest.json",
+      "previousStatusBefore20261009": "selected-master",
+      "currentProject": "output/tarot-progression/v2/major-08/theme-04/repair-project-v02"
+    },
+    {
+      "cardId": "major-08",
+      "themeId": "theme-05",
+      "title": "星兽之憩",
+      "status": "local-repair-verified-awaiting-user-review",
+      "manifest": "output/tarot-progression/v2/major-08/theme-05/manifest.json",
+      "previousStatusBefore20261009": "selected-master",
+      "currentProject": "output/tarot-progression/v2/major-08/theme-05/repair-project-v02"
+    },
+    {
+      "cardId": "major-09",
+      "themeId": "theme-01",
+      "title": "隐士·基础原画分层",
+      "status": "local-repair-verified-awaiting-user-review",
+      "manifest": "output/tarot-progression/v2/major-09/theme-01/manifest.json",
+      "previousStatusBefore20261009": "planned",
+      "currentProject": "output/tarot-progression/v2/major-09/theme-01/repair-project-v02"
+    },
+    {
+      "cardId": "major-09",
+      "themeId": "theme-02",
+      "title": "雾港守灯",
+      "status": "local-repair-verified-awaiting-user-review",
+      "manifest": "output/tarot-progression/v2/major-09/theme-02/manifest.json",
+      "previousStatusBefore20261009": "selected-master",
+      "currentProject": "output/tarot-progression/v2/major-09/theme-02/repair-project-v02"
+    },
+    {
+      "cardId": "major-09",
+      "themeId": "theme-03",
+      "title": "沙夜行者",
+      "status": "local-repair-verified-awaiting-user-review",
+      "manifest": "output/tarot-progression/v2/major-09/theme-03/manifest.json",
+      "previousStatusBefore20261009": "selected-master",
+      "currentProject": "output/tarot-progression/v2/major-09/theme-03/repair-project-v02"
+    },
+    {
+      "cardId": "major-09",
+      "themeId": "theme-04",
+      "title": "雪岭一灯",
+      "status": "local-repair-verified-awaiting-user-review",
+      "manifest": "output/tarot-progression/v2/major-09/theme-04/manifest.json",
+      "previousStatusBefore20261009": "selected-master",
+      "currentProject": "output/tarot-progression/v2/major-09/theme-04/repair-project-v02"
+    },
+    {
+      "cardId": "major-09",
+      "themeId": "theme-05",
+      "title": "星尘档案",
+      "status": "local-repair-verified-awaiting-user-review",
+      "manifest": "output/tarot-progression/v2/major-09/theme-05/manifest.json",
+      "previousStatusBefore20261009": "selected-master",
+      "currentProject": "output/tarot-progression/v2/major-09/theme-05/repair-project-v02"
+    },
+    {
+      "cardId": "major-10",
+      "themeId": "theme-01",
+      "title": "命运之轮·基础原画分层",
+      "status": "local-repair-verified-awaiting-user-review",
+      "manifest": "output/tarot-progression/v2/major-10/theme-01/manifest.json",
+      "previousStatusBefore20261009": "local-holo-verified-awaiting-user-review",
+      "currentProject": "output/tarot-progression/v2/major-10/theme-01/repair-project-v02"
+    },
+    {
+      "cardId": "major-10",
+      "themeId": "theme-02",
+      "title": "潮汐轮盘",
+      "status": "local-repair-verified-awaiting-user-review",
+      "manifest": "output/tarot-progression/v2/major-10/theme-02/manifest.json",
+      "previousStatusBefore20261009": "local-holo-verified-awaiting-user-review",
+      "currentProject": "output/tarot-progression/v2/major-10/theme-02/repair-project-v02"
+    },
+    {
+      "cardId": "major-10",
+      "themeId": "theme-03",
+      "title": "琥珀时轮",
+      "status": "local-repair-verified-awaiting-user-review",
+      "manifest": "output/tarot-progression/v2/major-10/theme-03/manifest.json",
+      "previousStatusBefore20261009": "local-holo-verified-awaiting-user-review",
+      "currentProject": "output/tarot-progression/v2/major-10/theme-03/repair-project-v02"
+    },
+    {
+      "cardId": "major-10",
+      "themeId": "theme-04",
+      "title": "冰火季环",
+      "status": "local-repair-verified-awaiting-user-review",
+      "manifest": "output/tarot-progression/v2/major-10/theme-04/manifest.json",
+      "previousStatusBefore20261009": "selected-master",
+      "currentProject": "output/tarot-progression/v2/major-10/theme-04/repair-project-v02"
+    },
+    {
+      "cardId": "major-10",
+      "themeId": "theme-05",
+      "title": "宇宙回环",
+      "status": "local-repair-verified-awaiting-user-review",
+      "manifest": "output/tarot-progression/v2/major-10/theme-05/manifest.json",
+      "previousStatusBefore20261009": "selected-master",
+      "currentProject": "output/tarot-progression/v2/major-10/theme-05/repair-project-v02"
+    },
+    {
+      "cardId": "major-11",
+      "themeId": "theme-01",
+      "title": "正义·基础原画分层",
+      "status": "local-repair-verified-awaiting-user-review",
+      "manifest": "output/tarot-progression/v2/major-11/theme-01/manifest.json",
+      "previousStatusBefore20261009": "planned",
+      "currentProject": "output/tarot-progression/v2/major-11/theme-01/repair-project-v02"
+    },
+    {
+      "cardId": "major-11",
+      "themeId": "theme-02",
+      "title": "潮镜天平",
+      "status": "local-repair-verified-awaiting-user-review",
+      "manifest": "output/tarot-progression/v2/major-11/theme-02/manifest.json",
+      "previousStatusBefore20261009": "selected-master",
+      "currentProject": "output/tarot-progression/v2/major-11/theme-02/repair-project-v02"
+    },
+    {
+      "cardId": "major-11",
+      "themeId": "theme-03",
+      "title": "雪庭衡光",
+      "status": "local-repair-verified-awaiting-user-review",
+      "manifest": "output/tarot-progression/v2/major-11/theme-03/manifest.json",
+      "previousStatusBefore20261009": "selected-master",
+      "currentProject": "output/tarot-progression/v2/major-11/theme-03/repair-project-v02"
+    },
+    {
+      "cardId": "major-11",
+      "themeId": "theme-04",
+      "title": "墨玉裁衡",
+      "status": "local-repair-verified-awaiting-user-review",
+      "manifest": "output/tarot-progression/v2/major-11/theme-04/manifest.json",
+      "previousStatusBefore20261009": "selected-master",
+      "currentProject": "output/tarot-progression/v2/major-11/theme-04/repair-project-v02"
+    },
+    {
+      "cardId": "major-11",
+      "themeId": "theme-05",
+      "title": "星轨公衡",
+      "status": "local-repair-verified-awaiting-user-review",
+      "manifest": "output/tarot-progression/v2/major-11/theme-05/manifest.json",
+      "previousStatusBefore20261009": "selected-master",
+      "currentProject": "output/tarot-progression/v2/major-11/theme-05/repair-project-v02"
+    },
+    {
+      "cardId": "major-12",
+      "themeId": "theme-01",
+      "title": "倒吊人·基础原画分层",
+      "status": "local-repair-verified-awaiting-user-review",
+      "manifest": "output/tarot-progression/v2/major-12/theme-01/manifest.json",
+      "previousStatusBefore20261009": "planned",
+      "currentProject": "output/tarot-progression/v2/major-12/theme-01/repair-project-v02"
+    },
+    {
+      "cardId": "major-12",
+      "themeId": "theme-02",
+      "title": "潮间倒影",
+      "status": "local-repair-verified-awaiting-user-review",
+      "manifest": "output/tarot-progression/v2/major-12/theme-02/manifest.json",
+      "previousStatusBefore20261009": "selected-master",
+      "currentProject": "output/tarot-progression/v2/major-12/theme-02/repair-project-v02"
+    },
+    {
+      "cardId": "major-12",
+      "themeId": "theme-03",
+      "title": "雪林悬思",
+      "status": "local-repair-verified-awaiting-user-review",
+      "manifest": "output/tarot-progression/v2/major-12/theme-03/manifest.json",
+      "previousStatusBefore20261009": "selected-master",
+      "currentProject": "output/tarot-progression/v2/major-12/theme-03/repair-project-v02"
+    },
+    {
+      "cardId": "major-12",
+      "themeId": "theme-04",
+      "title": "纸境换位",
+      "status": "local-repair-verified-awaiting-user-review",
+      "manifest": "output/tarot-progression/v2/major-12/theme-04/manifest.json",
+      "previousStatusBefore20261009": "selected-master",
+      "currentProject": "output/tarot-progression/v2/major-12/theme-04/repair-project-v02"
+    },
+    {
+      "cardId": "major-12",
+      "themeId": "theme-05",
+      "title": "重力花园",
+      "status": "local-repair-verified-awaiting-user-review",
+      "manifest": "output/tarot-progression/v2/major-12/theme-05/manifest.json",
+      "previousStatusBefore20261009": "selected-master",
+      "currentProject": "output/tarot-progression/v2/major-12/theme-05/repair-project-v02"
+    },
+    {
+      "cardId": "major-13",
+      "themeId": "theme-01",
+      "title": "死神·基础原画分层",
+      "status": "local-repair-verified-awaiting-user-review",
+      "manifest": "output/tarot-progression/v2/major-13/theme-01/manifest.json",
+      "previousStatusBefore20261009": "planned",
+      "currentProject": "output/tarot-progression/v2/major-13/theme-01/repair-project-v02"
+    },
+    {
+      "cardId": "major-13",
+      "themeId": "theme-02",
+      "title": "霜尽鹿门",
+      "status": "local-repair-verified-awaiting-user-review",
+      "manifest": "output/tarot-progression/v2/major-13/theme-02/manifest.json",
+      "previousStatusBefore20261009": "selected-master",
+      "currentProject": "output/tarot-progression/v2/major-13/theme-02/repair-project-v02"
+    },
+    {
+      "cardId": "major-13",
+      "themeId": "theme-03",
+      "title": "灰烬新庭",
+      "status": "local-repair-verified-awaiting-user-review",
+      "manifest": "output/tarot-progression/v2/major-13/theme-03/manifest.json",
+      "previousStatusBefore20261009": "selected-master",
+      "currentProject": "output/tarot-progression/v2/major-13/theme-03/repair-project-v02"
+    },
+    {
+      "cardId": "major-13",
+      "themeId": "theme-04",
+      "title": "珊瑚蜕境",
+      "status": "local-repair-verified-awaiting-user-review",
+      "manifest": "output/tarot-progression/v2/major-13/theme-04/manifest.json",
+      "previousStatusBefore20261009": "selected-master",
+      "currentProject": "output/tarot-progression/v2/major-13/theme-04/repair-project-v02"
+    },
+    {
+      "cardId": "major-13",
+      "themeId": "theme-05",
+      "title": "星骸新生",
+      "status": "local-repair-verified-awaiting-user-review",
+      "manifest": "output/tarot-progression/v2/major-13/theme-05/manifest.json",
+      "previousStatusBefore20261009": "selected-master",
+      "currentProject": "output/tarot-progression/v2/major-13/theme-05/repair-project-v02"
+    },
+    {
+      "cardId": "major-14",
+      "themeId": "theme-01",
+      "title": "节制·基础原画分层",
+      "status": "local-repair-verified-awaiting-user-review",
+      "manifest": "output/tarot-progression/v2/major-14/theme-01/manifest.json",
+      "previousStatusBefore20261009": "planned",
+      "currentProject": "output/tarot-progression/v2/major-14/theme-01/repair-project-v02"
+    },
+    {
+      "cardId": "major-14",
+      "themeId": "theme-02",
+      "title": "温泉双流",
+      "status": "local-repair-verified-awaiting-user-review",
+      "manifest": "output/tarot-progression/v2/major-14/theme-02/manifest.json",
+      "previousStatusBefore20261009": "selected-master",
+      "currentProject": "output/tarot-progression/v2/major-14/theme-02/repair-project-v02"
+    },
+    {
+      "cardId": "major-14",
+      "themeId": "theme-03",
+      "title": "沙洲调和",
+      "status": "local-repair-verified-awaiting-user-review",
+      "manifest": "output/tarot-progression/v2/major-14/theme-03/manifest.json",
+      "previousStatusBefore20261009": "selected-master",
+      "currentProject": "output/tarot-progression/v2/major-14/theme-03/repair-project-v02"
+    },
+    {
+      "cardId": "major-14",
+      "themeId": "theme-04",
+      "title": "雨林水庭",
+      "status": "local-repair-verified-awaiting-user-review",
+      "manifest": "output/tarot-progression/v2/major-14/theme-04/manifest.json",
+      "previousStatusBefore20261009": "selected-master",
+      "currentProject": "output/tarot-progression/v2/major-14/theme-04/repair-project-v02"
+    },
+    {
+      "cardId": "major-14",
+      "themeId": "theme-05",
+      "title": "星河调律",
+      "status": "local-repair-verified-awaiting-user-review",
+      "manifest": "output/tarot-progression/v2/major-14/theme-05/manifest.json",
+      "previousStatusBefore20261009": "selected-master",
+      "currentProject": "output/tarot-progression/v2/major-14/theme-05/repair-project-v02"
+    },
+    {
+      "cardId": "major-15",
+      "themeId": "theme-01",
+      "title": "恶魔·基础原画分层",
+      "status": "local-repair-verified-awaiting-user-review",
+      "manifest": "output/tarot-progression/v2/major-15/theme-01/manifest.json",
+      "previousStatusBefore20261009": "planned",
+      "currentProject": "output/tarot-progression/v2/major-15/theme-01/repair-project-v02"
+    },
+    {
+      "cardId": "major-15",
+      "themeId": "theme-02",
+      "title": "绯幕剧场",
+      "status": "local-repair-verified-awaiting-user-review",
+      "manifest": "output/tarot-progression/v2/major-15/theme-02/manifest.json",
+      "previousStatusBefore20261009": "selected-master",
+      "currentProject": "output/tarot-progression/v2/major-15/theme-02/repair-project-v02"
+    },
+    {
+      "cardId": "major-15",
+      "themeId": "theme-03",
+      "title": "琉璃迷宫",
+      "status": "local-repair-verified-awaiting-user-review",
+      "manifest": "output/tarot-progression/v2/major-15/theme-03/manifest.json",
+      "previousStatusBefore20261009": "selected-master",
+      "currentProject": "output/tarot-progression/v2/major-15/theme-03/repair-project-v02"
+    },
+    {
+      "cardId": "major-15",
+      "themeId": "theme-04",
+      "title": "蔷薇夜宴",
+      "status": "local-repair-verified-awaiting-user-review",
+      "manifest": "output/tarot-progression/v2/major-15/theme-04/manifest.json",
+      "previousStatusBefore20261009": "selected-master",
+      "currentProject": "output/tarot-progression/v2/major-15/theme-04/repair-project-v02"
+    },
+    {
+      "cardId": "major-15",
+      "themeId": "theme-05",
+      "title": "霓城出口",
+      "status": "local-repair-verified-awaiting-user-review",
+      "manifest": "output/tarot-progression/v2/major-15/theme-05/manifest.json",
+      "previousStatusBefore20261009": "selected-master",
+      "currentProject": "output/tarot-progression/v2/major-15/theme-05/repair-project-v02"
+    },
+    {
+      "cardId": "major-16",
+      "themeId": "theme-01",
+      "title": "高塔·基础原画分层",
+      "status": "local-repair-verified-awaiting-user-review",
+      "manifest": "output/tarot-progression/v2/major-16/theme-01/manifest.json",
+      "previousStatusBefore20261009": "planned",
+      "currentProject": "output/tarot-progression/v2/major-16/theme-01/repair-project-v02"
+    },
+    {
+      "cardId": "major-16",
+      "themeId": "theme-02",
+      "title": "潮塔裂光",
+      "status": "local-repair-verified-awaiting-user-review",
+      "manifest": "output/tarot-progression/v2/major-16/theme-02/manifest.json",
+      "previousStatusBefore20261009": "selected-master",
+      "currentProject": "output/tarot-progression/v2/major-16/theme-02/repair-project-v02"
+    },
+    {
+      "cardId": "major-16",
+      "themeId": "theme-03",
+      "title": "冰塔解构",
+      "status": "local-repair-verified-awaiting-user-review",
+      "manifest": "output/tarot-progression/v2/major-16/theme-03/manifest.json",
+      "previousStatusBefore20261009": "selected-master",
+      "currentProject": "output/tarot-progression/v2/major-16/theme-03/repair-project-v02"
+    },
+    {
+      "cardId": "major-16",
+      "themeId": "theme-04",
+      "title": "沙塔新基",
+      "status": "local-repair-verified-awaiting-user-review",
+      "manifest": "output/tarot-progression/v2/major-16/theme-04/manifest.json",
+      "previousStatusBefore20261009": "selected-master",
+      "currentProject": "output/tarot-progression/v2/major-16/theme-04/repair-project-v02"
+    },
+    {
+      "cardId": "major-16",
+      "themeId": "theme-05",
+      "title": "天穹重构",
+      "status": "local-repair-verified-awaiting-user-review",
+      "manifest": "output/tarot-progression/v2/major-16/theme-05/manifest.json",
+      "previousStatusBefore20261009": "selected-master",
+      "currentProject": "output/tarot-progression/v2/major-16/theme-05/repair-project-v02"
+    },
+    {
+      "cardId": "major-17",
+      "themeId": "theme-01",
+      "title": "星星·基础原画分层",
+      "status": "local-repair-verified-awaiting-user-review",
+      "manifest": "output/tarot-progression/v2/major-17/theme-01/manifest.json",
+      "previousStatusBefore20261009": "planned",
+      "currentProject": "output/tarot-progression/v2/major-17/theme-01/repair-project-v02"
+    },
+    {
+      "cardId": "major-17",
+      "themeId": "theme-02",
+      "title": "珊瑚星泉",
+      "status": "local-repair-verified-awaiting-user-review",
+      "manifest": "output/tarot-progression/v2/major-17/theme-02/manifest.json",
+      "previousStatusBefore20261009": "selected-master",
+      "currentProject": "output/tarot-progression/v2/major-17/theme-02/repair-project-v02"
+    },
+    {
+      "cardId": "major-17",
+      "themeId": "theme-03",
+      "title": "雪融星溪",
+      "status": "local-repair-verified-awaiting-user-review",
+      "manifest": "output/tarot-progression/v2/major-17/theme-03/manifest.json",
+      "previousStatusBefore20261009": "selected-master",
+      "currentProject": "output/tarot-progression/v2/major-17/theme-03/repair-project-v02"
+    },
+    {
+      "cardId": "major-17",
+      "themeId": "theme-04",
+      "title": "荒园复苏",
+      "status": "local-repair-verified-awaiting-user-review",
+      "manifest": "output/tarot-progression/v2/major-17/theme-04/manifest.json",
+      "previousStatusBefore20261009": "selected-master",
+      "currentProject": "output/tarot-progression/v2/major-17/theme-04/repair-project-v02"
+    },
+    {
+      "cardId": "major-17",
+      "themeId": "theme-05",
+      "title": "星云温室",
+      "status": "local-repair-verified-awaiting-user-review",
+      "manifest": "output/tarot-progression/v2/major-17/theme-05/manifest.json",
+      "previousStatusBefore20261009": "selected-master",
+      "currentProject": "output/tarot-progression/v2/major-17/theme-05/repair-project-v02"
+    },
+    {
+      "cardId": "major-18",
+      "themeId": "theme-01",
+      "title": null,
+      "status": "local-repair-verified-awaiting-user-review",
+      "manifest": "output/tarot-progression/v2/major-18/theme-01/manifest.json",
+      "previousStatusBefore20261009": "local-repair-verified-awaiting-user-review",
+      "currentProject": "output/tarot-progression/v2/major-18/theme-01/repair-project-v02"
+    },
+    {
+      "cardId": "major-18",
+      "themeId": "theme-02",
+      "title": null,
+      "status": "local-repair-verified-awaiting-user-review",
+      "manifest": "output/tarot-progression/v2/major-18/theme-02/manifest.json",
+      "previousStatusBefore20261009": "local-holo-verified",
+      "currentProject": "output/tarot-progression/v2/major-18/theme-02/repair-project-v02"
+    },
+    {
+      "cardId": "major-18",
+      "themeId": "theme-03",
+      "title": null,
+      "status": "local-repair-verified-awaiting-user-review",
+      "manifest": "output/tarot-progression/v2/major-18/theme-03/manifest.json",
+      "previousStatusBefore20261009": "local-repair-verified-awaiting-user-review",
+      "currentProject": "output/tarot-progression/v2/major-18/theme-03/repair-project-v02"
+    },
+    {
+      "cardId": "major-18",
+      "themeId": "theme-04",
+      "title": null,
+      "status": "local-repair-verified-awaiting-user-review",
+      "manifest": "output/tarot-progression/v2/major-18/theme-04/manifest.json",
+      "previousStatusBefore20261009": "local-repair-verified-awaiting-user-review",
+      "currentProject": "output/tarot-progression/v2/major-18/theme-04/repair-project-v02"
+    },
+    {
+      "cardId": "major-18",
+      "themeId": "theme-05",
+      "title": null,
+      "status": "local-repair-verified-awaiting-user-review",
+      "manifest": "output/tarot-progression/v2/major-18/theme-05/manifest.json",
+      "previousStatusBefore20261009": "local-repair-verified-awaiting-user-review",
+      "currentProject": "output/tarot-progression/v2/major-18/theme-05/repair-project-v02"
+    },
+    {
+      "cardId": "major-19",
+      "themeId": "theme-01",
+      "title": "太阳·基础原画分层",
+      "status": "local-repair-verified-awaiting-user-review",
+      "manifest": "output/tarot-progression/v2/major-19/theme-01/manifest.json",
+      "previousStatusBefore20261009": "needs-rework",
+      "currentProject": "output/tarot-progression/v2/major-19/theme-01/repair-project-v02"
+    },
+    {
+      "cardId": "major-19",
+      "themeId": "theme-02",
+      "title": "晨海花骑",
+      "status": "local-repair-verified-awaiting-user-review",
+      "manifest": "output/tarot-progression/v2/major-19/theme-02/manifest.json",
+      "previousStatusBefore20261009": "local-holo-verified-awaiting-user-review",
+      "currentProject": "output/tarot-progression/v2/major-19/theme-02/repair-project-v02"
+    },
+    {
+      "cardId": "major-19",
+      "themeId": "theme-03",
+      "title": "雪国暖阳",
+      "status": "local-repair-verified-awaiting-user-review",
+      "manifest": "output/tarot-progression/v2/major-19/theme-03/manifest.json",
+      "previousStatusBefore20261009": "local-holo-verified-awaiting-user-review",
+      "currentProject": "output/tarot-progression/v2/major-19/theme-03/repair-project-v02"
+    },
+    {
+      "cardId": "major-19",
+      "themeId": "theme-04",
+      "title": "丰收游园",
+      "status": "local-repair-verified-awaiting-user-review",
+      "manifest": "output/tarot-progression/v2/major-19/theme-04/manifest.json",
+      "previousStatusBefore20261009": "local-holo-verified-awaiting-user-review",
+      "currentProject": "output/tarot-progression/v2/major-19/theme-04/repair-project-v02"
+    },
+    {
+      "cardId": "major-19",
+      "themeId": "theme-05",
+      "title": "云上晴城",
+      "status": "local-repair-verified-awaiting-user-review",
+      "manifest": "output/tarot-progression/v2/major-19/theme-05/manifest.json",
+      "previousStatusBefore20261009": "local-holo-verified-awaiting-user-review",
+      "currentProject": "output/tarot-progression/v2/major-19/theme-05/repair-project-v02"
+    },
+    {
+      "cardId": "major-20",
+      "themeId": "theme-01",
+      "title": "审判·基础原画分层",
+      "status": "local-repair-verified-awaiting-user-review",
+      "manifest": "output/tarot-progression/v2/major-20/theme-01/manifest.json",
+      "previousStatusBefore20261009": "planned",
+      "currentProject": "output/tarot-progression/v2/major-20/theme-01/repair-project-v02"
+    },
+    {
+      "cardId": "major-20",
+      "themeId": "theme-02",
+      "title": "潮声苏醒",
+      "status": "local-repair-verified-awaiting-user-review",
+      "manifest": "output/tarot-progression/v2/major-20/theme-02/manifest.json",
+      "previousStatusBefore20261009": "local-holo-verified-awaiting-user-review",
+      "currentProject": "output/tarot-progression/v2/major-20/theme-02/repair-project-v02"
+    },
+    {
+      "cardId": "major-20",
+      "themeId": "theme-03",
+      "title": "雪谷回响",
+      "status": "local-repair-verified-awaiting-user-review",
+      "manifest": "output/tarot-progression/v2/major-20/theme-03/manifest.json",
+      "previousStatusBefore20261009": "local-holo-verified-awaiting-user-review",
+      "currentProject": "output/tarot-progression/v2/major-20/theme-03/repair-project-v02"
+    },
+    {
+      "cardId": "major-20",
+      "themeId": "theme-04",
+      "title": "荒城破晓",
+      "status": "local-repair-verified-awaiting-user-review",
+      "manifest": "output/tarot-progression/v2/major-20/theme-04/manifest.json",
+      "previousStatusBefore20261009": "needs-rework",
+      "currentProject": "output/tarot-progression/v2/major-20/theme-04/repair-project-v02"
+    },
+    {
+      "cardId": "major-20",
+      "themeId": "theme-05",
+      "title": "群星应答",
+      "status": "local-repair-verified-awaiting-user-review",
+      "manifest": "output/tarot-progression/v2/major-20/theme-05/manifest.json",
+      "previousStatusBefore20261009": "local-holo-verified-awaiting-user-review",
+      "currentProject": "output/tarot-progression/v2/major-20/theme-05/repair-project-v02"
+    },
+    {
+      "cardId": "major-21",
+      "themeId": "theme-01",
+      "title": "世界·基础原画分层",
+      "status": "local-repair-verified-awaiting-user-review",
+      "manifest": "output/tarot-progression/v2/major-21/theme-01/manifest.json",
+      "previousStatusBefore20261009": "planned",
+      "currentProject": "output/tarot-progression/v2/major-21/theme-01/repair-project-v02"
+    },
+    {
+      "cardId": "major-21",
+      "themeId": "theme-02",
+      "title": "珊瑚圆舞",
+      "status": "local-repair-verified-awaiting-user-review",
+      "manifest": "output/tarot-progression/v2/major-21/theme-02/manifest.json",
+      "previousStatusBefore20261009": "selected-master",
+      "currentProject": "output/tarot-progression/v2/major-21/theme-02/repair-project-v02"
+    },
+    {
+      "cardId": "major-21",
+      "themeId": "theme-03",
+      "title": "四季织锦",
+      "status": "local-repair-verified-awaiting-user-review",
+      "manifest": "output/tarot-progression/v2/major-21/theme-03/manifest.json",
+      "previousStatusBefore20261009": "selected-master",
+      "currentProject": "output/tarot-progression/v2/major-21/theme-03/repair-project-v02"
+    },
+    {
+      "cardId": "major-21",
+      "themeId": "theme-04",
+      "title": "琉璃万园",
+      "status": "local-repair-verified-awaiting-user-review",
+      "manifest": "output/tarot-progression/v2/major-21/theme-04/manifest.json",
+      "previousStatusBefore20261009": "selected-master",
+      "currentProject": "output/tarot-progression/v2/major-21/theme-04/repair-project-v02"
+    },
+    {
+      "cardId": "major-21",
+      "themeId": "theme-05",
+      "title": "万象归环",
+      "status": "local-repair-verified-awaiting-user-review",
+      "manifest": "output/tarot-progression/v2/major-21/theme-05/manifest.json",
+      "previousStatusBefore20261009": "selected-master",
+      "currentProject": "output/tarot-progression/v2/major-21/theme-05/repair-project-v02"
+    }
+  ],
+  "deployment": "not-deployed",
+  "currentRevision": "repair-20261009",
+  "repairReport": "output/tarot-progression/v2/repair-20261009/REPORT.md"
+}

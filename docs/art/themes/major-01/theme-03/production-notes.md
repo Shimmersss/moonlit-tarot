@@ -1,0 +1,8 @@
+# 琥珀机坊 · 母版生图记录
+
+## 2026-09-18
+
+- 输入身份/画风参考：`front/public/tarot/major-01.webp`，已实际查看，SHA-256 `c1b401d55b51222ed47622a88599d0ab614666cc1bdeeffcdd898f414b367e76`。
+- 工具：内置 `image_gen`。原始生成文件：`~/.codex/generated_images/01a0b490-e687-7b23-81ff-a4b63908f536/exec-fd4f0fae-cb23-4684-92f4-475aff3e863c.png`；保留原件，复制到 `source/master-v01.png`。SHA-256 `361d05b977491cbfe3f1d164959ad4eceb49f9cb7553478d391ca8c40b608910`；1024×1536，RGB。
+- 完整实际提示词：`Create ONE original full-frame opaque 1024x1536 vertical tarot master for The Magician, theme 琥珀机坊 / Amber Clockwork Atelier. Use the attached original only for identity: exactly one elegant black-haired magician in dark robe with ivory sleeves, and exactly one black cat; clear raised and downward directing hands. FOUR unique tools on the worktable, all clearly separate and legible: wand, chalice, sword and pentacle disc. New composition: three-quarter SIDE VIEW inside a sunlit clockwork greenhouse, magician right of center, large amber gear window in left background, dense but orderly plants and brass mechanisms. Cat rests on a dry stable table edge. Main worktable, legs and workshop floor visibly connect and extend to the bottom bleed with physical contact shadows. Palette warm amber, deep forest green, aged brass; refined painterly fantasy tarot art, atmospheric depth, fine narrow celestial gold border. Tool silhouettes must not overlap hands or each other. No second person or cat, no duplicated implement, no cropped essential support, no letters, title, numbers, watermark or logo. Deliver one opaque full-frame master image.`
+- 首轮目视：左后齿轮窗、偏右人物、黑猫及台面四工具清楚，台脚与地坪完整。仅执行者选定母版，未做用户审美复核。 未进行透明拆层、Blender/GLB、网页或验收；按用户最新要求先继续其他母版生图。

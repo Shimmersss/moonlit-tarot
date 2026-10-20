@@ -1,0 +1,8 @@
+# 浪脊御航 · 母版生图记录
+
+## 2026-09-21
+
+- 输入身份/画风参考：`front/public/tarot/major-07.webp`，已实际查看，SHA-256 `9809c5f9e876096fa74702e5eb137d16b3aea3e70c5a21d5e7ba0890dcf424ad`。
+- 工具：内置 `image_gen`。原始生成文件：`~/.codex/generated_images/01a0b490-e687-7b23-81ff-a4b63908f536/exec-bf91807f-d3b7-4fa9-bd0e-a2044eed375b.png`；保留原件，复制到 `source/master-v01.png`。SHA-256 `8d48f9e541d29e266c6c0dacdcc1c5a59230cff23210b832a72d69630d683e82`；1024×1536，RGB。
+- 完整实际提示词：`Create ONE original opaque 1024x1536 vertical tarot master for The Chariot, theme 浪脊御航 / Wave-Ridge Voyage. Use the attached original only as identity and symbol reference: exactly ONE dark-haired charioteer in deep indigo cloak holding complete reins, exactly TWO horses abreast, WHITE horse on image LEFT and BLACK horse on image RIGHT, attached to ONE substantial chariot with visible wheels and harness connections. New sea setting: frontal three-quarter view as the team advances on a wide shallow-sea stone causeway, ocean waves rising beside the road but NEVER covering or merging with any horse leg. Palette ocean blue, clean white, restrained gold, natural skin. Show all horse heads separated, all essential legs and hooves readable, reins connected from hands to both bridles. The causeway's complete near section and hoof contact plane extend continuously to bottom bleed; no tiny floating stones. Refined hand-painted fantasy tarot, narrow celestial gold border, strong near/mid/far depth. One charioteer, two horses only, one chariot. No letters, title, numbers, watermark or logo. Full opaque master for later layering.`
+- 首轮登记：一位驾车者、左白右黑双马、战车、缰具和完整浅海石堤可辨；海浪位于道路两侧。未做审美复核。 未进行透明拆层、Blender/GLB、网页或验收；按用户最新要求先继续其他母版生图。

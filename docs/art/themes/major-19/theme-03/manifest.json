@@ -1,0 +1,279 @@
+{
+  "schemaVersion": "tarot-art-production-v2.2",
+  "cardId": "major-19",
+  "themeId": "theme-03",
+  "suggestedSlot": 3,
+  "title": "雪国暖阳",
+  "status": "local-repair-verified-awaiting-user-review",
+  "userReview": "awaiting-user-aesthetic-review",
+  "selectedMaster": {
+    "path": "source/master-v01.png",
+    "sha256": "3c3d4f11d81dfb1eb091895a5a66d82111bf7cda0bd5a241a55708052b561ee4",
+    "width": 1024,
+    "height": 1536,
+    "mode": "RGB",
+    "selection": "人工首检：一名完整冬装孩子、一匹完整白马、张臂笑脸、温室向日葵、雪山、巨大金日和完整石质承重地面可见；未做透明、细部或倾斜验收。"
+  },
+  "inputs": [
+    {
+      "role": "identity-reference",
+      "path": "front/public/tarot/major-19.webp"
+    }
+  ],
+  "generationRuns": [
+    {
+      "tool": "built-in image_gen",
+      "timestamp": "2026-09-16",
+      "callId": "exec-d9152bb4-0d49-42a2-96a3-b60d52e51c8f",
+      "prompt": "Use case: stylized-concept\nAsset type: 1024×1536 portrait master artwork for a layered interactive tarot holographic card, The Sun, theme title “雪国暖阳”.\nPrimary request: Create exactly one joyful, clearly age-appropriate child, fully clothed in a warm saffron winter riding coat, mittens and boots, seated securely on exactly one white horse. The child smiles and holds both arms open. The horse is complete, in clear side profile, with all four hooves visibly and naturally grounded on one broad continuous dry stone garden platform that joins a softly snow-edged foreground; include believable saddle, bridle, reins, riding balance and hoof-contact shadows. A huge warm golden sun rises behind a glass greenhouse filled with sunflowers; snow mountains are distant.\nScene: luminous alpine winter garden, greenhouse just behind the rider, sunflowers inside and around it, unbroken supporting platform through the lower bleed.\nStyle: premium richly detailed painterly fantasy tarot art, crisp readable anatomy and material textures, original composition.\nComposition: vertical 2:3; horse and rider centered slightly left, huge sun upper-right with margin; complete ground structure reaches bottom bleed; 5% safety margin around face, hands, horse ears.\nLighting: clean warm sunrise against icy blue shadows. Palette: snow white, warm gold, sky blue.\nConstraints: exactly one fully clothed child and one complete white horse; no duplicate limbs, faces, animals or suns; no cropped/translucent horse, no floating platform, no exposed torso; no text, border, frame, watermark, checkerboard, or holographic effect baked into the art. The support platform and snow edge must form one connected, solid, broad structure below every hoof.",
+      "inputPaths": [
+        "front/public/tarot/major-19.webp"
+      ],
+      "outputPaths": [
+        "source/master-v01.png"
+      ],
+      "conclusion": "selected as a master candidate; it remains opaque RGB and is not a completed transparent layer or user-approved art"
+    },
+    {
+      "tool": "built-in image_gen",
+      "timestamp": "2026-09-16",
+      "callId": "exec-68551aff-9281-4fc2-aef0-c0289a4ef932",
+      "prompt": "Use case: background-extraction\nAsset type: same-coordinate chroma-key source layer for this exact 1024×1536 snowy Sun tarot master.\nPrimary request: Preserve this image's canvas dimensions and retain the complete connected foreground at exactly its current coordinates and pixels: the fully clothed smiling child, white horse, hair/mane, saddle, bridle, reins, riding contact, all four hooves, hoof shadows, and the full broad connected stone terrace with its natural snow edge beneath every hoof through the lower bleed. Replace every other pixel—greenhouse, sunflowers, snow mountains, sky, huge sun, distant buildings and all other environment—with a single perfectly uniform flat chroma green #00FF00.\nConstraints: do not resize, crop, recenter, redraw, alter pose, add/remove subject elements, alter lighting, or leave background residue. No checkerboard, no gradient, no text, border, watermark, or green outside the exact background. The green must be a single solid deterministic-key color.",
+      "inputPaths": [
+        "source/master-v01.png"
+      ],
+      "outputPaths": [
+        "source/subject-green-v01.png"
+      ],
+      "conclusion": "accepted after visual inspection; key_subject_green.py converted the explicit key source into the final true-alpha subject layer"
+    },
+    {
+      "tool": "built-in image_gen",
+      "timestamp": "2026-09-16",
+      "callId": "exec-159ed08f-a716-4015-ad62-3a6766ae74a5",
+      "prompt": "Use case: precise-object-edit\nAsset type: opaque 1024×1536 background layer for this snowy Sun tarot holographic card.\nInput images: the full snowy Sun master is the edit target; the green-screen source marks the complete foreground group to remove.\nPrimary request: preserve the master’s vertical composition, luminous winter palette, painterly level of detail, greenhouse full of sunflowers, warm huge sun, snow mountains and distant landscape while completely removing the child, white horse, all saddle/bridle/reins, all hooves, shadows, and the entire foreground stone terrace and snow edge. Fill that region naturally as continuous distant winter garden and snowy terrain with no foreground pedestal.\nConstraints: produce a fully opaque RGB background. No child, horse, tack, hooves, cobbles, snow platform, duplicate silhouette, blank gap, text, border, watermark, checkerboard, green screen or transparency. Keep clean background depth and lighting for compositing.",
+      "inputPaths": [
+        "source/master-v01.png",
+        "source/subject-green-v01.png"
+      ],
+      "outputPaths": [
+        "assets/background.png"
+      ],
+      "conclusion": "accepted after manual visual inspection as opaque, subject-free winter background"
+    }
+  ],
+  "layerPlan": {
+    "background": {
+      "objects": [
+        "greenhouse",
+        "sunflowers",
+        "snow mountains",
+        "golden sun",
+        "distant winter landscape"
+      ],
+      "alphaType": "opaque",
+      "removedObjects": [
+        "child-horse-support connected group",
+        "frame"
+      ],
+      "reflectionOwnership": []
+    },
+    "subject": {
+      "objects": [
+        "fully clothed child",
+        "white horse",
+        "saddle and bridle",
+        "continuous stone terrace with snow edge and hoof shadows"
+      ],
+      "rigidGroups": [
+        "child + horse + riding contact + stone terrace + snow edge"
+      ],
+      "alphaType": "rgba",
+      "supportGeometry": [
+        "broad connected stone terrace and snow edge below all hooves"
+      ],
+      "contactShadows": [
+        "hoof contact shadows"
+      ]
+    },
+    "effects": {
+      "objects": [
+        "sparse non-contact snow-glint ovals"
+      ],
+      "alphaType": "rgba"
+    },
+    "text": {
+      "objects": [
+        "frosted-silver and sun-gold narrow border only, no lettering"
+      ],
+      "alphaType": "rgba"
+    },
+    "lineart": {
+      "source": "assets/subject.png",
+      "algorithm": "luminance Sobel magnitude > 125 within alpha > 245; derive_decorative_layers.py",
+      "parameters": {
+        "threshold": 125,
+        "alphaThreshold": 245
+      }
+    }
+  },
+  "files": [
+    {
+      "path": "source/master-v01.png",
+      "sha256": "3c3d4f11d81dfb1eb091895a5a66d82111bf7cda0bd5a241a55708052b561ee4",
+      "bytes": 3249590,
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGB",
+      "role": "selected-master-candidate"
+    },
+    {
+      "path": "source/subject-green-v01.png",
+      "sha256": "23c5e2b1aea3c857749eadbf703ee6d36cfdeaaab42eeb869e08a01643dc41cd",
+      "bytes": 2049920,
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGB",
+      "role": "recorded-chroma-key-source"
+    },
+    {
+      "path": "assets/subject.png",
+      "sha256": "0e8f5229a70b9e9e2615a68f037ec85b98c0c7baa0288b0f6a73f7eb520f8551",
+      "bytes": 1558641,
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "role": "true-alpha-connected-foreground"
+    },
+    {
+      "path": "assets/background.png",
+      "sha256": "746b2f67981ba39a37452b1622e77deccbdec351ded81447d357ac154d462301",
+      "bytes": 3237443,
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGB",
+      "role": "opaque-background"
+    },
+    {
+      "path": "assets/effects.png",
+      "sha256": "fa32d8bd7d4f778ec01f4f8306099cecc401ca0fd7f69ad842c1fca5dd97b08c",
+      "bytes": 11024,
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "role": "independent-effects"
+    },
+    {
+      "path": "assets/text.png",
+      "sha256": "142d90f4d4612050ce0e2a668a946b3c09c5dfcc93b5f70534f7c90a389a73d9",
+      "bytes": 10556,
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "role": "narrow-border"
+    },
+    {
+      "path": "assets/lineart.png",
+      "sha256": "dde96e3ac809aec100da5443e380b8ce37976ddad4340764ba090533d152d338",
+      "bytes": 94967,
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGB",
+      "role": "same-coordinate-derived-lineart"
+    },
+    {
+      "path": "layer-composite.png",
+      "sha256": "6a66523d3716ef74595ad21d59a7d407b0b8a8e8c627c79d69ff9385abe88274",
+      "bytes": 3367286,
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "role": "zero-parallax-composite-evidence"
+    },
+    {
+      "path": "card.blend",
+      "sha256": "d83441f61ff65b02710a28f959985deea733cdb1f55577ae10bd223c76d1674f",
+      "bytes": 4992218,
+      "role": "Blender-project"
+    },
+    {
+      "path": "web/assets/card.glb",
+      "sha256": "fab47e7f4042e640c2a8aee1ff046e71d09312220fd578fcb70c65b7b143cb5e",
+      "bytes": 23668,
+      "role": "webgl-geometry"
+    },
+    {
+      "path": "renders/hero.png",
+      "sha256": "69419e56ed5a2adfe847884ccf58aa58d76d61c3ce1accd375caa045a8b3aa33",
+      "bytes": 2979246,
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "role": "Blender-render-evidence"
+    }
+  ],
+  "parameters": {
+    "subjectScale": 1.0,
+    "subjectDepth": 0.14,
+    "backgroundDepth": -0.08,
+    "effectsScale": 1.05,
+    "effectsDepth": 0.28,
+    "foil": 0.3,
+    "status": "tested in actual WebGL viewer"
+  },
+  "implementedAnimations": [
+    "RuiC viewer auto-card motion; child, horse, riding contact and support terrain remain one foreground layer"
+  ],
+  "plannedAnimations": [],
+  "checks": {
+    "assets": "passed: asset-validation.json; true-alpha subject 53.86% transparent and all declared layers share 1024×1536 canvas",
+    "manualVisual": "passed local hero and browser screenshot review: no visible green fringe at browser viewing scale; all hooves retain broad connected stone/snow support",
+    "blender": "passed: Blender 5.2.2 built card.blend, hero render and GLB; optional legacy compositor glare is unavailable in this Blender API and was skipped",
+    "webDesktop390": "passed: verification/report.json, 33/33 including real WebGL, controls, 390px and reduced motion",
+    "web320": "passed: verification-320/report.json, 33/33 including 320×844 no-overflow and reduced motion",
+    "android": "not-run",
+    "fiveSlotThumbnailComparison": "not-run: remaining Sun slots are not yet produced",
+    "zeroParallaxComposite": "passed: layer-composite.png manually reviewed as a coherent no-parallax composite",
+    "blackWhiteGrayAlpha": "partial: white browser viewer and dark Blender render inspected; dedicated gray-background record not yet made",
+    "extremeTiltFourDirections": "partial: horizontal/vertical interaction passed in automated viewer checks; four-direction screenshot review remains outstanding"
+  },
+  "knownIssues": [
+    "User aesthetic review is pending.",
+    "Blender 5.2 offline rendering omits the old optional compositor glare; browser GLSL foil/glow and WebGL behaviour were verified, but renderers are not pixel-identical.",
+    "Five-slot comparison, dedicated gray alpha view and four-direction tilt screenshots remain before complete Sun-card production sign-off."
+  ],
+  "nextAction": "用户统一审美验收；技术与当前整改项复验已完成。",
+  "deployment": "not-deployed",
+  "recordInstructions": {
+    "inputs": "每项填写实际 path、sha256、role，不填写猜测或未来文件。",
+    "generationRuns": "每次填写 tool、timestamp、callId或null、完整prompt、inputPaths、outputPaths、采用/失败结论。",
+    "files": "每项填写 path、sha256、bytes、图片width/height/mode与必要alpha统计。",
+    "checks": "填写status、timestamp、reportPath、对应母版/资产哈希及人工结论；未做保持null/not-run。"
+  },
+  "productionGuide": "docs/tarot-v2/cards/major-19.md",
+  "productionDetail": {
+    "composition": "马与孩子居中，温室向日葵侧后，雪山远处",
+    "supportGeometry": "温室干燥前地台与足下雪缘一体",
+    "connectedGroup": "孩子、白马、骑乘接触与承重地面整体；花瓣独立；本主题支撑归属：温室干燥前地台与足下雪缘一体",
+    "foilMask": "向日葵花盘、马具与衣缘",
+    "specificQA": "一个孩子一匹白马；张臂、微笑、衣物完整，骑乘重心正确；不以透光删除白马身体",
+    "parameterStatus": "proposed-starting-values-not-verified",
+    "samplePrinciple": "借鉴五样本的完整承接、真实透明、主题材质和极端倾斜复核，不按槽位强行套题材。",
+    "motion": "仅少量前景微光呼吸；主体、核心符号和承重结构不自动相对运动。",
+    "backgroundOwnership": "除主体完整连接组、独立前景和固定框外的环境；必须补全清除区域，不保留重复主体或接触阴影。"
+  },
+  "blocker": null,
+  "previousStatusBefore20261009": "local-holo-verified-awaiting-user-review",
+  "currentProject": "output/tarot-progression/v2/major-19/theme-03/repair-project-v02",
+  "repairRevision": {
+    "date": "2026-10-09",
+    "revision": "repair-20261009",
+    "project": "output/tarot-progression/v2/major-19/theme-03/repair-project-v02",
+    "previousProject": "output/tarot-progression/v2/major-19/theme-03",
+    "originalAuditPriority": "未列单卡整改",
+    "resolvedFindings": [],
+    "changedLayers": {},
+    "verification": "output/tarot-progression/v2/major-19/theme-03/repair-project-v02/repair-verification.json",
+    "report": "output/tarot-progression/v2/repair-20261009/REPORT.md"
+  }
+}

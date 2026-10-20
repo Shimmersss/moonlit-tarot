@@ -1,0 +1,8 @@
+# 星核工房 · 母版生图记录
+
+## 2026-09-18
+
+- 输入身份/画风参考：`front/public/tarot/major-01.webp`，已实际查看，SHA-256 `c1b401d55b51222ed47622a88599d0ab614666cc1bdeeffcdd898f414b367e76`。
+- 工具：内置 `image_gen`。原始生成文件：`~/.codex/generated_images/01a0b490-e687-7b23-81ff-a4b63908f536/exec-c1674de1-6814-4571-9b29-90a1f0a289e3.png`；保留原件，复制到 `source/master-v01.png`。SHA-256 `b3dea51ff604eefbb0cd6ac21d0237968d1a84ffdaf5beb1df1749d817a67923`；1024×1536，RGB。
+- 完整实际提示词：`Create ONE original full-frame opaque 1024x1536 vertical tarot master for The Magician, theme 星核工房 / Stellar Core Workshop. Use reference only to retain the Magician identity: exactly one graceful black-haired figure in dark indigo star robe with ivory sleeves, exactly one black cat. Their upper hand is lifted, lower hand directs toward the center of an annular astronomy worktable. FOUR distinguishable implements arranged along the FRONT ARC of the table without overlap: wand, cup, sword, pentacle disc. Slightly elevated camera looking down at a complete ring table; magician stands behind center, cat in safe near foreground. A deep-space observatory and carefully restrained starlight fill the background. Palette midnight blue, subtle coral gold, clean white. The near half-circle rim and central pedestal must be completely visible, solid, and extend into bottom bleed with contact shadows; avoid a floating ring. Luxurious painterly fantasy tarot with subtle engraved celestial gold frame and clear depth. No extra person, extra cat, extra tools, printed title, text, letters, numbers, watermark, logo. Produce one opaque full-canvas illustration for future layering.`
+- 首轮目视：环形桌前弧四工具、中央脚座、后方施术者和前景黑猫均可辨；图面是深空天文工房。仅执行者选定母版，未做用户审美复核。 未进行透明拆层、Blender/GLB、网页或验收；按用户最新要求先继续其他母版生图。

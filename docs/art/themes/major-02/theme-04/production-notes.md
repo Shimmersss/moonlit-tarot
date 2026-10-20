@@ -1,0 +1,8 @@
+# 墨池藏意 · 母版生图记录
+
+## 2026-09-18
+
+- 输入身份/画风参考：`front/public/tarot/major-02.webp`，已实际查看，SHA-256 `1eea1c4effc42553d069d56dd03b5420c4c16f035c5862ccb9a89c2b1ac25554`。
+- 工具：内置 `image_gen`。原始生成文件：`~/.codex/generated_images/01a0b490-e687-7b23-81ff-a4b63908f536/exec-7de5cf2a-03ff-4daa-9e15-a4f5a1d6a5ac.png`；保留原件，复制到 `source/master-v01.png`。SHA-256 `92b419bfe69c5daf4273377b14b55e7be39338d1c77763f387fc0f406e5ade66`；1024×1536，RGB。
+- 完整实际提示词：`Create ONE original full-frame opaque 1024x1536 vertical fantasy tarot master, High Priestess theme 墨池藏意 / Secrets in the Ink Pool. Use the supplied original as identity reference: exactly one dark-haired veiled priestess with natural hands, one CLOSED book clearly held before her, and a pomegranate branch. New composition: priestess seated slightly RIGHT of center between exactly TWO dark ink-jade columns forming a narrow view. The pomegranate branch is on LEFT. Behind her, a separate still ink pool and receding watercolor mountain silhouettes painted on warm xuan paper. The near black-jade seat and DRY steps must be solid, visibly joined, extending to bottom bleed; water stays behind them. Palette ink black, warm paper white, cinnabar red with very restrained gold line work. Painterly East Asian ink atmosphere blended with tactile fantasy tarot detailing, narrow celestial border. No second person, no open book, no extra columns, no duplicate reflection, no letters or pseudo-text, no title, logo or watermark. Complete opaque 2:3 image for future layering.`
+- 首轮目视：双墨玉柱、略偏右女祭司、左侧石榴枝、闭合书和背景水墨山可见，干燥台阶延伸到底；仅执行者选定母版，未做用户审美复核。 未进行透明拆层、Blender/GLB、网页或验收；按用户最新要求先继续其他母版生图。

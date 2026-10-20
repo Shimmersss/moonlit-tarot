@@ -1,0 +1,8 @@
+# 潮间倒影 · 母版生图记录
+
+## 2026-09-21
+
+- 输入身份/画风参考：`front/public/tarot/major-12.webp`，已实际查看，SHA-256 `df95e729af81d11529b1155e62096ecaae8150308e4a858e006736b5ad4f392e`。
+- 工具：内置 `image_gen`。原始生成文件：`~/.codex/generated_images/01a0b490-e687-7b23-81ff-a4b63908f536/exec-598fd677-3c29-4061-9bc3-623b859de8f8.png`；保留原件，复制到 `source/master-v01.png`。SHA-256 `79f9bb1e6b95d5afac3a8afef69799977ec03976d034145cd593f9f5d40c09bb`；1024×1536，RGB。
+- 完整实际提示词：`Create ONE original opaque 1024x1536 vertical tarot master for The Hanged Man, theme 潮间倒影 / Tidal Reflection. Use attached original only as identity and refined painterly style reference: exactly ONE calm dark-haired person hangs safely HEAD DOWN, ONE ankle clearly tied with a visible rope to a thick flowering seaside tree branch, the other leg bent. The branch crosses the upper edge and remains visibly connected to a complete sturdy trunk, never floating or broken. Place the figure slightly LEFT, leaving a broad tidal pool below; the pool contains ONE physically plausible aligned reflection of the same figure and branch, no second real person. Palette cyan blue, coral pink blossoms, white and deep violet cloth, natural skin. Show serene expression, anatomically coherent hands, both legs and clear rope knot. Solid rock shoreline anchors tree and pool to bottom bleed. Fine celestial gold tarot border, rich hand-painted fantasy atmosphere. No extra person, no severed branch, no typography, title, letters, numbers, watermark or logo. One complete opaque image.`
+- 首轮登记：人物单脚系于相连海边花树枝并平静倒悬，潮池中保留对应倒影，树干与岩岸完整。未做审美复核。 未进行透明拆层、Blender/GLB、网页或验收；按用户最新要求先继续其他母版生图。

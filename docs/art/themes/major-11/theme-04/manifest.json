@@ -1,0 +1,308 @@
+{
+  "schemaVersion": "tarot-art-production-v2.2",
+  "cardId": "major-11",
+  "themeId": "theme-04",
+  "suggestedSlot": 4,
+  "title": "墨玉裁衡",
+  "status": "local-repair-verified-awaiting-user-review",
+  "userReview": "awaiting-user-aesthetic-review",
+  "selectedMaster": {
+    "path": "source/master-v01.png",
+    "sha256": "cb6f67d67e07c44c5ef291a77a4733725d92c56c455c4b7bdec8628c6e999cb2",
+    "width": 1024,
+    "height": 1536,
+    "mode": "RGB",
+    "selection": "首轮粗看：恰好一位居中人物，左侧双盘天平等高、右侧竖剑未穿手腕；两扇朱门开启至中央远山，墨玉座底、脚台与前地坪连成完整承重结构。仅用于登记母版，未做正式复核或用户审美确认。"
+  },
+  "inputs": [
+    {
+      "role": "identity-and-style-reference",
+      "path": "front/public/tarot/major-11.webp",
+      "sha256": "980a75fbd790c02058ff2133b218665cbdd679111d63f00fbcda9f59886803da"
+    }
+  ],
+  "generationRuns": [
+    {
+      "tool": "built-in image_gen",
+      "timestamp": "2026-09-21",
+      "callId": null,
+      "prompt": "Use case: stylized-concept\nAsset type: 本站原创塔罗收藏卡 RGB 不透明完整母版\nInput images: Image 1 是「正义」基础牌，仅作单人身份、左天平右剑、双门及收藏级绘画质感参考；不要复制原场景。\nPrimary request: 制作一张独立主题「墨玉裁衡」塔罗收藏卡母版，竖版2:3，最终必须为1024×1536不透明RGB完整单卡。细腻收藏级绘画，清楚轮廓与可信材质，主体在120px缩略图仍可辨。仅输出一张完整单卡，不做拼图。保留核心人物数量、年龄感与象征关系。\nScene/backdrop: 一位成年女性端坐墨玉庭，背后恰好两扇开启的朱砂门，门外远山居中并有暖白天光；双门和远景中没有任何人物、雕像或人形剪影。\nSubject: 恰好一位成年女性，居中偏前端坐。画面左侧是一架独立金属天平，横梁绝对水平，恰好两个秤盘等高；画面右侧是一柄笔直竖剑，剑尖向下，与手腕、手臂和衣袖保有清晰边界，绝不穿手腕。\nComposition/framing: 人物居中偏前，两扇朱红门向外打开，远山位于中央门隙。墨玉座椅、厚实座底、脚台与前方整片墨玉地坪必须连接为同一个连续完整的承重结构并延伸到画面下部；石面有自然接触阴影，不是漂浮薄片。脸、双手、天平和剑距离外边至少5%。仅一套窄主题边框，墨玉与细金线纹样。\nColor palette: 墨黑与深墨绿作为庭院、座椅和地坪主色，朱砂用于两扇门与少量服饰区分，暖白用于人物衣袍、远山雾气和柔光；金色只作秤梁、剑脊与座椅细边点缀；肤色自然。\nStyle/medium: 细腻东方幻想叙事插画，收藏级塔罗卡绘画，可信墨玉、朱漆木、暖白织物和远山雾气，克制、清晰、庄严。\nForeground: 仅画面边缘有稀疏深红叶片，绝不遮挡脸、手、秤盘、剑或承重地坪。\nLighting/mood: 远山暖白天光映入深色庭院，体现诚实、公正与责任。局部反光仅落在秤梁、剑脊与座椅细金边。\nText: 无文字、无字母、无数字、无匾额文字、无水印、无品牌。\nConstraints: 恰好一位人物；画面左天平、右竖剑，不可镜像；天平恰好双盘且两盘等高；剑不穿手腕；恰好两扇朱色开启门且门内无新增人像；墨玉座底与前地坪一体；完整不透明；约5%安全区。\nAvoid: 第二个人、门中人物、人物雕像、人脸装饰、额外秤盘、倾斜横梁、左右颠倒、剑穿手或身体、断裂座椅、薄片地坪、浮空人物、重复承台、书法、汉字、伪文字、双重边框、烘焙彩虹扫光、全屏闪粉。",
+      "inputPaths": [
+        "front/public/tarot/major-11.webp"
+      ],
+      "outputPaths": [
+        "~/.codex/generated_images/01a0c1e4-94a3-7ef2-9871-43e801849109/exec-83c49cc5-a8c0-4261-9b6a-488482f2873f.png",
+        "source/master-v01.png"
+      ],
+      "conclusion": "Selected opaque master after first-pass visual registration; no transparent layers, assembly or formal review."
+    },
+    {
+      "jobId": "major-11-theme-04-background",
+      "tool": "built-in image_gen",
+      "model": "built-in image_gen (model unspecified)",
+      "timestamp": "2026-10-05T14:02:02.179046+00:00",
+      "callId": null,
+      "prompt": "Edit the supplied image. Output exactly one 1024x1536 image. Keep the original canvas coordinates and size of RETAINED objects only. Objects explicitly removed must be deleted completely; do not preserve their number. No redesign, no recentering, no frame except when frame is specifically requested. BACKGROUND PLATE ONLY. Delete ALL people, ALL animals, ALL main foreground props, ALL foreground support platforms/floors and their contact shadows, ALL floating foreground decoration, and the entire outer border/corner ornaments. NO people or animals may remain, including silhouettes and reflections. Reconstruct the distant environment naturally behind deleted objects. Keep only the distant landscape/architecture and original atmosphere. Do not add a second copy of the support ground. Opaque RGB image. Specific removed connected group: 人物、剑、天平、座椅整体；双盘不做摆动；本主题支撑归属：墨玉座底与前地坪一体. Environment ownership details: 除主体完整连接组、独立前景和固定框外的环境；必须补全清除区域，不保留重复主体或接触阴影。. Highest priority: an EMPTY clean environment, absolutely no protagonists or foreground props. Remove ALL decorative symbols attached to the margins, including the upper and lower crescents, attached stars, corner ornaments and rectangular border strokes. Fill those pixels with continuous natural environment textures. The result is a full-bleed clean background with absolutely NO card furniture. Image 1 is the edit target.\n",
+      "inputPaths": [
+        "output/tarot-progression/v2/major-11/theme-04/source/master-v01.png"
+      ],
+      "inputSha256": "cb6f67d67e07c44c5ef291a77a4733725d92c56c455c4b7bdec8628c6e999cb2",
+      "outputPaths": [
+        "output/tarot-progression/v2/major-11/theme-04/source/api-layers-v02/background-raw.png"
+      ],
+      "outputSha256": "913910b28228bd5cf132364266a8db7b7823e7de47a97917292f245bc2dfb3ca",
+      "conclusion": "Generated candidate; user requested collective visual acceptance later."
+    },
+    {
+      "jobId": "major-11-theme-04-effects",
+      "tool": "built-in image_gen",
+      "model": "built-in image_gen (model unspecified)",
+      "timestamp": "2026-10-05T14:03:19.632558+00:00",
+      "callId": null,
+      "prompt": "Edit the supplied image. Output exactly one 1024x1536 image. Keep the original canvas coordinates and size of RETAINED objects only. Objects explicitly removed must be deleted completely; do not preserve their number. No redesign, no recentering, no frame except when frame is specifically requested. ISOLATED DECORATION ONLY: 稀疏叶片. Delete ALL people, ALL animals, ALL main props, ALL buildings, ALL ground/floor/platforms, ALL borders and corner ornaments. Only a FEW small separate decorative elements at the original positions, preserving large empty center. If absent, create a sparse matching-style candidate. Every other pixel must be solid fully transparent pixels; no gradient or texture in key background. NO HUMAN, NO ANIMAL, NO SCENERY, NO FRAME. Do not turn the whole reference into a cutout of its subject. This is the small decorative overlay only. IMPORTANT: EXCLUDE the reference card edge stars, crescents, corner icons and any frame filigree. The requested light flecks/leaves are NEW independent small foreground particles, NOT edge furniture. Distribute 6 to 12 tiny separate elements at lateral sides, no central figure and no center emblem. Image 1 is the edit target. Override color-key wording: genuine transparent alpha background, only retained layer visible, preserve canvas coordinates; no baked green, magenta or checkerboard.\n",
+      "inputPaths": [
+        "output/tarot-progression/v2/major-11/theme-04/source/master-v01.png"
+      ],
+      "inputSha256": "cb6f67d67e07c44c5ef291a77a4733725d92c56c455c4b7bdec8628c6e999cb2",
+      "outputPaths": [
+        "output/tarot-progression/v2/major-11/theme-04/source/api-layers-v02/effects-raw.png"
+      ],
+      "outputSha256": "13afb86c6ec5eac32afc8a4e6536dde47d8d8f5eff9eb21651f7208b8e61307c",
+      "conclusion": "Generated candidate; user requested collective visual acceptance later."
+    },
+    {
+      "jobId": "major-11-theme-04-text",
+      "tool": "built-in image_gen",
+      "model": "built-in image_gen (model unspecified)",
+      "timestamp": "2026-10-05T14:04:40.854234+00:00",
+      "callId": null,
+      "prompt": "Edit the supplied image. Output exactly one 1024x1536 image. Keep the original canvas coordinates and size of RETAINED objects only. Objects explicitly removed must be deleted completely; do not preserve their number. No redesign, no recentering, no frame except when frame is specifically requested. ISOLATED OUTER FRAME ONLY. Delete EVERYTHING inside the thin border: ALL people, animals, props, scenery, floors and lights. Keep only the thin original outer edge ornament and original corner filigree at original border positions. The entire middle and all holes must be uniform solid fully transparent pixels. NO text, NO figure, NO animal, NO landscape, NO extra emblem. Output the EMPTY ornamental border with a completely clean key-colored interior. Image 1 is the edit target. Override color-key wording: genuine transparent alpha background, only retained layer visible, preserve canvas coordinates; no baked green, magenta or checkerboard.\n",
+      "inputPaths": [
+        "output/tarot-progression/v2/major-11/theme-04/source/master-v01.png"
+      ],
+      "inputSha256": "cb6f67d67e07c44c5ef291a77a4733725d92c56c455c4b7bdec8628c6e999cb2",
+      "outputPaths": [
+        "output/tarot-progression/v2/major-11/theme-04/source/api-layers-v02/text-raw.png"
+      ],
+      "outputSha256": "1b22a136e4dee7d3792467870869a95a7d64958a8b6c173ad1cd30ea14fde24f",
+      "conclusion": "Generated candidate; user requested collective visual acceptance later."
+    },
+    {
+      "jobId": "major-11-theme-04-subject",
+      "tool": "built-in image_gen",
+      "model": "built-in image_gen (model unspecified)",
+      "timestamp": "2026-10-05T14:07:49.652919+00:00",
+      "callId": null,
+      "prompt": "Edit the supplied image. Output exactly one 1024x1536 image. Keep the original canvas coordinates and size of RETAINED objects only. Objects explicitly removed must be deleted completely; do not preserve their number. No redesign, no recentering, no frame except when frame is specifically requested. ISOLATED SUBJECT GROUP ONLY. Keep the original people/animals and their attached props, contact shadows and FULL contiguous support ground belonging to this connected group: 人物、剑、天平、座椅整体；双盘不做摆动；本主题支撑归属：墨玉座底与前地坪一体. Keep exact original faces, poses and coordinates, not smaller centered reconstructions. Delete the distant scene, architecture, outer frame and free floating decorations. Replace ALL deleted areas and all gaps between retained objects with flat uniform fully transparent pixels. No key color reflected onto retained subject. Do not cut the support ground into a floating thin strip. Exact retained group is the priority. Image 1 is the edit target. Override color-key wording: genuine transparent alpha background, only retained layer visible, preserve canvas coordinates; no baked green, magenta or checkerboard.\n",
+      "inputPaths": [
+        "output/tarot-progression/v2/major-11/theme-04/source/master-v01.png"
+      ],
+      "inputSha256": "cb6f67d67e07c44c5ef291a77a4733725d92c56c455c4b7bdec8628c6e999cb2",
+      "outputPaths": [
+        "output/tarot-progression/v2/major-11/theme-04/source/api-layers-v02/subject-raw.png"
+      ],
+      "outputSha256": "f71ae5c00538573369a7dd97de2f4a12be828187cb62f64407beef8a22a0e878",
+      "conclusion": "Generated candidate; user requested collective visual acceptance later."
+    }
+  ],
+  "layerPlan": {
+    "background": {
+      "objects": [],
+      "alphaType": "opaque",
+      "removedObjects": [],
+      "reflectionOwnership": []
+    },
+    "subject": {
+      "objects": [],
+      "rigidGroups": [],
+      "alphaType": "rgba",
+      "supportGeometry": [],
+      "contactShadows": []
+    },
+    "effects": {
+      "objects": [],
+      "alphaType": "rgba"
+    },
+    "text": {
+      "objects": [],
+      "alphaType": "rgba"
+    },
+    "lineart": {
+      "source": null,
+      "algorithm": null,
+      "parameters": {}
+    }
+  },
+  "files": [
+    {
+      "path": "source/master-v01.png",
+      "sha256": "cb6f67d67e07c44c5ef291a77a4733725d92c56c455c4b7bdec8628c6e999cb2",
+      "bytes": 2984097,
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGB",
+      "role": "selected-opaque-master"
+    }
+  ],
+  "parameters": null,
+  "implementedAnimations": [],
+  "plannedAnimations": [],
+  "checks": {
+    "assets": null,
+    "manualVisual": null,
+    "blender": null,
+    "webDesktop390": null,
+    "web320": null,
+    "android": "not-run",
+    "fiveSlotThumbnailComparison": null,
+    "zeroParallaxComposite": null,
+    "blackWhiteGrayAlpha": null,
+    "extremeTiltFourDirections": null
+  },
+  "knownIssues": [
+    "Only an opaque master exists. No alpha layers, Blender/GLB, viewer, acceptance evidence or user aesthetic review."
+  ],
+  "nextAction": "用户统一审美验收；技术与当前整改项复验已完成。",
+  "deployment": "not-deployed",
+  "recordInstructions": {
+    "inputs": "每项填写实际 path、sha256、role，不填写猜测或未来文件。",
+    "generationRuns": "每次填写 tool、timestamp、callId或null、完整prompt、inputPaths、outputPaths、采用/失败结论。",
+    "files": "每项填写 path、sha256、bytes、图片width/height/mode与必要alpha统计。",
+    "checks": "填写status、timestamp、reportPath、对应母版/资产哈希及人工结论；未做保持null/not-run。"
+  },
+  "productionGuide": "docs/tarot-v2/cards/major-11.md",
+  "productionDetail": {
+    "composition": "人物居中偏前，两扇朱门打开，远山居中",
+    "supportGeometry": "墨玉座底与前地坪一体",
+    "connectedGroup": "人物、剑、天平、座椅整体；双盘不做摆动；本主题支撑归属：墨玉座底与前地坪一体",
+    "foilMask": "秤梁、剑脊与座椅细金边",
+    "specificQA": "画面左天平右剑不可镜像；两秤盘等高，剑不穿手腕，双门无新增人像",
+    "parameterStatus": "proposed-starting-values-not-verified",
+    "samplePrinciple": "借鉴五样本的完整承接、真实透明、主题材质和极端倾斜复核，不按槽位强行套题材。",
+    "motion": "仅少量前景微光呼吸；主体、核心符号和承重结构不自动相对运动。",
+    "backgroundOwnership": "除主体完整连接组、独立前景和固定框外的环境；必须补全清除区域，不保留重复主体或接触阴影。"
+  },
+  "blocker": null,
+  "apiLayerCandidates": [
+    {
+      "layer": "background",
+      "raw": "output/tarot-progression/v2/major-11/theme-04/source/api-layers-v02/background-raw.png",
+      "rawSha256": "913910b28228bd5cf132364266a8db7b7823e7de47a97917292f245bc2dfb3ca",
+      "candidateAsset": "output/tarot-progression/v2/major-11/theme-04/source/api-layers-v02/assets/background.png",
+      "candidateAssetSha256": "913910b28228bd5cf132364266a8db7b7823e7de47a97917292f245bc2dfb3ca",
+      "alphaDerivation": {
+        "algorithm": "native generated alpha preserved without conversion",
+        "bands": [
+          "R",
+          "G",
+          "B"
+        ]
+      },
+      "lineartDerivation": null,
+      "manualVisual": null,
+      "status": "generated-candidate"
+    },
+    {
+      "layer": "effects",
+      "raw": "output/tarot-progression/v2/major-11/theme-04/source/api-layers-v02/effects-raw.png",
+      "rawSha256": "13afb86c6ec5eac32afc8a4e6536dde47d8d8f5eff9eb21651f7208b8e61307c",
+      "candidateAsset": "output/tarot-progression/v2/major-11/theme-04/source/api-layers-v02/assets/effects.png",
+      "candidateAssetSha256": "13afb86c6ec5eac32afc8a4e6536dde47d8d8f5eff9eb21651f7208b8e61307c",
+      "alphaDerivation": {
+        "algorithm": "native generated alpha preserved without conversion",
+        "bands": [
+          "R",
+          "G",
+          "B",
+          "A"
+        ]
+      },
+      "lineartDerivation": null,
+      "manualVisual": null,
+      "status": "generated-candidate"
+    },
+    {
+      "layer": "subject",
+      "raw": "output/tarot-progression/v2/major-11/theme-04/source/api-layers-v02/subject-raw.png",
+      "rawSha256": "f71ae5c00538573369a7dd97de2f4a12be828187cb62f64407beef8a22a0e878",
+      "candidateAsset": "output/tarot-progression/v2/major-11/theme-04/source/api-layers-v02/assets/subject.png",
+      "candidateAssetSha256": "f71ae5c00538573369a7dd97de2f4a12be828187cb62f64407beef8a22a0e878",
+      "alphaDerivation": {
+        "algorithm": "native generated alpha preserved without conversion",
+        "bands": [
+          "R",
+          "G",
+          "B",
+          "A"
+        ]
+      },
+      "lineartDerivation": {
+        "algorithm": "Pillow FIND_EDGES threshold80, alpha>240; deterministic candidate"
+      },
+      "manualVisual": null,
+      "status": "generated-candidate"
+    },
+    {
+      "layer": "text",
+      "raw": "output/tarot-progression/v2/major-11/theme-04/source/api-layers-v02/text-raw.png",
+      "rawSha256": "1b22a136e4dee7d3792467870869a95a7d64958a8b6c173ad1cd30ea14fde24f",
+      "candidateAsset": "output/tarot-progression/v2/major-11/theme-04/source/api-layers-v02/assets/text.png",
+      "candidateAssetSha256": "1b22a136e4dee7d3792467870869a95a7d64958a8b6c173ad1cd30ea14fde24f",
+      "alphaDerivation": {
+        "algorithm": "native generated alpha preserved without conversion",
+        "bands": [
+          "R",
+          "G",
+          "B",
+          "A"
+        ]
+      },
+      "lineartDerivation": null,
+      "manualVisual": null,
+      "status": "generated-candidate"
+    }
+  ],
+  "candidateReview": "deferred-by-user-2026-10-05",
+  "candidateProject": {
+    "cardId": "major-11",
+    "themeId": "theme-04",
+    "project": "output/tarot-progression/v2/major-11/theme-04/api-candidate-project-v01",
+    "candidate": true,
+    "files": {
+      "card.blend": {
+        "path": "output/tarot-progression/v2/major-11/theme-04/api-candidate-project-v01/card.blend",
+        "sha256": "262d92542f9b969d4551d07ee01754a1671f64f61e8b64b6c75e75da5051b382",
+        "bytes": 8295045
+      },
+      "web/index.html": {
+        "path": "output/tarot-progression/v2/major-11/theme-04/api-candidate-project-v01/web/index.html",
+        "sha256": "cdd1721c1286c27849071b2cbc5c53219e9148e0dcca03c99d130f56066ed2c5",
+        "bytes": 6562
+      },
+      "web/assets/card.glb": {
+        "path": "output/tarot-progression/v2/major-11/theme-04/api-candidate-project-v01/web/assets/card.glb",
+        "sha256": "407c7b10d90db8ae45be4d8101148151845cc9dc9171b291f3d1de9966e07a4c",
+        "bytes": 23668
+      },
+      "renders/hero.png": {
+        "path": "output/tarot-progression/v2/major-11/theme-04/api-candidate-project-v01/renders/hero.png",
+        "sha256": "b98a6e9163b4c7accddfd6c0b09db1190c49688b62787361a07eee93771fdc0d",
+        "bytes": 2670942
+      }
+    },
+    "visualAcceptance": "deferred-by-user"
+  },
+  "previousStatusBefore20261009": "selected-master",
+  "currentProject": "output/tarot-progression/v2/major-11/theme-04/repair-project-v02",
+  "repairRevision": {
+    "date": "2026-10-09",
+    "revision": "repair-20261009",
+    "project": "output/tarot-progression/v2/major-11/theme-04/repair-project-v02",
+    "previousProject": "output/tarot-progression/v2/major-11/theme-04/api-candidate-project-v01",
+    "originalAuditPriority": "未列单卡整改",
+    "resolvedFindings": [],
+    "changedLayers": {},
+    "verification": "output/tarot-progression/v2/major-11/theme-04/repair-project-v02/repair-verification.json",
+    "report": "output/tarot-progression/v2/repair-20261009/REPORT.md"
+  }
+}

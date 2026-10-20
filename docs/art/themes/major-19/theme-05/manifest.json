@@ -1,0 +1,317 @@
+{
+  "schemaVersion": "tarot-art-production-v2.2",
+  "cardId": "major-19",
+  "themeId": "theme-05",
+  "suggestedSlot": 5,
+  "title": "云上晴城",
+  "status": "local-repair-verified-awaiting-user-review",
+  "userReview": "awaiting-user-aesthetic-review",
+  "selectedMaster": {
+    "path": "source/master-v01.png",
+    "sha256": "e1eca84c4f7308433619f71694c56dcc6a8b6ac57e29db2138436a97e662e3b9",
+    "width": 1024,
+    "height": 1536,
+    "mode": "RGB",
+    "selection": "人工首检与完成后复合检查：完整着装孩子、白马、张臂、唯一金日、云上花园城市和四蹄之下有侧厚度的完整花园平台均保留。"
+  },
+  "inputs": [
+    {
+      "role": "identity-reference",
+      "path": "front/public/tarot/major-19.webp"
+    }
+  ],
+  "generationRuns": [
+    {
+      "tool": "built-in image_gen",
+      "timestamp": "2026-09-17",
+      "callId": "exec-1b18fb37-cb45-4417-b1f4-eeb5da7f6fd4",
+      "prompt": "Use case: stylized-concept\nAsset type: 1024×1536 portrait master artwork for a layered interactive tarot holographic card, The Sun, theme title “云上晴城”.\nPrimary request: exactly one joyful, clearly age-appropriate child fully clothed in a pale saffron riding coat, seated safely on exactly one complete white horse. The child smiles with both arms open. Place horse and child in the lower-right, looking to the right; all four hooves visibly grounded on a broad, solid, physical floating garden platform with substantial side thickness and a continuous landscaped top. The platform begins beneath every hoof and extends toward the left-upper distance into a bright cloud city of terraces and sunflower gardens. Include believable saddle, bridle, reins, rider contact and hoof shadows. One huge golden sun is centered high with margin.\nScene: luminous aerial garden city, sky cyan, cream-white cloud layers, golden sun, sunflower terraces. No ocean, snow, greenhouse, field furrows, or precarious thin floating slab.\nStyle: premium richly detailed painterly fantasy tarot art, crisp readable anatomy/materials, original composition.\nComposition: vertical 2:3. The garden platform needs a full visible outer edge and depth, not a narrow strip. Leave 5% safety margin around face, hands and horse ears.\nLighting/palette: azure, cream white, gold; do not metallicize skin.\nConstraints: exactly one clothed child, one white horse and one sun; no duplicate limbs/faces/animals/suns; no cropped/translucent horse, no floating platform without thickness, no exposed torso, text, border, watermark, checkerboard or baked holographic effects.",
+      "inputPaths": [
+        "front/public/tarot/major-19.webp"
+      ],
+      "outputPaths": [
+        "source/master-v01.png"
+      ],
+      "conclusion": "selected master candidate"
+    },
+    {
+      "tool": "built-in image_gen",
+      "timestamp": "2026-09-17",
+      "callId": "exec-a7788cd6-d996-41d1-aba8-dab5f07a0ae4",
+      "prompt": "Create a graphic production mask, NOT an artistic scene. Exact 1024×1536 canvas. Retain the complete connected foreground at its current coordinates: clothed child, white horse, mane/hair, saddle, bridle/reins, riding contact, all four hooves, hoof shadows, and the complete solid foreground garden platform including its top and thick visible outer side/rim below every hoof. Replace every other pixel with exactly one uniform flat neon green #00FF00 (RGB 0,255,0). Every background pixel must be that exact green; no sky, city, sun, cloud, gradient, black, glow, texture, checkerboard, text, frame or transparency. Do not crop, reposition, redraw or change the foreground. This is solely for deterministic chroma keying.",
+      "inputPaths": [
+        "source/master-v01.png"
+      ],
+      "outputPaths": [
+        "source/subject-green-v01.png"
+      ],
+      "conclusion": "accepted as same-canvas deterministic green-key source"
+    },
+    {
+      "tool": "built-in image_gen",
+      "timestamp": "2026-09-17",
+      "callId": "exec-e083f24e-ea3b-4223-a871-87a137d3925d",
+      "prompt": "Use case: precise-object-edit\nAsset type: opaque 1024×1536 background layer for a Sun tarot holographic card, theme 云上晴城.\nInput images: first image is the finished vertical master artwork whose composition, visual style, light, city, sun, clouds and palette must be preserved; second image is the same-coordinate chroma-green foreground mask showing the exact foreground group to remove.\nPrimary request: remove only the complete foreground group shown against green: child, white horse, saddle, bridle, reins, all four hooves, and the entire near floating garden platform including its thickness, flowers, railings and waterfalls. Fill every removed region naturally as the distant continuation of the master’s luminous cloud-city: azure sky, cream cloud layers, airborne sunflower terraces, distant garden palaces and bridges. Retain the huge central golden sun and existing distant city architecture. The result must look like one continuous atmospheric background with convincing depth behind where the foreground platform sat.\nConstraints: output a fully opaque RGB painting. No child, no horse, no saddle, no bridle, no reins, no hooves, no foreground platform, no close-up flowers, no empty holes, no duplicate subject silhouettes, no green, transparency, checkerboard, text, border, watermark or baked holographic effect. Keep vertical 2:3 composition and premium detailed painterly fantasy tarot style.",
+      "inputPaths": [
+        "source/master-v01.png",
+        "source/subject-green-v01.png"
+      ],
+      "outputPaths": [
+        "assets/background.png"
+      ],
+      "conclusion": "accepted opaque no-subject cloud-city background after visual inspection"
+    }
+  ],
+  "layerPlan": {
+    "background": {
+      "objects": [
+        "cloud city",
+        "sun",
+        "distant terraces"
+      ],
+      "alphaType": "opaque",
+      "removedObjects": [
+        "child",
+        "horse",
+        "tack",
+        "foreground platform"
+      ]
+    },
+    "subject": {
+      "objects": [
+        "child",
+        "white horse",
+        "tack",
+        "complete foreground garden platform"
+      ],
+      "rigidGroups": [
+        "child/horse/riding contact/support platform"
+      ],
+      "alphaType": "rgba",
+      "supportGeometry": [
+        "platform top and thick outer edge"
+      ],
+      "contactShadows": [
+        "hoof shadows"
+      ]
+    },
+    "effects": {
+      "objects": [
+        "sparse non-contact sun motes"
+      ],
+      "alphaType": "rgba"
+    },
+    "text": {
+      "objects": [
+        "fixed double gold frame"
+      ],
+      "alphaType": "rgba"
+    },
+    "lineart": {
+      "source": "assets/subject.png",
+      "algorithm": "luminance Sobel edge pass constrained to alpha >245",
+      "parameters": {
+        "threshold": 125
+      }
+    }
+  },
+  "files": [
+    {
+      "path": "source/master-v01.png",
+      "sha256": "e1eca84c4f7308433619f71694c56dcc6a8b6ac57e29db2138436a97e662e3b9",
+      "bytes": 3113313,
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGB",
+      "role": "selected-master-candidate"
+    },
+    {
+      "path": "source/subject-green-v01.png",
+      "sha256": "cf2328d73c4496ce19daac94c59fb5cd46c4628abdb6566dd5ef40469d0596a6",
+      "bytes": 2233314,
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGB",
+      "role": "recorded-key-source"
+    },
+    {
+      "path": "assets/background.png",
+      "sha256": "9fc752f8ca61f36c0aedd26b5527d63b3a4cd7102711ed5d074c8c9a17328f80",
+      "bytes": 2645650,
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGB",
+      "role": "opaque-background"
+    },
+    {
+      "path": "assets/subject.png",
+      "sha256": "112fd99db695c5111556ce2c4a11efea4ae6242310dc82a4259054c731839f89",
+      "bytes": 1812079,
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "transparentFraction": 0.501,
+      "visibleFraction": 0.499,
+      "role": "true-alpha-connected-foreground"
+    },
+    {
+      "path": "assets/effects.png",
+      "sha256": "3e18f003788fa7425fdb52391f1d0becc958f6de64398d958bda921d0513e659",
+      "bytes": 10567,
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "transparentFraction": 0.9956,
+      "visibleFraction": 0.0039,
+      "role": "sparse-overlay"
+    },
+    {
+      "path": "assets/lineart.png",
+      "sha256": "a10f3bfc5c42b4bd1c5d9d5ddbdaf7492bd50e9f6f2b70feac8bac264f800651",
+      "bytes": 131635,
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGB",
+      "role": "subject-derived-lineart"
+    },
+    {
+      "path": "assets/text.png",
+      "sha256": "922d97fbb65487c369527c4ee6faa9d4f282a4ae9a597e818c7a40c1d1f43ca9",
+      "bytes": 10528,
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "transparentFraction": 0.9782,
+      "visibleFraction": 0.0218,
+      "role": "fixed-frame"
+    },
+    {
+      "path": "layer-composite.png",
+      "sha256": "f9b945745d79f445cdb4f717ef0c06f56685c8fca0e46003046c1db331a2c5f7",
+      "bytes": 3275487,
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "role": "zero-parallax-composite"
+    },
+    {
+      "path": "card.blend",
+      "sha256": "1c43209bdf7b05ff56f86f1b851c3d1ed5f27037c292c0d404459062857fed9a",
+      "bytes": 4696520,
+      "role": "editable-blender-scene"
+    },
+    {
+      "path": "web/assets/card.glb",
+      "sha256": "fab47e7f4042e640c2a8aee1ff046e71d09312220fd578fcb70c65b7b143cb5e",
+      "bytes": 23668,
+      "role": "exported-card-geometry"
+    },
+    {
+      "path": "renders/hero.png",
+      "sha256": "1aa33021a90a681e3994ec01c80fcc17e3b2b8d0ec54d95d88453e9d59ac4d5a",
+      "bytes": 2862919,
+      "width": 1080,
+      "height": 1500,
+      "mode": "RGBA",
+      "role": "offline-blender-render"
+    }
+  ],
+  "parameters": {
+    "status": "tested-in-web-viewer",
+    "subjectScale": 1,
+    "subjectDepth": 0.14,
+    "backgroundDepth": -0.08,
+    "effectsScale": 1.05,
+    "effectsDepth": 0.28,
+    "foil": 0.3,
+    "safeArea": {
+      "scale": 1.04,
+      "offset": [
+        0,
+        0
+      ]
+    }
+  },
+  "implementedAnimations": [
+    "RuiC viewer card auto motion; subject, rider and platform remain a single image plane"
+  ],
+  "plannedAnimations": [],
+  "checks": {
+    "assets": {
+      "status": "passed",
+      "timestamp": "2026-09-17",
+      "reportPath": "asset-validation.json",
+      "conclusion": "all five layers share 1024×1536; required RGBA layers contain true transparency and visible pixels"
+    },
+    "manualVisual": {
+      "status": "passed",
+      "timestamp": "2026-09-17",
+      "evidence": [
+        "layer-composite.png",
+        "renders/hero.png",
+        "verification/01-desktop-front.png",
+        "verification/04-tilt-right.png",
+        "verification/05-tilt-left.png",
+        "verification-320/14-mobile-320.png"
+      ],
+      "conclusion": "no green fringe, duplicate foreground, detached hoof or failed platform support observed; 320px remains legible"
+    },
+    "blender": {
+      "status": "passed",
+      "timestamp": "2026-09-17",
+      "version": "5.2.2 LTS",
+      "reportPath": "verification.json",
+      "renderPath": "renders/hero.png"
+    },
+    "webDesktop390": {
+      "status": "passed",
+      "timestamp": "2026-09-17",
+      "reportPath": "verification/report.json",
+      "summary": "33/33 real WebGL checks including desktop and 390px"
+    },
+    "web320": {
+      "status": "passed",
+      "timestamp": "2026-09-17",
+      "reportPath": "verification-320/report.json",
+      "summary": "33/33 real WebGL checks including 320px"
+    },
+    "android": "not-run",
+    "fiveSlotThumbnailComparison": "not-run; full five-slot comparison belongs after the base slot is completed",
+    "zeroParallaxComposite": {
+      "status": "passed",
+      "path": "layer-composite.png"
+    },
+    "blackWhiteGrayAlpha": "partial; transparent foreground viewed on black only; white/gray dedicated inspection remains",
+    "extremeTiltFourDirections": "partial; both horizontal and vertical drag behavior is automatically checked, with manual right/left screenshots; dedicated four-direction review remains"
+  },
+  "knownIssues": [
+    "User aesthetic review pending.",
+    "Offline Blender compositor is not pixel-identical to browser GLSL material.",
+    "Five-slot comparison, white/gray alpha inspection and dedicated four-direction extreme-tilt image review remain."
+  ],
+  "nextAction": "用户统一审美验收；技术与当前整改项复验已完成。",
+  "deployment": "not-deployed",
+  "productionGuide": "docs/tarot-v2/cards/major-19.md",
+  "productionDetail": {
+    "composition": "马在下右，空中花园向左上延伸，金日居上中",
+    "supportGeometry": "实体花园平台和外侧厚度完整",
+    "connectedGroup": "孩子、白马、骑乘接触与承重地面整体；光尘独立",
+    "foilMask": "向日葵花盘、马具与衣缘",
+    "motion": "仅少量前景微光呼吸；主体、核心符号和承重结构不自动相对运动。",
+    "backgroundOwnership": "除主体连接组、独立前景和固定框外的环境；清除区域已自然补全。"
+  },
+  "blocker": null,
+  "previousStatusBefore20261009": "local-holo-verified-awaiting-user-review",
+  "currentProject": "output/tarot-progression/v2/major-19/theme-05/repair-project-v02",
+  "repairRevision": {
+    "date": "2026-10-09",
+    "revision": "repair-20261009",
+    "project": "output/tarot-progression/v2/major-19/theme-05/repair-project-v02",
+    "previousProject": "output/tarot-progression/v2/major-19/theme-05",
+    "originalAuditPriority": "未列单卡整改",
+    "resolvedFindings": [],
+    "changedLayers": {},
+    "verification": "output/tarot-progression/v2/major-19/theme-05/repair-project-v02/repair-verification.json",
+    "report": "output/tarot-progression/v2/repair-20261009/REPORT.md"
+  }
+}

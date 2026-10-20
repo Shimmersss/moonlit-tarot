@@ -1,0 +1,8 @@
+# 重力花园 · 母版生图记录
+
+## 2026-09-21
+
+- 输入身份/画风参考：`front/public/tarot/major-12.webp`，已实际查看，SHA-256 `df95e729af81d11529b1155e62096ecaae8150308e4a858e006736b5ad4f392e`。
+- 工具：内置 `image_gen`。原始生成文件：`~/.codex/generated_images/01a0b490-e687-7b23-81ff-a4b63908f536/exec-5563a4a8-8fac-43bc-a0cd-8e2354e8296a.png`；保留原件，复制到 `source/master-v01.png`。SHA-256 `0ed457d5ab0ec5efab6228681b18e51356512a875021380f7875dd667ef5fc14`；1024×1536，RGB。
+- 完整实际提示词：`Create ONE original opaque 1024x1536 vertical tarot master for The Hanged Man, theme 重力花园 / Gravity Garden. Reference image supplies identity: exactly ONE calm dark-haired person hangs head-down, one ankle securely tied with visible rope to a strong flowering aerial-garden branch frame that crosses the UPPER image diagonally, other leg bent. Show the complete branch frame connected to substantial support columns; no floating broken branch. In distant background only, buildings follow an inverted perspective, while a near water terrace remains physically upright and holds ONE plausible aligned reflection. Figure direction is unmistakable. Palette deep violet, teal green, white gold, natural skin. Refined painterly fantasy tarot, intricate suspended vegetation, narrow celestial gold border, strong but readable spatial depth. Keep face, hands, legs and knot clear. One person only; no duplicate reflected body outside the water, no text, title, letters, numbers, watermark or logo. Solid water terrace and support base continue to lower bleed. Full opaque master.`
+- 首轮登记：人物倒悬方向清楚，上部枝架和两侧支柱完整，远处倒置建筑与近水倒影可辨。未做审美复核。 未进行透明拆层、Blender/GLB、网页或验收；按用户最新要求先继续其他母版生图。

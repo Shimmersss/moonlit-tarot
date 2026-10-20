@@ -1,0 +1,127 @@
+{
+  "schemaVersion": "tarot-art-production-v2.2",
+  "cardId": "major-19",
+  "themeId": "theme-04",
+  "suggestedSlot": 4,
+  "title": "丰收游园",
+  "status": "local-repair-verified-awaiting-user-review",
+  "userReview": "awaiting-user-aesthetic-review",
+  "selectedMaster": {
+    "path": "source/master-v01.png",
+    "sha256": "43d4ad631fa16b0b2a5044b649edbe8ac182bc7f6d193d147965cc64ceab7305",
+    "width": 1024,
+    "height": 1536,
+    "mode": "RGB",
+    "selection": "人工首检：一名完整着装孩子、一匹完整白马、张臂笑脸、右后田垄、向日葵、唯一高处金日与完整土路均可见；未做透明、细部或倾斜验收。"
+  },
+  "inputs": [
+    {
+      "role": "identity-reference",
+      "path": "front/public/tarot/major-19.webp"
+    }
+  ],
+  "generationRuns": [
+    {
+      "tool": "built-in image_gen",
+      "timestamp": "2026-09-17",
+      "callId": "exec-256404cb-5847-4f9e-aac6-404dba8cb20c",
+      "prompt": "Use case: stylized-concept\nAsset type: 1024×1536 portrait master artwork for a layered interactive tarot holographic card, The Sun, theme title “丰收游园”.\nPrimary request: exactly one joyful, age-appropriate child fully clothed in a warm ochre riding tunic, seated securely on exactly one complete white horse. The child smiles and opens both arms. Use a low camera angle: horse and rider slightly left, in a right-facing side-three-quarter profile; ripe field furrows lead away to the right rear. All four hooves must visibly contact one broad, continuous, solid earthen farm road that spans the lower bleed, with hoof-contact shadows; believable saddle, bridle, reins and riding balance. One huge golden sun sits high above with safe margin; sunflowers and a mature harvest field surround the road.\nScene: late-summer harvest garden, undulating grain fields, a low warm sunrise/sunset, no snow, no greenhouse, no ocean, no floating architecture.\nStyle: premium richly detailed painterly fantasy tarot art, crisp anatomy, natural materials, original composition.\nComposition: vertical 2:3. Make the subject clearly distinct from the winter-greenhouse and seaside variants: horse left foreground, furrows pulling right-back, sun high. Keep 5% safety margin around face, hands and ears.\nLighting/palette: low-angle amber light; wheat gold, fresh field green and a restrained orange accent.\nConstraints: exactly one clothed child and one white horse; no duplicate limbs, faces, horses or suns; no cropped/translucent animal, no floating/path sliver, no exposed torso; no text, border, watermark, checkerboard or baked holographic effects. The earthen road must remain a broad, continuous, grounded structure underneath every hoof.",
+      "inputPaths": [
+        "front/public/tarot/major-19.webp"
+      ],
+      "outputPaths": [
+        "source/master-v01.png"
+      ],
+      "conclusion": "selected as master candidate; opaque RGB only, not a transparent layer or user-approved art"
+    }
+  ],
+  "layerPlan": {
+    "background": {
+      "objects": [],
+      "alphaType": "opaque",
+      "removedObjects": [],
+      "reflectionOwnership": []
+    },
+    "subject": {
+      "objects": [],
+      "rigidGroups": [],
+      "alphaType": "rgba",
+      "supportGeometry": [],
+      "contactShadows": []
+    },
+    "effects": {
+      "objects": [],
+      "alphaType": "rgba"
+    },
+    "text": {
+      "objects": [],
+      "alphaType": "rgba"
+    },
+    "lineart": {
+      "source": null,
+      "algorithm": null,
+      "parameters": {}
+    }
+  },
+  "files": [
+    {
+      "path": "source/master-v01.png",
+      "sha256": "43d4ad631fa16b0b2a5044b649edbe8ac182bc7f6d193d147965cc64ceab7305",
+      "bytes": 3188410,
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGB",
+      "role": "selected-master-candidate"
+    }
+  ],
+  "parameters": null,
+  "implementedAnimations": [],
+  "plannedAnimations": [],
+  "checks": {
+    "assets": null,
+    "manualVisual": null,
+    "blender": null,
+    "webDesktop390": null,
+    "web320": null,
+    "android": "not-run",
+    "fiveSlotThumbnailComparison": null,
+    "zeroParallaxComposite": null,
+    "blackWhiteGrayAlpha": null,
+    "extremeTiltFourDirections": null
+  },
+  "knownIssues": [],
+  "nextAction": "用户统一审美验收；技术与当前整改项复验已完成。",
+  "deployment": "not-deployed",
+  "recordInstructions": {
+    "inputs": "每项填写实际 path、sha256、role，不填写猜测或未来文件。",
+    "generationRuns": "每次填写 tool、timestamp、callId或null、完整prompt、inputPaths、outputPaths、采用/失败结论。",
+    "files": "每项填写 path、sha256、bytes、图片width/height/mode与必要alpha统计。",
+    "checks": "填写status、timestamp、reportPath、对应母版/资产哈希及人工结论；未做保持null/not-run。"
+  },
+  "productionGuide": "docs/tarot-v2/cards/major-19.md",
+  "productionDetail": {
+    "composition": "低机位马偏左，田垄向右后，巨大金日高处留边",
+    "supportGeometry": "整片田园土路与蹄下阴影",
+    "connectedGroup": "孩子、白马、骑乘接触与承重地面整体；花瓣独立；本主题支撑归属：整片田园土路与蹄下阴影",
+    "foilMask": "向日葵花盘、马具与衣缘",
+    "specificQA": "一个孩子一匹白马；张臂、微笑、衣物完整，骑乘重心正确；不以透光删除白马身体",
+    "parameterStatus": "proposed-starting-values-not-verified",
+    "samplePrinciple": "借鉴五样本的完整承接、真实透明、主题材质和极端倾斜复核，不按槽位强行套题材。",
+    "motion": "仅少量前景微光呼吸；主体、核心符号和承重结构不自动相对运动。",
+    "backgroundOwnership": "除主体完整连接组、独立前景和固定框外的环境；必须补全清除区域，不保留重复主体或接触阴影。"
+  },
+  "blocker": null,
+  "previousStatusBefore20261009": "local-holo-verified-awaiting-user-review",
+  "currentProject": "output/tarot-progression/v2/major-19/theme-04/repair-project-v02",
+  "repairRevision": {
+    "date": "2026-10-09",
+    "revision": "repair-20261009",
+    "project": "output/tarot-progression/v2/major-19/theme-04/repair-project-v02",
+    "previousProject": "output/tarot-progression/v2/major-19/theme-04",
+    "originalAuditPriority": "未列单卡整改",
+    "resolvedFindings": [],
+    "changedLayers": {},
+    "verification": "output/tarot-progression/v2/major-19/theme-04/repair-project-v02/repair-verification.json",
+    "report": "output/tarot-progression/v2/repair-20261009/REPORT.md"
+  }
+}

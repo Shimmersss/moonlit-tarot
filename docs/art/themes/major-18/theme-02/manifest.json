@@ -1,0 +1,23 @@
+{
+  "cardId": "major-18",
+  "themeId": "theme-02",
+  "theme": "深海幻月",
+  "status": "local-repair-verified-awaiting-user-review",
+  "userReview": "awaiting-user-aesthetic-review",
+  "projectPath": "../../deep-sea-holo",
+  "note": "Existing independent project retained in place; local prototype only, not product-integrated or deployed.",
+  "previousStatusBefore20261009": "local-holo-verified",
+  "currentProject": "output/tarot-progression/v2/major-18/theme-02/repair-project-v02",
+  "repairRevision": {
+    "date": "2026-10-09",
+    "revision": "repair-20261009",
+    "project": "output/tarot-progression/v2/major-18/theme-02/repair-project-v02",
+    "previousProject": "output/tarot-progression/v2/deep-sea-holo",
+    "originalAuditPriority": "未列单卡整改",
+    "resolvedFindings": [],
+    "changedLayers": {},
+    "verification": "output/tarot-progression/v2/major-18/theme-02/repair-project-v02/repair-verification.json",
+    "report": "output/tarot-progression/v2/repair-20261009/REPORT.md"
+  },
+  "nextAction": "用户统一审美验收；技术与当前整改项复验已完成。"
+}

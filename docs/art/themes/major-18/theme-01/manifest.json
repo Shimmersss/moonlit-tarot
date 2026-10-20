@@ -1,0 +1,87 @@
+{
+  "cardId": "major-18",
+  "themeId": "theme-01",
+  "theme": "月下银路",
+  "status": "local-repair-verified-awaiting-user-review",
+  "userReview": "awaiting-user-aesthetic-review",
+  "tool": "built-in-image_gen + RuiC-card-skill",
+  "selectedMaster": {
+    "path": "source/master-v01.webp",
+    "sha256": "d1edd42c282b099d85a9bbe5856dcefc3e1a7ceca4e90f8d4a4d17645d7d9d93"
+  },
+  "sources": {
+    "subjectMagentaMatte": {
+      "path": "source/subject-magenta-v01.png",
+      "sha256": "5e166608c46d2da2cfd24a1cf72edc48c2d05a135c4ab6dee5eead71cbbb39c2"
+    },
+    "background": {
+      "path": "source/background-v01.png",
+      "sha256": "7b0c791f6e1ffdda07189b73bbfa1b882bd7c8cf8b8cf725c31946dbf1710f2d"
+    }
+  },
+  "repairDate": "2026-09-16",
+  "generationRecord": "generation-prompts.json",
+  "verification": {
+    "assetValidation": "passed",
+    "web": {
+      "verification-repair": {
+        "report": "verification-repair/report.json",
+        "passed": 33,
+        "total": 33
+      },
+      "verification-repair-320": {
+        "report": "verification-repair-320/report.json",
+        "passed": 33,
+        "total": 33
+      }
+    },
+    "visual": "Reviewed browser tilt and mobile evidence; visible key-color spill and disconnected supports improved. Final aesthetic review pending."
+  },
+  "provenanceLimit": "Historical layer-generation prompts are incomplete; only actual recorded repair calls are supplied.",
+  "nextStep": "User aesthetic review; local only, no product integration or deployment.",
+  "layerPlan": {
+    "subject": "Guardians plus full supporting foreground structure, registered on the original 1024x1536 canvas."
+  },
+  "currentFiles": {
+    "assets/background.png": "7b0c791f6e1ffdda07189b73bbfa1b882bd7c8cf8b8cf725c31946dbf1710f2d",
+    "assets/effects.png": "aa1e9495cf4072e683e4750a4bad6572303b4d1ac8614fee57625ef372a477b4",
+    "assets/lineart.png": "9ffe56c09aa5742a7a380707096789a76e1fe505ecaa07959251bbae137c831e",
+    "assets/subject.png": "5c1eefa26c38e6559f7a5298e0b2c5aa9dabeba2a66484780a07f254c7c05051",
+    "assets/text.png": "d753a9c6b89792a1026a2d91107431d33fb9637949df1bf4afcc6c84c0180724",
+    "card-config.json": "c368504155dc2d6aed2c988683690dd091f174d9a5de78e9638c52a11159cd64",
+    "card.blend": "e67c479fcb5d9a77a5f9fedc6cfbc066e7b72b17d8ca3da4fd815f8930989d58",
+    "generation-prompts.json": "4817b63823bed2921ababc151dde9b370dac37846966d6d285c826dd9d6b3101",
+    "source/background-v01.png": "7b0c791f6e1ffdda07189b73bbfa1b882bd7c8cf8b8cf725c31946dbf1710f2d",
+    "source/foreground-supported-v02.png": "6929e922757b8cf111461191325f30b10c6b1416b49c63499ec79b6b8c78eb83",
+    "source/master-v01.webp": "d1edd42c282b099d85a9bbe5856dcefc3e1a7ceca4e90f8d4a4d17645d7d9d93",
+    "source/subject-magenta-v01.png": "5e166608c46d2da2cfd24a1cf72edc48c2d05a135c4ab6dee5eead71cbbb39c2",
+    "web/assets/card.glb": "407c7b10d90db8ae45be4d8101148151845cc9dc9171b291f3d1de9966e07a4c"
+  },
+  "previousStatusBefore20261009": "local-repair-verified-awaiting-user-review",
+  "currentProject": "output/tarot-progression/v2/major-18/theme-01/repair-project-v02",
+  "repairRevision": {
+    "date": "2026-10-09",
+    "revision": "repair-20261009",
+    "project": "output/tarot-progression/v2/major-18/theme-01/repair-project-v02",
+    "previousProject": "output/tarot-progression/v2/major-18/theme-01",
+    "originalAuditPriority": "P2",
+    "resolvedFindings": [
+      {
+        "category": "分层重复",
+        "priority": "P2",
+        "evidence": "近景岸石、荷花同时存在主体与背景。",
+        "action": "清除背景中的同一前景连接组，补全被遮挡环境；保留主体原位及完整承重面。左右转动时检查轮廓、接地和遮挡。"
+      }
+    ],
+    "changedLayers": {
+      "major-18-theme-01-background": {
+        "sha256": "c6c62c5153aa825f2135b98668b88911880841e577682ac68f8c9f2d522cfbda",
+        "project": "output/tarot-progression/v2/major-18/theme-01/repair-project-v02",
+        "layer": "background"
+      }
+    },
+    "verification": "output/tarot-progression/v2/major-18/theme-01/repair-project-v02/repair-verification.json",
+    "report": "output/tarot-progression/v2/repair-20261009/REPORT.md"
+  },
+  "nextAction": "用户统一审美验收；技术与当前整改项复验已完成。"
+}

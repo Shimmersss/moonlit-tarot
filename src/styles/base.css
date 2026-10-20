@@ -1,0 +1,14 @@
+@font-face { font-family: "Moonlit Serif"; src: url("../assets/fonts/noto-serif-sc-zh-500.woff2") format("woff2"); font-weight: 500; font-display: swap; }
+
+*, *::before, *::after { box-sizing: border-box; }
+html { color-scheme: dark; -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0;
+  min-width: 320px;
+  background: #070b18;
+  color: #f4ead4;
+  font-family: system-ui, -apple-system, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+img { max-width: 100%; }
+button, input, textarea, select { font: inherit; }

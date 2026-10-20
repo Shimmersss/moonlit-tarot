@@ -1,0 +1,304 @@
+{
+  "schemaVersion": "tarot-art-production-v2.2",
+  "cardId": "major-10",
+  "themeId": "theme-01",
+  "suggestedSlot": null,
+  "title": "命运之轮·基础原画分层",
+  "status": "local-repair-verified-awaiting-user-review",
+  "userReview": "awaiting-user-aesthetic-review",
+  "selectedMaster": {
+    "path": "source/base-original.webp",
+    "sha256": "45092421c62fb6e8c6e5bea9c7f8070cd54b3d8713917cee76e64675498fb8ce",
+    "width": 1024,
+    "height": 1536,
+    "mode": "RGB",
+    "selection": "Existing site base original; not re-generated or overwritten. Actual original visually inspected and used as fixed composition."
+  },
+  "inputs": [
+    {
+      "role": "fixed-base-original",
+      "path": "front/public/tarot/major-10.webp",
+      "sha256": "45092421c62fb6e8c6e5bea9c7f8070cd54b3d8713917cee76e64675498fb8ce"
+    },
+    {
+      "role": "local-unchanged-source-copy",
+      "path": "source/base-original.webp",
+      "sha256": "45092421c62fb6e8c6e5bea9c7f8070cd54b3d8713917cee76e64675498fb8ce"
+    }
+  ],
+  "generationRuns": [
+    {
+      "tool": "built-in image_gen",
+      "timestamp": "2026-09-18",
+      "callId": null,
+      "prompt": "Edit the provided original Wheel of Fortune tarot art into a clean OPAQUE background plate for same-canvas layered parallax. Preserve the original 1024x1536 vertical framing, original dusk indigo color palette, lower moonlit ocean, both shorelines, flowers, and the COMPLETE X-shaped stone paths exactly in composition. Remove the entire upper golden eight-spoke wheel, four round seasonal medallions, their orbit lines and stars attached to the wheel, and the thin dark/gold decorative card border. Reconstruct the covered sky with coherent painterly twilight clouds and stars; the upper sky must contain no wheel, medallion, gold circles or ghost imprints. Do not change the lower road layout, do not add people or objects, no text. Return one full-canvas opaque PNG.",
+      "inputPaths": [
+        "source/base-original.webp"
+      ],
+      "outputPaths": [
+        "~/.codex/generated_images/01a0b490-e687-7b23-81ff-a4b63908f536/exec-dda6ebec-49c7-4a3f-84d7-301a5c5bbb8d.png",
+        "assets/background.png"
+      ],
+      "conclusion": "Selected clean opaque background after visual review; original generated output retained."
+    }
+  ],
+  "layerPlan": {
+    "background": {
+      "objects": [
+        "night sky",
+        "moonlit sea",
+        "both shorelines",
+        "complete X-shaped stone paths",
+        "flowers"
+      ],
+      "alphaType": "opaque",
+      "removedObjects": [
+        "main wheel",
+        "four season medallions",
+        "orbit lines",
+        "original border"
+      ],
+      "reflectionOwnership": [
+        "moon and sea reflection"
+      ]
+    },
+    "subject": {
+      "objects": [
+        "original eight-spoke front wheel",
+        "four fixed seasonal medallions",
+        "eight moon-phase nodes",
+        "upper fixed star ornament"
+      ],
+      "rigidGroups": [
+        "wheel and four seasonal medallions remain one plane"
+      ],
+      "alphaType": "rgba",
+      "supportGeometry": [
+        "wheel floats; entire paths remain in background"
+      ],
+      "contactShadows": []
+    },
+    "effects": {
+      "objects": [
+        "sparse detached star points from script"
+      ],
+      "alphaType": "rgba"
+    },
+    "text": {
+      "objects": [
+        "fixed border cut from original pixels"
+      ],
+      "alphaType": "rgba"
+    },
+    "lineart": {
+      "source": "assets/subject.png",
+      "algorithm": "same-coordinate luminance Sobel pass constrained to alpha >245",
+      "parameters": {
+        "threshold": 160
+      }
+    }
+  },
+  "files": [
+    {
+      "path": "source/base-original.webp",
+      "sha256": "45092421c62fb6e8c6e5bea9c7f8070cd54b3d8713917cee76e64675498fb8ce",
+      "bytes": 319388,
+      "role": "unchanged-base-original-copy",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGB"
+    },
+    {
+      "path": "assets/background.png",
+      "sha256": "687bde7be3f68ae0e1165d37b78ab44c1ac0643b04acef77e867122a99229b34",
+      "bytes": 2832058,
+      "role": "opaque-cleaned-background",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGB"
+    },
+    {
+      "path": "assets/subject.png",
+      "sha256": "a9de6c2b23bda6117fa106361cfea0bb2a5daea3a8f4b8cf9cc41f786801556a",
+      "bytes": 2814631,
+      "role": "source-pixel-rgba-wheel-and-medallions",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "transparentFraction": 0.7671,
+      "visibleFraction": 0.2329
+    },
+    {
+      "path": "assets/effects.png",
+      "sha256": "f34728b43b9f62388e41d3360c1cbf993c926cefe5ecd3615aef1c38be07d992",
+      "bytes": 10691,
+      "role": "sparse-script-drawn-stars",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "transparentFraction": 0.9976,
+      "visibleFraction": 0.0024
+    },
+    {
+      "path": "assets/lineart.png",
+      "sha256": "4d452fad12f7ea374270d0fb5ee8b4f22bb6d693fe46f8f90069e5a55c70e2f4",
+      "bytes": 70465,
+      "role": "same-subject-derived-lineart",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGB"
+    },
+    {
+      "path": "assets/text.png",
+      "sha256": "0c7ef697793ebe98e17c5269649dcbb7e7e6196e6afbb468db8657bd443a825f",
+      "bytes": 2751410,
+      "role": "source-pixel-fixed-frame",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "transparentFraction": 0.88,
+      "visibleFraction": 0.12
+    },
+    {
+      "path": "layer-composite.png",
+      "sha256": "e51248055cc93aa8c80ad38be48c1b75d71b793e0dcafc2f2819876fd2a677fd",
+      "bytes": 3082374,
+      "role": "zero-parallax-composite",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "transparentFraction": 0.0,
+      "visibleFraction": 1.0
+    },
+    {
+      "path": "card.blend",
+      "sha256": "4f7ed39430d56f75e94dfa74c49597e2746e0107111eaa7404e2aa32bc3d9eb2",
+      "bytes": 8551628,
+      "role": "editable-blender-scene"
+    },
+    {
+      "path": "web/assets/card.glb",
+      "sha256": "fab47e7f4042e640c2a8aee1ff046e71d09312220fd578fcb70c65b7b143cb5e",
+      "bytes": 23668,
+      "role": "exported-card-geometry"
+    },
+    {
+      "path": "renders/hero.png",
+      "sha256": "bf9a9e6d38104a12143a0d47559882d6d6d4c282c5323e6ace139a4b17887ed2",
+      "bytes": 2605790,
+      "role": "offline-blender-render",
+      "width": 1080,
+      "height": 1500,
+      "mode": "RGBA",
+      "transparentFraction": 0.0,
+      "visibleFraction": 1.0
+    }
+  ],
+  "parameters": {
+    "status": "tested-in-web-viewer",
+    "subjectScale": 1.0,
+    "subjectDepth": 0.14,
+    "backgroundDepth": -0.08,
+    "effectsScale": 1.05,
+    "effectsDepth": 0.28,
+    "foil": 0.28,
+    "safeArea": {
+      "scale": 1.04,
+      "offset": [
+        0,
+        0
+      ]
+    }
+  },
+  "implementedAnimations": [
+    "RuiC viewer card auto motion and angle-dependent foil; wheel and four medallions stay rigid together"
+  ],
+  "plannedAnimations": [
+    "Optional detached star drift; current effects layer is static"
+  ],
+  "checks": {
+    "assets": {
+      "status": "passed",
+      "timestamp": "2026-09-18",
+      "reportPath": "asset-validation.json",
+      "conclusion": "Five same-canvas 1024x1536 layers, required true alpha and opaque background."
+    },
+    "manualVisual": {
+      "status": "passed-for-local-technical-review",
+      "timestamp": "2026-09-18",
+      "evidence": [
+        "source/subject-on-gray.png",
+        "layer-composite.png",
+        "renders/hero.png",
+        "verification/01-desktop-front.png",
+        "verification/04-tilt-right.png",
+        "verification/05-tilt-left.png",
+        "verification-320/14-mobile-320.png"
+      ],
+      "conclusion": "Original geometry and icon order preserved; source-pixel wheel, fixed border, complete X path visible in front, two tilts and 320. A mild border/sky texture seam remains as a listed issue."
+    },
+    "blender": {
+      "status": "passed",
+      "timestamp": "2026-09-18",
+      "version": "5.2.2 LTS",
+      "renderPath": "renders/hero.png"
+    },
+    "webDesktop390": {
+      "status": "passed",
+      "timestamp": "2026-09-18",
+      "reportPath": "verification/report.json",
+      "summary": "33/33 real WebGL checks including desktop and 390px"
+    },
+    "web320": {
+      "status": "passed",
+      "timestamp": "2026-09-18",
+      "reportPath": "verification-320/report.json",
+      "summary": "33/33 real WebGL checks including 320px"
+    },
+    "android": "not-run",
+    "fiveSlotThumbnailComparison": "not-run; remaining three upgrade themes absent",
+    "zeroParallaxComposite": {
+      "status": "passed",
+      "path": "layer-composite.png"
+    },
+    "blackWhiteGrayAlpha": {
+      "status": "passed-for-extraction-review",
+      "paths": [
+        "source/subject-on-black.png",
+        "source/subject-on-white.png",
+        "source/subject-on-gray.png"
+      ]
+    },
+    "extremeTiltFourDirections": "not-run; browser script exercised horizontal and vertical drag, manual screenshots reviewed left/right only"
+  },
+  "knownIssues": [
+    "User aesthetic review pending.",
+    "Original fixed frame and regenerated clean sky have a slight texture seam near the inner border; visible at large scale, suitable for focused frame repair.",
+    "Five-slot comparison and dedicated four-direction extreme tilt remain.",
+    "Blender node graph is rebuilt in browser GLSL and is not pixel-identical.",
+    "No Android or production integration."
+  ],
+  "nextAction": "用户统一审美验收；技术与当前整改项复验已完成。",
+  "deployment": "not-deployed",
+  "recordInstructions": {
+    "inputs": "每项填写实际 path、sha256、role，不填写猜测或未来文件。",
+    "generationRuns": "每次填写 tool、timestamp、callId或null、完整prompt、inputPaths、outputPaths、采用/失败结论。",
+    "files": "每项填写 path、sha256、bytes、图片width/height/mode与必要alpha统计。",
+    "checks": "填写status、timestamp、reportPath、对应母版/资产哈希及人工结论；未做保持null/not-run。"
+  },
+  "productionGuide": "docs/tarot-v2/cards/major-10.md",
+  "blocker": null,
+  "previousStatusBefore20261009": "local-holo-verified-awaiting-user-review",
+  "currentProject": "output/tarot-progression/v2/major-10/theme-01/repair-project-v02",
+  "repairRevision": {
+    "date": "2026-10-09",
+    "revision": "repair-20261009",
+    "project": "output/tarot-progression/v2/major-10/theme-01/repair-project-v02",
+    "previousProject": "output/tarot-progression/v2/major-10/theme-01",
+    "originalAuditPriority": "未列单卡整改",
+    "resolvedFindings": [],
+    "changedLayers": {},
+    "verification": "output/tarot-progression/v2/major-10/theme-01/repair-project-v02/repair-verification.json",
+    "report": "output/tarot-progression/v2/repair-20261009/REPORT.md"
+  }
+}

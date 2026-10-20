@@ -1,0 +1,289 @@
+{
+  "schemaVersion": "tarot-art-production-v2.2",
+  "cardId": "major-19",
+  "themeId": "theme-02",
+  "suggestedSlot": 2,
+  "title": "晨海花骑",
+  "status": "local-repair-verified-awaiting-user-review",
+  "userReview": "awaiting-user-aesthetic-review",
+  "selectedMaster": {
+    "path": "source/master-v01.png",
+    "sha256": "0d7edf45799833785ef34bc8d66c6b21ff1d9861e97caa0515397aba5cd30ad5",
+    "width": 1024,
+    "height": 1536,
+    "mode": "RGB",
+    "selection": "母版用于主题构图参考；最终可交互前景改由同构图键色源确定性抠出。人工复核中，孩子、白马、骑乘接触、四蹄和连续承重花径均完整且无可见绿边。"
+  },
+  "inputs": [
+    {
+      "path": "front/public/tarot/major-19.webp",
+      "sha256": "8d7ac77ab7938ce9b9d8d146f0af0b614c38c152b40462eb95b50bdde6efa5d9",
+      "role": "identity-and-style-reference",
+      "inspection": "实际查看；仅用于原牌竖版天体塔罗氛围和核心象征参考，不复制边框或未覆盖儿童形象。"
+    }
+  ],
+  "generationRuns": [
+    {
+      "tool": "built-in image_gen",
+      "timestamp": "2026-09-16",
+      "callId": "exec-f76b2236-01d2-41df-b723-506dd2815576",
+      "prompt": "Use case: stylized-concept\nAsset type: 1024×1536 portrait master artwork for a layered interactive tarot holographic card, The Sun, theme title \"晨海花骑\". Input image: reference image only for the original card’s ornate painterly celestial-tarot atmosphere and vertical card composition; do not reproduce its border or its uncovered child.\nPrimary request: A complete standalone master illustration: exactly one joyful child, clearly age-appropriate and fully clothed in a bright saffron riding tunic, seated securely on exactly one white horse. The child smiles with both arms open. The white horse is in a clear side profile facing right, all four legs and body visibly grounded on one broad continuous sunlit coastal flower path; believable saddle, rein, rider balance, hoof contact shadows. A huge golden sun in the upper-left, blue sea bay in the right background, sunflowers surrounding the seaside garden. No text, no border, no frame, no symbols or extra figures.\nScene/backdrop: luminous morning seaside garden, complete continuous coastal path under horse, ocean bay to the right.\nStyle/medium: richly detailed premium painterly fantasy tarot illustration; crisp readable anatomy and material texture; original composition.\nComposition/framing: vertical 2:3 portrait, subject centered slightly right, child upper middle, wide unbroken supporting ground extending beyond lower bleed; retain at least 5% margin around face, hands and horse ears.\nLighting/mood: clear warm gold sunlight, hopeful and joyful.\nColor palette: gold, marine blue, clean white, restrained sunflower yellow.\nMaterials/textures: petal detail, leather bridle, linen tunic, painted sea light; do not bake rainbow holographic effects.\nConstraints: exactly one fully clothed child and exactly one white horse; no duplicate limbs, faces, horses, suns, or floating platform; no cropped or translucent horse body; no exposed child torso; no watermark, no lettering, no border. The coastal support path must remain a single contiguous solid structure under all hooves.",
+      "inputPaths": [
+        "front/public/tarot/major-19.webp"
+      ],
+      "outputPaths": [
+        "source/master-v01.png"
+      ],
+      "conclusion": "selected as the theme master candidate; it is not itself a transparent layer or user-approved final art"
+    },
+    {
+      "tool": "built-in image_gen",
+      "timestamp": "2026-09-16",
+      "callId": "exec-120de30a-47be-489b-83f0-f1b0bd59b3a8",
+      "prompt": "Use case: background-extraction\nAsset type: aligned subject layer for a 1024×1536 layered holographic tarot card.\nInput image: the immediately previous master artwork is the edit target.\nPrimary request: Extract only the complete rigid subject group from that exact artwork onto a genuinely transparent background, preserving identical canvas size, position, scale, pose, anatomy, lighting, and pixels. Include exactly: the fully clothed child, the one white horse, all bridle/saddle/reins, the rider-to-horse contact, and the entire continuous sunlit coastal flower path under every hoof including contact shadows, extending naturally to its original edge/bleed. Remove all distant sea, sky, mountains, sun, garden, flowers/petals not physically part of the path, and any frame.\nConstraints: actual RGBA transparency everywhere outside the selected connected group; no checkerboard, no solid backdrop; do not redraw, recenter, crop, retouch, resize, substitute or add any subject elements; preserve fine hair, horse mane and soft painted edges. Do not detach hooves from the ground and do not leave a thin pedestal: the full broad support path is part of the subject group. No text, no watermark.",
+      "inputPaths": [
+        "source/master-v01.png"
+      ],
+      "outputPaths": [
+        "source/subject-v01-baked-checkerboard-rejected.png"
+      ],
+      "conclusion": "rejected: output is RGB (no alpha) with a baked checkerboard; never used as an asset"
+    },
+    {
+      "tool": "rembg u2netp post-process",
+      "timestamp": "2026-09-16",
+      "callId": null,
+      "prompt": "Initial foreground matte from the selected master only. This is a post-processing candidate, not a new composition or a substitute for the required same-coordinate layer extraction.",
+      "inputPaths": [
+        "source/master-v01.png"
+      ],
+      "outputPaths": [
+        "source/rejected/subject-rembg-u2netp-v01.png"
+      ],
+      "conclusion": "rejected after alpha and visual inspection: valid RGBA (71.71% transparent) but it omits the required continuous coastal support path and retains dark environmental residue near the subject"
+    },
+    {
+      "tool": "built-in image_gen",
+      "timestamp": "2026-09-16",
+      "callId": "exec-2873e589-9dbd-4353-b412-7218f4dbde75",
+      "prompt": "Use case: background-extraction\nAsset type: same-coordinate chroma-key source layer for the displayed 1024×1536 tarot master artwork.\nInput image: the immediately previous displayed Sun master is the edit target.\nPrimary request: Keep the displayed image’s canvas dimensions and every pixel of the complete connected foreground group at the exact same coordinates: fully clothed child, white horse, hair/mane, saddle, bridle/reins, rider contact, all four hooves, their shadows, and the entire broad continuous sunlit cobblestone coastal path beneath all hooves through the lower bleed. Replace every other pixel—sky, sun, sea, mountain, garden, flowers, architecture—with one perfectly uniform flat chroma green #00FF00.\nConstraints: Do not resize, crop, recenter, redraw, change pose, change lighting, alter anatomy, add elements, or leave any background remnants. No checkerboard, gradient, shadow outside the connected group, text, border or watermark. The green must be a single exact solid color, so it can be deterministically converted into alpha later.",
+      "inputPaths": [
+        "source/master-v01.png"
+      ],
+      "outputPaths": [
+        "source/subject-green-v02.png"
+      ],
+      "conclusion": "accepted as the recorded chroma-key source; key_subject_green.py deterministically converted it to the final true-alpha subject layer"
+    },
+    {
+      "tool": "built-in image_gen",
+      "timestamp": "2026-09-16",
+      "callId": "exec-b2d67c95-3a59-4248-b7e8-a88839a4fa1c",
+      "prompt": "Use case: precise-object-edit\nAsset type: opaque 1024×1536 background layer for a Sun tarot holographic card.\nInput images: use the full morning seaside Sun master as the edit target. The green-screen and alpha images mark the exact foreground that must be removed.\nPrimary request: retain the master’s vertical composition, palette, painterly detail and light while removing the complete foreground group: fully clothed child, white horse, saddle, bridle, reins, all hooves, shadows, and broad cobblestone path. Fill the removed area naturally with a continuous distant seaside garden and terrain behind it: blue sea bay at right, mountain horizon, sunflowers, bright morning sky and huge golden sun upper-left.\nConstraints: fully opaque RGB image. No child, horse, saddle, bridle, reins, hooves, cobblestones, duplicate silhouettes, blank area, text, border, watermark, checkerboard, green screen, or transparency. Preserve natural depth and lighting to support later compositing.",
+      "inputPaths": [
+        "source/master-v01.png",
+        "source/subject-green-v02.png",
+        "assets/subject.png"
+      ],
+      "outputPaths": [
+        "assets/background.png"
+      ],
+      "conclusion": "accepted after manual review as an opaque, subject-free background with continuous garden/sea depth"
+    }
+  ],
+  "layerPlan": {
+    "background": {
+      "objects": [
+        "sea bay",
+        "distant coast",
+        "sun",
+        "garden environment"
+      ],
+      "alphaType": "opaque",
+      "removedObjects": [
+        "child-horse-support connected group",
+        "frame"
+      ],
+      "reflectionOwnership": []
+    },
+    "subject": {
+      "objects": [
+        "fully clothed child",
+        "white horse",
+        "saddle and bridle",
+        "continuous coastal flower path and hoof contact shadows"
+      ],
+      "rigidGroups": [
+        "child + horse + riding contact + support path"
+      ],
+      "alphaType": "rgba",
+      "supportGeometry": [
+        "complete coastal flower path under all hooves"
+      ],
+      "contactShadows": [
+        "hoof contact shadows"
+      ]
+    },
+    "effects": {
+      "objects": [
+        "sparse non-contact sunlit pollen ovals"
+      ],
+      "alphaType": "rgba"
+    },
+    "text": {
+      "objects": [
+        "narrow theme border only, no lettering"
+      ],
+      "alphaType": "rgba"
+    },
+    "lineart": {
+      "source": "assets/subject.png",
+      "algorithm": "luminance Sobel magnitude > 125 within alpha > 245; derive_decorative_layers.py",
+      "parameters": {
+        "threshold": 125,
+        "alphaThreshold": 245
+      }
+    }
+  },
+  "files": [
+    {
+      "path": "source/master-v01.png",
+      "sha256": "0d7edf45799833785ef34bc8d66c6b21ff1d9861e97caa0515397aba5cd30ad5",
+      "bytes": 3440792,
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGB",
+      "role": "selected-master-candidate"
+    },
+    {
+      "path": "source/subject-green-v02.png",
+      "sha256": "ba43ecde148ce0a664e080210e6535e50ca735cd57afe907e253b6c5a575f9c5",
+      "bytes": 1985819,
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGB",
+      "role": "recorded-chroma-key-source"
+    },
+    {
+      "path": "assets/subject.png",
+      "sha256": "6cae8ba40afa0dc71fb1a389a8b2e6d65ca844e3aa77fb3a45d7fc5711126eb1",
+      "bytes": 1358568,
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "role": "true-alpha-connected-foreground"
+    },
+    {
+      "path": "assets/background.png",
+      "sha256": "4103cc348817020bb7788db87ffdf894a35ffc6d8158f622d3052176b2454e45",
+      "bytes": 3372930,
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGB",
+      "role": "opaque-background"
+    },
+    {
+      "path": "assets/effects.png",
+      "sha256": "963b578f3a2c2ad7ba6e7526a92f1e9ce913d48b734050995d166b064cd221fe",
+      "bytes": 8221,
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "role": "independent-effects"
+    },
+    {
+      "path": "assets/text.png",
+      "sha256": "265f68318dbc338ae8223daf8373725d9a3131822ca20c65f39f8dfe15227c9f",
+      "bytes": 10527,
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "role": "narrow-border"
+    },
+    {
+      "path": "assets/lineart.png",
+      "sha256": "e3b87b94b1273178bd0fde22058a65add3d658abcce62b77158cad95a69b82dd",
+      "bytes": 97036,
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGB",
+      "role": "same-coordinate-derived-lineart"
+    },
+    {
+      "path": "layer-composite.png",
+      "sha256": "2bee72bc26a9ffd4b517d937cbd0c3180acb3411460df9ee4d18ff9fc351b67e",
+      "bytes": 3520710,
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "role": "zero-parallax-composite-evidence"
+    },
+    {
+      "path": "card.blend",
+      "sha256": "bb02a93ae3d9488fc497cb745e6ea429889e404504e0dc6aae1c1e549fb8eac2",
+      "bytes": 4934886,
+      "role": "Blender-project"
+    },
+    {
+      "path": "web/assets/card.glb",
+      "sha256": "fab47e7f4042e640c2a8aee1ff046e71d09312220fd578fcb70c65b7b143cb5e",
+      "bytes": 23668,
+      "role": "webgl-geometry"
+    },
+    {
+      "path": "renders/hero.png",
+      "sha256": "1e2cc832c7651d8f715c93b716c1dce571df393cac77c180d9129f59b4f802da",
+      "bytes": 3022017,
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "role": "Blender-render-evidence"
+    }
+  ],
+  "parameters": {
+    "subjectScale": 1.0,
+    "subjectDepth": 0.14,
+    "backgroundDepth": -0.08,
+    "effectsScale": 1.05,
+    "effectsDepth": 0.28,
+    "foil": 0.3,
+    "status": "tested in the actual WebGL viewer"
+  },
+  "implementedAnimations": [
+    "RuiC viewer auto-card motion; the child, horse, riding contact and support terrain remain one foreground layer"
+  ],
+  "plannedAnimations": [],
+  "checks": {
+    "assets": "passed: asset-validation.json; true-alpha subject 64.78% transparent and all declared layers share 1024×1536 canvas",
+    "manualVisual": "passed local desktop/mobile screenshot review: no visible green fringe, four hooves and continuous support terrain remain connected; browser and offline Blender render are intentionally not pixel-identical",
+    "blender": "passed: Blender 5.2.2 built card.blend, hero render and GLB. Blender 5.2 removed the legacy compositor API, so optional legacy compositor glare was skipped; browser GLSL foil/glow remains verified",
+    "webDesktop390": "passed: verification/report.json, 33/33 including real WebGL, drag, tilt, zoom, flip, finishes, screenshot, 390px and reduced motion",
+    "web320": "passed: verification-320/report.json, 33/33 including 320×844 no-overflow, WebGL and reduced motion",
+    "android": "not-run",
+    "fiveSlotThumbnailComparison": "not-run: remaining four Sun slots are not yet produced",
+    "zeroParallaxComposite": "passed: layer-composite.png manually reviewed as one coherent no-parallax composite",
+    "blackWhiteGrayAlpha": "partial: black-background alpha inspection passed; white/gray variants not yet recorded",
+    "extremeTiltFourDirections": "partial: horizontal and vertical interaction passed in automated viewer checks; four-direction screenshot review remains outstanding"
+  },
+  "knownIssues": [
+    "User aesthetic review is pending.",
+    "Blender 5.2 offline rendering skips the old optional compositor glare; browser GLSL foil/glow and WebGL behaviour were verified, but the two renderers are not pixel-identical.",
+    "Five-slot thumbnail comparison, white/gray alpha inspection and four-direction extreme-tilt screenshot review remain before a complete Sun-card production sign-off."
+  ],
+  "nextAction": "用户统一审美验收；技术与当前整改项复验已完成。",
+  "deployment": "not-deployed",
+  "productionGuide": "docs/tarot-v2/cards/major-19.md and docs/tarot-v2/production-prompts.json → major-19 → theme-02",
+  "previousStatusBefore20261009": "local-holo-verified-awaiting-user-review",
+  "currentProject": "output/tarot-progression/v2/major-19/theme-02/repair-project-v02",
+  "repairRevision": {
+    "date": "2026-10-09",
+    "revision": "repair-20261009",
+    "project": "output/tarot-progression/v2/major-19/theme-02/repair-project-v02",
+    "previousProject": "output/tarot-progression/v2/major-19/theme-02",
+    "originalAuditPriority": "未列单卡整改",
+    "resolvedFindings": [],
+    "changedLayers": {},
+    "verification": "output/tarot-progression/v2/major-19/theme-02/repair-project-v02/repair-verification.json",
+    "report": "output/tarot-progression/v2/repair-20261009/REPORT.md"
+  }
+}

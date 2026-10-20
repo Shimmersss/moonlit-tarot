@@ -1,0 +1,71 @@
+{
+  "cardId": "major-18",
+  "themeId": "theme-05",
+  "theme": "梦境之外",
+  "status": "local-repair-verified-awaiting-user-review",
+  "userReview": "awaiting-user-aesthetic-review",
+  "tool": "built-in-image_gen + RuiC-card-skill",
+  "selectedMaster": {
+    "path": "source/master-v01.png",
+    "sha256": "c6299f1e2789e8ae5b618cf4a33f597f2552b3eef1be21020fcc11520c8156f3"
+  },
+  "sources": {
+    "subjectMagentaMatte": {
+      "path": "source/subject-magenta-v01.png",
+      "sha256": "c09d5fa21ffd70baccdff0981922667413ca6cf16b0886118a84ce482bdcbf38"
+    },
+    "background": {
+      "path": "source/background-v02.png",
+      "sha256": "e35fda0d0d0c3510e2aa35e788620547f29d7cf5e510b81410a92d5ba81b471f"
+    }
+  },
+  "verification": {
+    "assetValidation": "passed",
+    "web": {
+      "verification-repair": {
+        "report": "verification-repair/report.json",
+        "passed": 33,
+        "total": 33
+      },
+      "verification-repair-320": {
+        "report": "verification-repair-320/report.json",
+        "passed": 33,
+        "total": 33
+      }
+    },
+    "visual": "Reviewed browser tilt and mobile evidence; visible key-color spill and disconnected supports improved. Final aesthetic review pending."
+  },
+  "nextStep": "User aesthetic review; local only, no product integration or deployment.",
+  "repairDate": "2026-09-16",
+  "generationRecord": "generation-prompts.json",
+  "provenanceLimit": "Historical layer-generation prompts are incomplete; only actual recorded repair calls are supplied.",
+  "currentFiles": {
+    "assets/background.png": "e35fda0d0d0c3510e2aa35e788620547f29d7cf5e510b81410a92d5ba81b471f",
+    "assets/effects.png": "e649d377899ca113e13376c716ff6c1f83297cfc883dff958f00837f31be5065",
+    "assets/lineart.png": "78e6e396751e35bdfabe24edbae5d24fecd0f16e81efee10ebb6b85125386ef6",
+    "assets/subject.png": "a973446bcebd8b93a9042bae717cc1cbe9f2d45207d22fbed688576505179e04",
+    "assets/text.png": "d753a9c6b89792a1026a2d91107431d33fb9637949df1bf4afcc6c84c0180724",
+    "card-config.json": "1b8ba1cd89bf0201376673166088463fe04b73ad0dc7bf3ccc6d0d8b4ca1a49b",
+    "card.blend": "007a6b012b7296e280d03c4ea6fc7006e73c126f4d0993b932563f8826990f96",
+    "generation-prompts.json": "29beff1313c278b7e97edb0e513d7f998741a2c7595cbb2698cbd4481fd37954",
+    "source/background-v01.png": "018889d57a0d143804c39a04735e1fa5919909613c4b0653a700f287ec2323af",
+    "source/background-v02.png": "e35fda0d0d0c3510e2aa35e788620547f29d7cf5e510b81410a92d5ba81b471f",
+    "source/master-v01.png": "c6299f1e2789e8ae5b618cf4a33f597f2552b3eef1be21020fcc11520c8156f3",
+    "source/subject-magenta-v01.png": "c09d5fa21ffd70baccdff0981922667413ca6cf16b0886118a84ce482bdcbf38",
+    "web/assets/card.glb": "407c7b10d90db8ae45be4d8101148151845cc9dc9171b291f3d1de9966e07a4c"
+  },
+  "previousStatusBefore20261009": "local-repair-verified-awaiting-user-review",
+  "currentProject": "output/tarot-progression/v2/major-18/theme-05/repair-project-v02",
+  "repairRevision": {
+    "date": "2026-10-09",
+    "revision": "repair-20261009",
+    "project": "output/tarot-progression/v2/major-18/theme-05/repair-project-v02",
+    "previousProject": "output/tarot-progression/v2/major-18/theme-05",
+    "originalAuditPriority": "未列单卡整改",
+    "resolvedFindings": [],
+    "changedLayers": {},
+    "verification": "output/tarot-progression/v2/major-18/theme-05/repair-project-v02/repair-verification.json",
+    "report": "output/tarot-progression/v2/repair-20261009/REPORT.md"
+  },
+  "nextAction": "用户统一审美验收；技术与当前整改项复验已完成。"
+}

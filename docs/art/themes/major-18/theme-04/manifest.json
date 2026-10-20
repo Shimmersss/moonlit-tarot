@@ -1,0 +1,87 @@
+{
+  "cardId": "major-18",
+  "themeId": "theme-04",
+  "theme": "机械月宫",
+  "status": "local-repair-verified-awaiting-user-review",
+  "userReview": "awaiting-user-aesthetic-review",
+  "tool": "built-in-image_gen",
+  "selectedMaster": {
+    "path": "source/master-v01.png",
+    "sha256": "4a497969492f6768e05bd4011a9263f5006de23f0906ae2966a6f8b11e0f348d"
+  },
+  "sources": {
+    "subjectMagentaMatte": {
+      "path": "source/subject-magenta-v01.png",
+      "sha256": "27393c33ec1a60bbc622c469529f4ea849472a643db18c52af680fba3583365d"
+    },
+    "background": {
+      "path": "source/background-v01.png",
+      "sha256": "3aad5f72eed8fe28bcc14580f03f72ae101a13021eecda8fba9debd552ab1ac9"
+    }
+  },
+  "verification": {
+    "assetValidation": "passed",
+    "web": {
+      "verification-repair": {
+        "report": "verification-repair/report.json",
+        "passed": 33,
+        "total": 33
+      },
+      "verification-repair-320": {
+        "report": "verification-repair-320/report.json",
+        "passed": 33,
+        "total": 33
+      }
+    },
+    "visual": "Reviewed browser tilt and mobile evidence; visible key-color spill and disconnected supports improved. Final aesthetic review pending."
+  },
+  "nextStep": "User aesthetic review; local only, no product integration or deployment.",
+  "repairDate": "2026-09-16",
+  "generationRecord": "generation-prompts.json",
+  "provenanceLimit": "Historical layer-generation prompts are incomplete; only actual recorded repair calls are supplied.",
+  "layerPlan": {
+    "subject": "Guardians plus full supporting foreground structure, registered on the original 1024x1536 canvas."
+  },
+  "currentFiles": {
+    "assets/background.png": "3aad5f72eed8fe28bcc14580f03f72ae101a13021eecda8fba9debd552ab1ac9",
+    "assets/effects.png": "f98f3dc94b54ae2d90f9ea9a840c0acce354721db25250cc7c1dd278ba77ba12",
+    "assets/lineart.png": "9c3f18b1ccb5e977cfa06213513f14a23e913a3b844850c24d0f740495cad27d",
+    "assets/subject.png": "aab434e13245ccc68d2eaf2790f705a182cae6710a6fb518e4b5840e7fe38bce",
+    "assets/text.png": "d753a9c6b89792a1026a2d91107431d33fb9637949df1bf4afcc6c84c0180724",
+    "card-config.json": "28041c54ece4b06193290444461ff9e93717cc864b99ec4ae450be95f225c769",
+    "card.blend": "07be4007c77358b04bc965014aa973ffad060004dd95f479b77127b0398d818a",
+    "generation-prompts.json": "625b3d96d990b274695a4ed9baa05b60884c6fc43dd926872096965dfb4be2d0",
+    "source/background-v01.png": "3aad5f72eed8fe28bcc14580f03f72ae101a13021eecda8fba9debd552ab1ac9",
+    "source/foreground-supported-v02.png": "a62b6346c9c1fe3ff4946d4a70f418512c4d5b68968eabc512a154722e564d7c",
+    "source/master-v01.png": "4a497969492f6768e05bd4011a9263f5006de23f0906ae2966a6f8b11e0f348d",
+    "source/subject-magenta-v01.png": "27393c33ec1a60bbc622c469529f4ea849472a643db18c52af680fba3583365d",
+    "web/assets/card.glb": "407c7b10d90db8ae45be4d8101148151845cc9dc9171b291f3d1de9966e07a4c"
+  },
+  "previousStatusBefore20261009": "local-repair-verified-awaiting-user-review",
+  "currentProject": "output/tarot-progression/v2/major-18/theme-04/repair-project-v02",
+  "repairRevision": {
+    "date": "2026-10-09",
+    "revision": "repair-20261009",
+    "project": "output/tarot-progression/v2/major-18/theme-04/repair-project-v02",
+    "previousProject": "output/tarot-progression/v2/major-18/theme-04",
+    "originalAuditPriority": "P2",
+    "resolvedFindings": [
+      {
+        "category": "分层重复",
+        "priority": "P2",
+        "evidence": "背景与主体同时保留近景星桥、平台。",
+        "action": "清除背景中的同一前景连接组，补全被遮挡环境；保留主体原位及完整承重面。左右转动时检查轮廓、接地和遮挡。"
+      }
+    ],
+    "changedLayers": {
+      "major-18-theme-04-background": {
+        "sha256": "a70b4cdf19c22a5e6b9a59eb9b0e4dd803f66151450acce90e29a965b9007b23",
+        "project": "output/tarot-progression/v2/major-18/theme-04/repair-project-v02",
+        "layer": "background"
+      }
+    },
+    "verification": "output/tarot-progression/v2/major-18/theme-04/repair-project-v02/repair-verification.json",
+    "report": "output/tarot-progression/v2/repair-20261009/REPORT.md"
+  },
+  "nextAction": "用户统一审美验收；技术与当前整改项复验已完成。"
+}

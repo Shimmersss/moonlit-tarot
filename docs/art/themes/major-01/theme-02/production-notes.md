@@ -1,0 +1,8 @@
+# 潮汐炼金 · 母版生图记录
+
+## 2026-09-18
+
+- 输入身份/画风参考：`front/public/tarot/major-01.webp`，已实际查看，SHA-256 `c1b401d55b51222ed47622a88599d0ab614666cc1bdeeffcdd898f414b367e76`。
+- 工具：内置 `image_gen`。原始生成文件：`~/.codex/generated_images/01a0b490-e687-7b23-81ff-a4b63908f536/exec-34b7d543-a48c-4e27-9723-67859389df0a.png`；保留原件，复制到 `source/master-v01.png`。SHA-256 `58e955b243c828996deae49cb032abcf20bea5bf91a811be3f17d53586b49ddd`；1024×1536，RGB。
+- 完整实际提示词：`Create ONE original full-frame opaque 1024x1536 vertical tarot master for The Magician, theme 潮汐炼金 / Tidal Alchemy. Use the attached original card as character and symbol reference: exactly one elegant black-haired young magician in dark indigo robes with ivory inner sleeves and one black cat. Preserve the Magician's raised hand, lowered directing hand, and FOUR separate recognizable implements: a wand, a cup, a sword and a pentacle disc, with no duplicates or omissions. Invent an ocean workshop: magician placed left, all four implements visibly arranged on a broad curved shell worktable in the lower half, a tide pool opening to the right, pearly stone and moving seawater behind. Cat sits on a dry stable table edge. The shell table's rim, legs and dry stone floor must form solid complete support to the lower bleed. Sea blue, pearl white, copper gold palette, realistic skin tone, refined hand-painted fantasy tarot, thin celestial gold border, rich atmospheric detail. Keep hands and tool silhouettes separate and readable, table not a narrow floating strip. One person and one cat only. No typography, title, letters, numbers, watermark or logo. This is an opaque full-canvas master to be layered later.`
+- 首轮目视：左侧施术者、右侧潮池、下部贝壳台、黑猫与四件工具可辨；贝台有完整台脚。仅执行者选定母版，未做用户审美复核。 未进行透明拆层、Blender/GLB、网页或验收；按用户最新要求先继续其他母版生图。

@@ -1,0 +1,8 @@
+# 镜海档案 · 母版生图记录
+
+## 2026-09-18
+
+- 输入身份/画风参考：`front/public/tarot/major-02.webp`，已实际查看，SHA-256 `1eea1c4effc42553d069d56dd03b5420c4c16f035c5862ccb9a89c2b1ac25554`。
+- 工具：内置 `image_gen`。原始生成文件：`~/.codex/generated_images/01a0b490-e687-7b23-81ff-a4b63908f536/exec-8c42bac0-7e03-492e-816f-7b4416a18f2d.png`；保留原件，复制到 `source/master-v01.png`。SHA-256 `fcff2a3db72e9f3c17023aa2c2bfcbf928c367632fc515071789a0ad7b2fd001`；1024×1536，RGB。
+- 完整实际提示词：`Create ONE original full-frame opaque 1024x1536 vertical fantasy tarot master, High Priestess theme 镜海档案 / Mirror Sea Archive. Reference card gives identity: exactly one serene dark-haired veiled priestess with natural skin and two hands laid over ONE clearly CLOSED ornate book; pomegranate fruit and branch discreetly at one side. Create a clearly new scene in indigo-violet, silvery white and tiny warm gold: seated figure viewed at a slight angle between exactly TWO tall mirror-clad columns staggered front-to-back, opening toward a long archive corridor over a calm sea. The mirror surfaces reflect architecture, sea and light ONLY, never a second or partial person or duplicate book. Priestess and book unobscured. Her seat and broad reflective stone plinth are physically complete, connect to visible steps and extend to lower bleed. Fine engraved celestial frame, high-end hand-painted fantasy tarot, deep spatial perspective, subtle pearly reflections. One priestess, no extra figures, no open book, no lettering, title, numbers, pseudo-text, watermark or logo. Opaque full-canvas master for later layering.`
+- 首轮目视：轻侧视女祭司、闭合书、双镜柱和远处海上廊桥可辨，镜面未见重复人物；仅执行者选定母版，未做用户审美复核。 未进行透明拆层、Blender/GLB、网页或验收；按用户最新要求先继续其他母版生图。

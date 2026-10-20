@@ -1,0 +1,292 @@
+{
+  "schemaVersion": "tarot-art-production-v2.2",
+  "cardId": "major-10",
+  "themeId": "theme-02",
+  "suggestedSlot": 2,
+  "title": "潮汐轮盘",
+  "status": "local-repair-verified-awaiting-user-review",
+  "userReview": "awaiting-user-aesthetic-review",
+  "selectedMaster": {
+    "path": "source/master-v01.png",
+    "sha256": "0e05d2762fedfcb7f82e1fc15051a52ca8e7c485aa390538b05e59072ecde281",
+    "width": 1024,
+    "height": 1536,
+    "mode": "RGB",
+    "selection": "首轮人工检查：正面主轮、四季圆章与下方交叉石路均在预定位置；轮的精确八辐数与分层前后的固定关系仍须后续人工验收。"
+  },
+  "inputs": [
+    {
+      "path": "front/public/tarot/major-10.webp",
+      "sha256": "45092421c62fb6e8c6e5bea9c7f8070cd54b3d8713917cee76e64675498fb8ce",
+      "role": "identity-and-style-reference",
+      "inspection": "实际查看；仅用于天体塔罗风格与轮、四季章、交叉路径的象征参考。"
+    }
+  ],
+  "generationRuns": [
+    {
+      "tool": "built-in image_gen",
+      "timestamp": "2026-09-16",
+      "callId": "exec-4149b927-f111-4fb8-8787-e407854bfcc0",
+      "prompt": "Use case: stylized-concept\nAsset type: 1024×1536 vertical master illustration for an original layered interactive tarot card, Wheel of Fortune, theme 潮汐轮盘. The input image is reference only for ornate painterly celestial-tarot quality and core iconography; create a new scene without any border, text, lettering, or copied framing.\nPrimary request: One precise front-facing perfectly circular golden tidal wheel in the upper-center, with exactly eight broad spokes—count exactly eight, no extra spokes. Four fixed seasonal medallions form one rigid group around it: upper-left contains spring flowers, upper-right contains a simple golden sun, lower-left contains autumn leaves, lower-right contains a snowy pine forest. The medallions are not portraits and do not rotate. Beneath, a deep-blue tidal pool and a complete X-shaped stone path fan out from the lower foreground and disappear naturally into shallow water. The wheel may float above the pool.\nStyle/medium: detailed luminous painterly fantasy, premium tarot collectible art, crisp concentric metal engraving and water texture. No rainbow foil baked into art.\nComposition/framing: 2:3 vertical, wheel frontal and centered in upper half; all four medallions clearly separated and within 5% safe margin; X stone paths fill the lower third; open environment around the wheel supports later background cleanup.\nLighting/mood: quiet marine twilight with pearl-white highlights and restrained gold.\nColor palette: deep sea blue, pearl white, warm gold.\nConstraints: exactly one circular eight-spoke main wheel; no human faces, animals, duplicate wheels, duplicate seasonal emblems, numbers, text, frame, watermark, or distorted ellipse. Seasonal order is fixed: flowers top-left, sun top-right, leaves bottom-left, snowy forest bottom-right. Avoid floating path fragments.",
+      "inputPaths": [
+        "front/public/tarot/major-10.webp"
+      ],
+      "outputPaths": [
+        "source/master-v01.png"
+      ],
+      "conclusion": "selected as master candidate; no transparent layers, model, viewer, or acceptance evidence yet"
+    },
+    {
+      "tool": "built-in image_gen",
+      "timestamp": "2026-09-18",
+      "callId": null,
+      "prompt": "Remove the giant golden wheel and four seasonal medallions from this tarot image to make a coherent dark blue night sky background plate. Keep the sea, moonlit shore and X stone roads. Output image only.",
+      "inputPaths": [
+        "source/master-v01.png"
+      ],
+      "outputPaths": [
+        "~/.codex/generated_images/01a0b490-e687-7b23-81ff-a4b63908f536/exec-9648c1f1-5184-4d95-9306-d4b093adcc6b.png",
+        "assets/background.png"
+      ],
+      "conclusion": "Selected cleaned opaque background; actual output inspected. Original generated file kept; project copy hash recorded below."
+    }
+  ],
+  "layerPlan": {
+    "background": {
+      "objects": [
+        "tidal pool",
+        "distant coast",
+        "complete X stone path"
+      ],
+      "alphaType": "opaque",
+      "removedObjects": [
+        "eight-spoke wheel and four medallions",
+        "water drops and shell fragments",
+        "frame"
+      ],
+      "reflectionOwnership": []
+    },
+    "subject": {
+      "objects": [
+        "one front-facing eight-spoke wheel",
+        "four fixed seasonal medallions",
+        "optional non-portrait inner ring"
+      ],
+      "rigidGroups": [
+        "wheel plus four season medallions"
+      ],
+      "alphaType": "rgba",
+      "supportGeometry": [
+        "wheel floats; paths remain in background"
+      ],
+      "contactShadows": []
+    },
+    "effects": {
+      "objects": [
+        "a few water drops and shell fragments only"
+      ],
+      "alphaType": "rgba"
+    },
+    "text": {
+      "objects": [
+        "narrow wave-metal frame only, no lettering"
+      ],
+      "alphaType": "rgba"
+    },
+    "lineart": {
+      "source": "assets/subject.png",
+      "algorithm": "same-coordinate luminance Sobel edge pass constrained to alpha >245",
+      "parameters": {
+        "threshold": 155
+      }
+    }
+  },
+  "files": [
+    {
+      "path": "source/master-v01.png",
+      "sha256": "0e05d2762fedfcb7f82e1fc15051a52ca8e7c485aa390538b05e59072ecde281",
+      "bytes": 3597976,
+      "role": "selected-master",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGB"
+    },
+    {
+      "path": "assets/background.png",
+      "sha256": "3589a9e9939fb88a703d8fef345ea1314a0e4bfbbd457ffc2b9257ee3964116f",
+      "bytes": 3037465,
+      "role": "opaque-cleaned-background",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGB"
+    },
+    {
+      "path": "assets/subject.png",
+      "sha256": "6d4149affb2ef6a3cee923f66712534b2af03ef0363be1796edd02fce2aa5598",
+      "bytes": 3785412,
+      "role": "source-pixel-rgba-wheel-and-fixed-season-medallions",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "transparentFraction": 0.7441,
+      "visibleFraction": 0.2559
+    },
+    {
+      "path": "assets/effects.png",
+      "sha256": "9ed47e3cde4fd1ac70e594d72e901c867fe9abc825a064a459b65ef34c6f13bd",
+      "bytes": 11017,
+      "role": "sparse-script-drawn-water-lights",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "transparentFraction": 0.9976,
+      "visibleFraction": 0.0024
+    },
+    {
+      "path": "assets/lineart.png",
+      "sha256": "da21709f19fe27729c53f0cf9e5f30288114e0f36ca23956be07c3a25042117e",
+      "bytes": 82582,
+      "role": "same-subject-derived-lineart",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGB"
+    },
+    {
+      "path": "assets/text.png",
+      "sha256": "aefcd5c8f68d87356d715e6812dc0a328e5e8c5dbfc3533f2af22c37d5a328bc",
+      "bytes": 13136,
+      "role": "fixed-wave-metal-frame",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "transparentFraction": 0.9788,
+      "visibleFraction": 0.0212
+    },
+    {
+      "path": "layer-composite.png",
+      "sha256": "21e1dbaeccf1126a47c463939bbd8dedb31c34cce6b08d5fcb73c85122b3f8c9",
+      "bytes": 3593168,
+      "role": "zero-parallax-composite",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "transparentFraction": 0.0,
+      "visibleFraction": 1.0
+    },
+    {
+      "path": "card.blend",
+      "sha256": "bbbc65df7df3683431706b7c655ca37f7a76760640dfe3e1afd257db82c01959",
+      "bytes": 7006100,
+      "role": "editable-blender-scene"
+    },
+    {
+      "path": "web/assets/card.glb",
+      "sha256": "fab47e7f4042e640c2a8aee1ff046e71d09312220fd578fcb70c65b7b143cb5e",
+      "bytes": 23668,
+      "role": "exported-card-geometry"
+    },
+    {
+      "path": "renders/hero.png",
+      "sha256": "054c3ef9b77b46b56c9b1ceb85ee219ca07242fac5b050c1f01ba1b4bb5e7b5c",
+      "bytes": 2923780,
+      "role": "offline-blender-render",
+      "width": 1080,
+      "height": 1500,
+      "mode": "RGBA",
+      "transparentFraction": 0.0,
+      "visibleFraction": 1.0
+    }
+  ],
+  "parameters": {
+    "subjectScale": 1.0,
+    "subjectDepth": 0.14,
+    "backgroundDepth": -0.08,
+    "effectsScale": 1.05,
+    "effectsDepth": 0.28,
+    "foil": 0.3,
+    "status": "tested-in-web-viewer"
+  },
+  "implementedAnimations": [
+    "RuiC viewer card auto motion and angle-dependent foil; wheel and four medallions remain one rigid subject plane"
+  ],
+  "plannedAnimations": [
+    "Optional later independent water-droplet drift; current effects layer is static"
+  ],
+  "checks": {
+    "assets": {
+      "status": "passed",
+      "timestamp": "2026-09-18",
+      "reportPath": "asset-validation.json",
+      "conclusion": "Five layers share 1024x1536; subject/effects/frame have true alpha; background is opaque."
+    },
+    "manualVisual": {
+      "status": "passed-for-local-technical-review",
+      "timestamp": "2026-09-18",
+      "evidence": [
+        "layer-composite.png",
+        "renders/hero.png",
+        "verification/01-desktop-front.png",
+        "verification/04-tilt-right.png",
+        "verification/05-tilt-left.png",
+        "verification-320/14-mobile-320.png"
+      ],
+      "conclusion": "Viewed source-pixel subject on gray, zero-parallax composite, offline hero and browser front/left/right/320. Wheel has eight spokes, four fixed seasonal emblems in required order, no duplicate wheel or broken X path; no obvious edge fringe in these views."
+    },
+    "blender": {
+      "status": "passed",
+      "timestamp": "2026-09-18",
+      "version": "5.2.2 LTS",
+      "renderPath": "renders/hero.png"
+    },
+    "webDesktop390": {
+      "status": "passed",
+      "timestamp": "2026-09-18",
+      "reportPath": "verification/report.json",
+      "summary": "33/33 real WebGL checks including desktop and 390px"
+    },
+    "web320": {
+      "status": "passed",
+      "timestamp": "2026-09-18",
+      "reportPath": "verification-320/report.json",
+      "summary": "33/33 real WebGL checks including 320px"
+    },
+    "android": "not-run",
+    "fiveSlotThumbnailComparison": "not-run; other Wheel of Fortune slots are not yet complete",
+    "zeroParallaxComposite": {
+      "status": "passed",
+      "path": "layer-composite.png"
+    },
+    "blackWhiteGrayAlpha": {
+      "status": "passed-for-extraction-review",
+      "paths": [
+        "source/subject-on-black.png",
+        "source/subject-on-white.png",
+        "source/subject-on-gray.png"
+      ]
+    },
+    "extremeTiltFourDirections": "not-run; browser script exercised horizontal and vertical drag, manual screenshots reviewed left/right only"
+  },
+  "knownIssues": [
+    "User aesthetic review pending.",
+    "Four-direction extreme tilt and five-slot comparison remain.",
+    "Background cleanup is a generated edit, so sky texture behind the original wheel is newly synthesized; lower shoreline and stone paths remain from the master composition.",
+    "Blender node graph is rebuilt in browser GLSL and is not pixel-identical.",
+    "No Android or production integration."
+  ],
+  "nextAction": "用户统一审美验收；技术与当前整改项复验已完成。",
+  "deployment": "not-deployed",
+  "productionGuide": "docs/tarot-v2/cards/major-10.md and docs/tarot-v2/production-prompts.json → major-10 → theme-02",
+  "previousStatusBefore20261009": "local-holo-verified-awaiting-user-review",
+  "currentProject": "output/tarot-progression/v2/major-10/theme-02/repair-project-v02",
+  "repairRevision": {
+    "date": "2026-10-09",
+    "revision": "repair-20261009",
+    "project": "output/tarot-progression/v2/major-10/theme-02/repair-project-v02",
+    "previousProject": "output/tarot-progression/v2/major-10/theme-02",
+    "originalAuditPriority": "未列单卡整改",
+    "resolvedFindings": [],
+    "changedLayers": {},
+    "verification": "output/tarot-progression/v2/major-10/theme-02/repair-project-v02/repair-verification.json",
+    "report": "output/tarot-progression/v2/repair-20261009/REPORT.md"
+  }
+}

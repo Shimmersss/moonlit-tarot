@@ -1,0 +1,8 @@
+# 霜晶织术 · 母版生图记录
+
+## 2026-09-18
+
+- 输入身份/画风参考：`front/public/tarot/major-01.webp`，已实际查看，SHA-256 `c1b401d55b51222ed47622a88599d0ab614666cc1bdeeffcdd898f414b367e76`。
+- 工具：内置 `image_gen`。原始生成文件：`~/.codex/generated_images/01a0b490-e687-7b23-81ff-a4b63908f536/exec-7bdb7907-52b4-486c-bf7f-1f5a31f2a397.png`；保留原件，复制到 `source/master-v01.png`。SHA-256 `89bc486b2a60fd2c1bf69f7d4ba54dc8300331438edea847fbc8dbe40be593db`；1024×1536，RGB。
+- 完整实际提示词：`Create ONE original full-frame opaque 1024x1536 vertical tarot master for The Magician, theme 霜晶织术 / Frost Crystal Weaving. Use the supplied original as visual identity reference: one dark-haired magician in deep indigo robe with ivory sleeves, one discernible black cat, raised hand pointing to sky and lowered hand toward the work. FOUR separate clear magic implements are on a broad frontal ice worktable: wand, chalice, sword and pentacle disc, each visibly distinct and not hidden by hands. Invent a bright ice-crystal workshop with transparent faceted prisms refracting light from an upper-left window diagonally to the table, cobalt blue and pale violet shadows, cold white sparkle; keep natural human skin. Low frontal view; magician behind table, black cat safely at one side. The table must have a substantial solid ice base extending fully to the bottom edge, no floating thin slab. Painterly high-end tarot illustration with fine celestial gold border, controlled highlights, readable hands and tools. Exactly one person, one cat, four tools. No writing, typography, title, numbers, watermark or logo. Opaque complete master for later layer extraction.`
+- 首轮目视：正面冰晶台、左上窗光、四工具与黑猫可辨，实心冰台延伸到底边。仅执行者选定母版，未做用户审美复核。 未进行透明拆层、Blender/GLB、网页或验收；按用户最新要求先继续其他母版生图。

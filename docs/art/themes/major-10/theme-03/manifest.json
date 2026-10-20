@@ -1,0 +1,320 @@
+{
+  "schemaVersion": "tarot-art-production-v2.2",
+  "cardId": "major-10",
+  "themeId": "theme-03",
+  "suggestedSlot": 3,
+  "title": "琥珀时轮",
+  "status": "local-repair-verified-awaiting-user-review",
+  "userReview": "awaiting-user-aesthetic-review",
+  "selectedMaster": {
+    "path": "source/master-v01.png",
+    "sha256": "2453c1989d11b5d0931ec99de19b418b453c5c2a1209b5a87e81c97c56906d73",
+    "width": 1024,
+    "height": 1536,
+    "mode": "RGB",
+    "selection": "Actual first-pass visual review: one frontal eight-spoke wheel, four fixed seasonal medallions in required order, rectangular greenhouse, complete X path. User aesthetic review pending."
+  },
+  "inputs": [
+    {
+      "role": "identity-and-style-reference",
+      "path": "front/public/tarot/major-10.webp",
+      "sha256": "45092421c62fb6e8c6e5bea9c7f8070cd54b3d8713917cee76e64675498fb8ce"
+    }
+  ],
+  "generationRuns": [
+    {
+      "tool": "built-in image_gen",
+      "timestamp": "2026-09-18",
+      "callId": null,
+      "prompt": "Create ONE new full-canvas 1024x1536 vertical master illustration for an original interactive tarot card, Wheel of Fortune, theme 琥珀时轮 (Amber Time Wheel). Use the input only as identity and refined celestial-tarot painting reference, do not copy its border or ocean composition. Scene: a warm botanical clockwork greenhouse with tall rectangular brass-and-glass beams and amber light, moss and climbing plants, crossing stone walkways through the lower greenhouse. In the upper-middle place ONE perfectly frontal, truly circular antique brass wheel with EXACTLY EIGHT broad spokes, count 8, visible through open spaces. Four SEPARATE fixed round seasonal medallions outside its corners: upper-left spring flowers, upper-right simple golden sun, lower-left autumn leaves, lower-right snowy pine forest. Those four medallions and wheel form one fixed group, not a rotating season band. Any small gear support attached to the wheel should be complete and physically coherent. Keep main wheel and medallions fully inside 5% safe margin, lower third shows a continuous X-shaped stone path. Palette amber brown, moss green, ivory; elegant painterly fantasy with engraved brushed brass and botanical detail, realistic structure. No human/animal, no extra wheels, no extra medallions, no duplicate paths, no rainbow foil baked into art, no printed title, lettering, numbers, watermark or card frame. Output the full scene as an opaque vertical master PNG.",
+      "inputPaths": [
+        "front/public/tarot/major-10.webp"
+      ],
+      "outputPaths": [
+        "~/.codex/generated_images/01a0b490-e687-7b23-81ff-a4b63908f536/exec-87adf490-5157-4d00-a4db-e22141e07ac7.png",
+        "source/master-v01.png"
+      ],
+      "conclusion": "Selected opaque master after actual visual review."
+    },
+    {
+      "tool": "built-in image_gen",
+      "timestamp": "2026-09-18",
+      "callId": null,
+      "prompt": "Edit this exact vertical clockwork greenhouse tarot master into a clean OPAQUE background plate for layered parallax. Preserve original 1024x1536 canvas, greenhouse brass/glass rectangular architecture and columns, amber light, plants, pots, and complete X-shaped stone paths through the lower flowerhouse. REMOVE the entire giant central eight-spoke brass wheel, all four round seasonal medallions (flowers, sun, leaves, snowy forest), and the small side gear arms connected to the wheel, with no ghost outline or duplicate circular motif. Fill exposed upper/middle areas naturally with the same greenhouse window grid, climbing vines and garden depth. Keep existing pillars and paths visually continuous, do not add people or a new wheel. No text or border. Output one opaque full-canvas PNG.",
+      "inputPaths": [
+        "source/master-v01.png"
+      ],
+      "outputPaths": [
+        "~/.codex/generated_images/01a0b490-e687-7b23-81ff-a4b63908f536/exec-444d0f9e-e16e-4cad-bcea-7ee85e37a7b7.png",
+        "assets/background.png"
+      ],
+      "conclusion": "Selected clean greenhouse background after visual review; no duplicate wheel or medallions."
+    }
+  ],
+  "layerPlan": {
+    "background": {
+      "objects": [
+        "rectangular greenhouse window grid",
+        "climbing vines",
+        "pots",
+        "complete X stone paths"
+      ],
+      "alphaType": "opaque",
+      "removedObjects": [
+        "wheel",
+        "four season medallions",
+        "attached side gear arms"
+      ],
+      "reflectionOwnership": []
+    },
+    "subject": {
+      "objects": [
+        "frontal eight-spoke amber wheel",
+        "four season medallions",
+        "eight moon-phase nodes",
+        "left and right side gear cradles"
+      ],
+      "rigidGroups": [
+        "wheel, medallions and two gear cradles remain one plane"
+      ],
+      "alphaType": "rgba",
+      "supportGeometry": [
+        "gear arms extend to background columns; lower paths remain background"
+      ],
+      "contactShadows": []
+    },
+    "effects": {
+      "objects": [
+        "sparse golden seasonal motes"
+      ],
+      "alphaType": "rgba"
+    },
+    "text": {
+      "objects": [
+        "fixed brushed brass frame"
+      ],
+      "alphaType": "rgba"
+    },
+    "lineart": {
+      "source": "assets/subject.png",
+      "algorithm": "same-coordinate luminance Sobel edge pass constrained to alpha >245",
+      "parameters": {
+        "threshold": 155
+      }
+    }
+  },
+  "files": [
+    {
+      "path": "source/master-v01.png",
+      "sha256": "2453c1989d11b5d0931ec99de19b418b453c5c2a1209b5a87e81c97c56906d73",
+      "bytes": 3932535,
+      "role": "selected-opaque-master",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGB"
+    },
+    {
+      "path": "assets/background.png",
+      "sha256": "38ab324bf2769d5201787f9fc3cc6d582d87dc45780b331fc6c156a756f0f0e2",
+      "bytes": 3587498,
+      "role": "opaque-cleaned-greenhouse",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGB"
+    },
+    {
+      "path": "assets/subject.png",
+      "sha256": "b7abe2e37039265c1e38d45faabae82d44aa3601fb3c6774461ed657866d7950",
+      "bytes": 4050244,
+      "role": "source-pixel-rgba-wheel-and-medallions",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "transparentFraction": 0.7391,
+      "visibleFraction": 0.2609
+    },
+    {
+      "path": "assets/effects.png",
+      "sha256": "2dcf657c83f84f6de3fe929488f1501c24ffbccf0570605d4c5d55949bf4f3cb",
+      "bytes": 11365,
+      "role": "sparse-script-drawn-motes",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "transparentFraction": 0.9976,
+      "visibleFraction": 0.0024
+    },
+    {
+      "path": "assets/lineart.png",
+      "sha256": "3eb711d707cce322ce3b311cb4e528402a2f0ea3894031d17b9268a0f0210ac5",
+      "bytes": 82046,
+      "role": "same-subject-derived-lineart",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGB"
+    },
+    {
+      "path": "assets/text.png",
+      "sha256": "aefcd5c8f68d87356d715e6812dc0a328e5e8c5dbfc3533f2af22c37d5a328bc",
+      "bytes": 13136,
+      "role": "fixed-brass-frame",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "transparentFraction": 0.9788,
+      "visibleFraction": 0.0212
+    },
+    {
+      "path": "layer-composite.png",
+      "sha256": "6e8c08bbe3f379ae04767fcf9c6b64dea7e8fb0ba0962980e3ca5798e1529a67",
+      "bytes": 3857664,
+      "role": "zero-parallax-composite",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "transparentFraction": 0.0,
+      "visibleFraction": 1.0
+    },
+    {
+      "path": "card.blend",
+      "sha256": "92abcdf38126b6712ac1ec7e8f1dc5883488a752a85607924a2978c5148606e5",
+      "bytes": 7838560,
+      "role": "editable-blender-scene"
+    },
+    {
+      "path": "web/assets/card.glb",
+      "sha256": "fab47e7f4042e640c2a8aee1ff046e71d09312220fd578fcb70c65b7b143cb5e",
+      "bytes": 23668,
+      "role": "exported-card-geometry"
+    },
+    {
+      "path": "renders/hero.png",
+      "sha256": "0fab7d2e787cfeaf4a9e7ae63069f844006b9e49d8630ffbabf536f1a5066568",
+      "bytes": 3086299,
+      "role": "offline-blender-render",
+      "width": 1080,
+      "height": 1500,
+      "mode": "RGBA",
+      "transparentFraction": 0.0,
+      "visibleFraction": 1.0
+    }
+  ],
+  "parameters": {
+    "status": "tested-in-web-viewer",
+    "subjectScale": 1.0,
+    "subjectDepth": 0.12,
+    "backgroundDepth": -0.07,
+    "effectsScale": 1.05,
+    "effectsDepth": 0.28,
+    "foil": 0.28,
+    "safeArea": {
+      "scale": 1.04,
+      "offset": [
+        0,
+        0
+      ]
+    }
+  },
+  "implementedAnimations": [
+    "RuiC viewer card auto motion and angle-dependent foil; wheel, seasons and side gear cradles stay one plane"
+  ],
+  "plannedAnimations": [
+    "Optional detached seasonal motes drift; current effects layer is static"
+  ],
+  "checks": {
+    "assets": {
+      "status": "passed",
+      "timestamp": "2026-09-18",
+      "reportPath": "asset-validation.json",
+      "conclusion": "Five same-canvas 1024x1536 layers, required true alpha and opaque background."
+    },
+    "manualVisual": {
+      "status": "passed-for-local-technical-review",
+      "timestamp": "2026-09-18",
+      "evidence": [
+        "source/subject-on-gray.png",
+        "layer-composite.png",
+        "renders/hero.png",
+        "verification/01-desktop-front.png",
+        "verification/04-tilt-right.png",
+        "verification/05-tilt-left.png",
+        "verification-320/14-mobile-320.png"
+      ],
+      "conclusion": "Eight spokes and four ordered emblems visible; no second wheel or missing X path. Side support boundaries remain a close-range aesthetic review point."
+    },
+    "blender": {
+      "status": "passed",
+      "timestamp": "2026-09-18",
+      "version": "5.2.2 LTS",
+      "renderPath": "renders/hero.png"
+    },
+    "webDesktop390": {
+      "status": "passed",
+      "timestamp": "2026-09-18",
+      "reportPath": "verification/report.json",
+      "summary": "33/33 real WebGL checks including desktop and 390px"
+    },
+    "web320": {
+      "status": "passed",
+      "timestamp": "2026-09-18",
+      "reportPath": "verification-320/report.json",
+      "summary": "33/33 real WebGL checks including 320px"
+    },
+    "android": "not-run",
+    "fiveSlotThumbnailComparison": "not-run; remaining theme-04/05 absent",
+    "zeroParallaxComposite": {
+      "status": "passed",
+      "path": "layer-composite.png"
+    },
+    "blackWhiteGrayAlpha": {
+      "status": "passed-for-extraction-review",
+      "paths": [
+        "source/subject-on-black.png",
+        "source/subject-on-white.png",
+        "source/subject-on-gray.png"
+      ]
+    },
+    "extremeTiltFourDirections": "not-run; browser script exercised horizontal and vertical drag, manual screenshots reviewed left/right only"
+  },
+  "knownIssues": [
+    "User aesthetic review pending.",
+    "Side gear arms meet static greenhouse columns; close-range contact after extreme tilt has not been specifically reviewed.",
+    "Five-slot comparison and dedicated four-direction extreme tilt remain.",
+    "Blender node graph is rebuilt in browser GLSL and is not pixel-identical.",
+    "No Android or production integration."
+  ],
+  "nextAction": "用户统一审美验收；技术与当前整改项复验已完成。",
+  "deployment": "not-deployed",
+  "recordInstructions": {
+    "inputs": "每项填写实际 path、sha256、role，不填写猜测或未来文件。",
+    "generationRuns": "每次填写 tool、timestamp、callId或null、完整prompt、inputPaths、outputPaths、采用/失败结论。",
+    "files": "每项填写 path、sha256、bytes、图片width/height/mode与必要alpha统计。",
+    "checks": "填写status、timestamp、reportPath、对应母版/资产哈希及人工结论；未做保持null/not-run。"
+  },
+  "productionGuide": "docs/tarot-v2/cards/major-10.md",
+  "productionDetail": {
+    "composition": "主轮居中，温室梁柱做矩形框景，四季章外置",
+    "supportGeometry": "轮与四章同组，齿轮支架若接轮也随主体",
+    "connectedGroup": "主轮八辐和四季圆章固定；额外无肖像细内环才可缓转；本主题支撑归属：轮与四章同组，齿轮支架若接轮也随主体",
+    "foilMask": "八辐内刻线和无肖像细内环",
+    "specificQA": "主轮恰好八辐、正圆；四季章左上花右上日左下叶右下雪林，禁止旋转带章整层",
+    "parameterStatus": "proposed-starting-values-not-verified",
+    "samplePrinciple": "借鉴五样本的完整承接、真实透明、主题材质和极端倾斜复核，不按槽位强行套题材。",
+    "motion": "仅少量前景微光呼吸；主体、核心符号和承重结构不自动相对运动。",
+    "backgroundOwnership": "除主体完整连接组、独立前景和固定框外的环境；必须补全清除区域，不保留重复主体或接触阴影。"
+  },
+  "blocker": null,
+  "previousStatusBefore20261009": "local-holo-verified-awaiting-user-review",
+  "currentProject": "output/tarot-progression/v2/major-10/theme-03/repair-project-v02",
+  "repairRevision": {
+    "date": "2026-10-09",
+    "revision": "repair-20261009",
+    "project": "output/tarot-progression/v2/major-10/theme-03/repair-project-v02",
+    "previousProject": "output/tarot-progression/v2/major-10/theme-03",
+    "originalAuditPriority": "未列单卡整改",
+    "resolvedFindings": [],
+    "changedLayers": {},
+    "verification": "output/tarot-progression/v2/major-10/theme-03/repair-project-v02/repair-verification.json",
+    "report": "output/tarot-progression/v2/repair-20261009/REPORT.md"
+  }
+}

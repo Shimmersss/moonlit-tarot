@@ -1,0 +1,6 @@
+{
+  "repairRuns": [],
+  "legacyGap": "此前背景与原始抠图的实际调用提示词未随工程保存，无法从图片可靠还原；不伪造。原始输出保留于source。",
+  "processing": "../repair_mattes_v2.py",
+  "processingScope": "色键alpha提取、边缘前景色恢复、同源线稿；本次没有重新生成背景。"
+}

@@ -1,0 +1,8 @@
+# 珊瑚丰庭 · 母版生图记录
+
+## 2026-09-18
+
+- 输入身份/画风参考：`front/public/tarot/major-03.webp`，已实际查看，SHA-256 `ba7697326c24040003fd218df06cbfe011141480e01b683ed12e179f00160ff7`。
+- 工具：内置 `image_gen`。原始生成文件：`~/.codex/generated_images/01a0b490-e687-7b23-81ff-a4b63908f536/exec-60f6b80a-f994-47c1-b9fd-002ceb515eb8.png`；保留原件，复制到 `source/master-v01.png`。SHA-256 `1645ff50fe58de2d6190b741686c3acccf75d3ae107e7f8d8d4293dd7adf7b1c`；1024×1536，RGB。
+- 完整实际提示词：`Create ONE original opaque full-canvas 1024x1536 vertical Empress tarot master, theme 珊瑚丰庭 / Coral Abundance Court. Use reference only for Empress identity and refined painterly tarot style: exactly one dark-haired floral-crowned queen in ivory gown and plum cloak, holding ONE rose, with exactly one gently reclining fawn, one fruit basket, and sheaves of wheat. New underwater-inspired sea-garden scene: queen sits HIGH on RIGHT on a coral-stone throne; fawn and fruit basket LOW LEFT on a broad stone terrace; a teal marine garden with wheat-shaped sea grasses recedes to left background. Palette coral pink, sea teal, warm white with natural skin. Crucial: throne, fawn resting platform and basket base are physically one continuous thick stone structure extending to bottom bleed, with contact shadows. Fawn is a real legible animal, not merged with rocks. Rich delicate fantasy illustration, thin celestial gold border, near/mid/far depth. One queen, one fawn, one basket, visible rose and wheat. No text, title, letters, numbers, logo, watermark, floating platform fragment. Opaque master for later layers.`
+- 首轮目视：右侧皇后、左下卧鹿与果篮、珊瑚石座和麦穗清楚，海庭向左后退；仅执行者选定母版，未做用户审美复核。 未进行透明拆层、Blender/GLB、网页或验收；按用户最新要求先继续其他母版生图。

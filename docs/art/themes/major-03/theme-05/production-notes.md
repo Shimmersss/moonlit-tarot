@@ -1,0 +1,8 @@
+# 浮岛母庭 · 母版生图记录
+
+## 2026-09-18
+
+- 输入身份/画风参考：`front/public/tarot/major-03.webp`，已实际查看，SHA-256 `ba7697326c24040003fd218df06cbfe011141480e01b683ed12e179f00160ff7`。
+- 工具：内置 `image_gen`。原始生成文件：`~/.codex/generated_images/01a0b490-e687-7b23-81ff-a4b63908f536/exec-effd70d4-de84-47fe-84d2-b14a0b467c63.png`；保留原件，复制到 `source/master-v01.png`。SHA-256 `77e138767d048f0d9746d83e3f152dd4c38dc2509292c18f22c068580c38bee7`；1024×1536，RGB。
+- 完整实际提示词：`Create ONE original opaque full-canvas 1024x1536 vertical Empress tarot master, theme 浮岛母庭 / Floating Island Mother Garden. Use original as identity and painterly tarot visual reference: exactly one floral-crowned dark-haired queen in ivory gown and violet cloak holding a rose; exactly one resting spotted fawn, a full fruit basket and visible wheat ears. New fantasy environment: queen on an upper-middle stone seat nestled within the crown of a colossal tree, tending an aerial garden; fawn at LOWER RIGHT beside fruit basket, wheat and roses cluster naturally in near view. Distant floating islands recede through a clear opening. Center the giant tree's ROOT DISC and show a complete thick floating island cross-section joined to it in the foreground; all weight-bearing surfaces extend to bottom bleed. Emerald green, twilight violet, antique gold, natural skin. Sophisticated painterly fantasy tarot with fine engraved gold border and strong depth. One queen, one fawn, one basket; no extra figures or deer, no disconnected hovering chair, no printed text, title, letters, numbers, watermark or logo. Deliver one opaque complete master.`
+- 首轮目视：巨树根盘、上中皇后、右下卧鹿、果篮和麦穗齐全，完整浮岛截面可见；仅执行者选定母版，未做用户审美复核。 未进行透明拆层、Blender/GLB、网页或验收；按用户最新要求先继续其他母版生图。

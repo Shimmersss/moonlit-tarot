@@ -1,0 +1,64 @@
+{
+  "cardId": "major-18",
+  "themeId": "theme-03",
+  "theme": "赤月荒城",
+  "status": "local-repair-verified-awaiting-user-review",
+  "userReview": "awaiting-user-aesthetic-review",
+  "selectedMaster": {
+    "path": "../red-moon-desert-v01.png",
+    "sha256": "1245f8fb8767eb505b67ce32703fedd565d2279a4ecfcbcd8f51355ff6c5db54"
+  },
+  "tool": "built-in-image_gen",
+  "layerPlan": {
+    "subject": "Guardians plus full supporting foreground structure, registered on the original 1024x1536 canvas."
+  },
+  "nextStep": "User aesthetic review; local only, no product integration or deployment.",
+  "repairDate": "2026-09-16",
+  "generationRecord": "generation-prompts.json",
+  "verification": {
+    "assetValidation": "passed",
+    "web": {
+      "verification-repair": {
+        "report": "verification-repair/report.json",
+        "passed": 33,
+        "total": 33
+      },
+      "verification-repair-320": {
+        "report": "verification-repair-320/report.json",
+        "passed": 33,
+        "total": 33
+      }
+    },
+    "visual": "Reviewed browser tilt and mobile evidence; visible key-color spill and disconnected supports improved. Final aesthetic review pending."
+  },
+  "provenanceLimit": "Historical layer-generation prompts are incomplete; only actual recorded repair calls are supplied.",
+  "currentFiles": {
+    "assets/background.png": "d7a77d852d14fff148ee5837584475eebb86d536239d9759d92bf45db8b28448",
+    "assets/effects.png": "ad12cfc867045dd14325813c006cb5a9e2e93e10492762de6bd97c1c2810301f",
+    "assets/lineart.png": "dbe470fb68d8fb0cb838784c3376f53d684addf43749492f4691b85a93860c0a",
+    "assets/subject.png": "5df566b4833598a503e302766c253c2d4e67da3c53788543c8daf6f457ffb61b",
+    "assets/text.png": "d753a9c6b89792a1026a2d91107431d33fb9637949df1bf4afcc6c84c0180724",
+    "card-config.json": "2eedad390c6006fe95960dea3614b9b00b2d7a55102596d8835d539dafdcf20b",
+    "card.blend": "6894657c6b9cb00e73179f0a2279495e2ac6e97a09ab4b50bf1516fe083dc5e5",
+    "generation-prompts.json": "d07e13b9fd93cbeb077c1cb48690acfe6a8d4bf1681fc7e7f5ffc043f212a1a5",
+    "source/background-v01.png": "d7a77d852d14fff148ee5837584475eebb86d536239d9759d92bf45db8b28448",
+    "source/foreground-supported-v02.png": "62e78cb39689925f028b62dd93ea539163caa3fca161407ea29b6a9ad84b81c8",
+    "source/subject-green-v02.png": "675f3ef955a653c2e2960776a11c42bc25048d72d0883ebc8e48ef60428c3314",
+    "source/subject-v01.png": "ad6cce37140cd90c16eb0e2eff33c8499ece0dd3ccb8755dc02d37679a8d0ee1",
+    "web/assets/card.glb": "407c7b10d90db8ae45be4d8101148151845cc9dc9171b291f3d1de9966e07a4c"
+  },
+  "previousStatusBefore20261009": "local-repair-verified-awaiting-user-review",
+  "currentProject": "output/tarot-progression/v2/major-18/theme-03/repair-project-v02",
+  "repairRevision": {
+    "date": "2026-10-09",
+    "revision": "repair-20261009",
+    "project": "output/tarot-progression/v2/major-18/theme-03/repair-project-v02",
+    "previousProject": "output/tarot-progression/v2/major-18/theme-03",
+    "originalAuditPriority": "未列单卡整改",
+    "resolvedFindings": [],
+    "changedLayers": {},
+    "verification": "output/tarot-progression/v2/major-18/theme-03/repair-project-v02/repair-verification.json",
+    "report": "output/tarot-progression/v2/repair-20261009/REPORT.md"
+  },
+  "nextAction": "用户统一审美验收；技术与当前整改项复验已完成。"
+}

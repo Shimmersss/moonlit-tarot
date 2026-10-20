@@ -1,0 +1,8 @@
+# 冰岭契约 · 母版生图记录
+
+## 2026-09-19
+
+- 输入身份/画风参考：`front/public/tarot/major-04.webp`，已实际查看，SHA-256 `4cadeeefe7a3f4dc9ac54b92f832d7fdc8709b8c60459e2e868e8ed49f2b5f60`。
+- 工具：内置 `image_gen`。原始生成文件：`~/.codex/generated_images/01a0b490-e687-7b23-81ff-a4b63908f536/exec-b8fe62d9-320e-4bb8-a62c-db412f177e3f.png`；保留原件，复制到 `source/master-v01.png`。SHA-256 `93b3490b5092064854bae17ff1ac7f18b226c062bf01707c340b6a0e81e2382f`；1024×1536，RGB。
+- 完整实际提示词：`Create ONE original opaque full-frame 1024x1536 vertical Emperor tarot master, theme 冰岭契约 / Ice Ridge Covenant. Use supplied image as identity reference: exactly one mature bearded dark-haired crowned emperor wearing deep blue-purple robes, seated on a substantial ice-rock throne and holding one scepter. One compass and exactly FOUR separate simple stone solids on foreground ledge: cube, pyramid, sphere, truncated pyramid; individually legible and stably supported. New composition: throne LEFT OF CENTER, a massive ice bridge starts at the same solid rock terrace and angles into the RIGHT BACKGROUND across snow-covered ridges to distant peaks. Side light emphasizes the structure. Steel blue, silver white, muted dark gold, natural skin. Throne base, icy terrace, bridgehead and front stone ledge are continuous, thick, contact-grounded, extending into bottom bleed. Refined painterly fantasy tarot with thin gold celestial border and atmospheric cold distance. No extra people, no duplicate compass or stones, no letters, title, numbers, watermark, logo. One full opaque image.`
+- 首轮目视：左侧持杖皇帝、前景罗盘与四石体、右后斜向冰桥可辨，台基厚实延伸到底；仅执行者选定母版，未做用户审美复核。 未进行透明拆层、Blender/GLB、网页或验收；按用户最新要求先继续其他母版生图。

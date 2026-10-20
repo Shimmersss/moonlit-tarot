@@ -1,0 +1,11 @@
+{
+  "theme": "深海幻月",
+  "status": "generated-candidate-awaiting-user-review",
+  "tool": "built-in-image_gen",
+  "inputImages": [],
+  "output": "deep-sea-moon-v01.png",
+  "sha256": "7f0f4e6f4abe005169acefbfe31d927636219f9d57a5f4b38843c063bf6ec8d2",
+  "prompt": "prompt.txt",
+  "review": "已目视核对珍珠弯月、黑白犬形海灵、海底遗迹、水母和甲壳动物；全新构图与冷青配色。静态不透明候选，未拆层、未接入产品。",
+  "direction": "v2独立主题；等级归属未锁定，v1同构图渐进方案为历史、非当前规范。"
+}
